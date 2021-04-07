@@ -1,0 +1,1 @@
+{"identifier": "isLenient", "parameters": "()", "modifiers": "public", "return": "boolean", "body": "public boolean isLenient() {\n    return lenient;\n  }", "class": "JsonWriter", "signature": "boolean isLenient()", "full_signature": "public boolean isLenient()", "class_method_signature": "JsonWriter.isLenient()", "testcase": false, "constructor": false, "invocations": []}

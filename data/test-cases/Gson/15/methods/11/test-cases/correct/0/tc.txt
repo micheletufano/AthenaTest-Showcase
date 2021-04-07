@@ -1,0 +1,1 @@
+@Test(expected = NullPointerException.class) public void nameNull() throws IOException { new JsonWriter(new StringWriter()).name(null); }

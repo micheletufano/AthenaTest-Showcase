@@ -1,0 +1,1 @@
+@Test public void longValue() throws IOException { StringWriter sw = new StringWriter(); JsonWriter writer = new JsonWriter(sw); writer.value(1L); assertEquals("1", sw.toString()); }

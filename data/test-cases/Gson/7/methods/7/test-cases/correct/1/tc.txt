@@ -1,0 +1,1 @@
+@Test public void testEmpty() throws IOException { try { new JsonReader(new StringReader("[]")).peek(); fail(); } catch (AssertionError expected) { } }

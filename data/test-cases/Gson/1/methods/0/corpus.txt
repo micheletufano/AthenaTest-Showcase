@@ -1,0 +1,1 @@
+TypeInfoFactory { public static TypeInfoArray getTypeInfoForArray(Type type) { Preconditions.checkArgument(TypeUtils.isArray(type)); return new TypeInfoArray(type); } private TypeInfoFactory(); static TypeInfoArray getTypeInfoForArray(Type type); static TypeInfo getTypeInfoForField(Field f, Type typeDefiningF); }

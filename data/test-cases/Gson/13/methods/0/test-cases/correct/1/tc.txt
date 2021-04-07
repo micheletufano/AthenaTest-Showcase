@@ -1,0 +1,1 @@
+@Test public void lenient() { JsonReader reader = new JsonReader(new StringReader("true")); reader.setLenient(true); assertEquals(true, reader.isLenient()); reader.setLenient(false); assertEquals(false, reader.isLenient()); reader.setLenient(true); assertEquals(true, reader.isLenient()); }

@@ -1,0 +1,1 @@
+@Test public void testSerializeNulls() throws IOException { assertTrue(new JsonWriter(new StringWriter()).getSerializeNulls()); }

@@ -1,0 +1,1 @@
+@Test public void testEndArray() throws IOException { StringWriter sw = new StringWriter(); JsonWriter writer = new JsonWriter(sw); writer.beginArray(); writer.endArray(); assertEquals("[]", sw.toString()); }

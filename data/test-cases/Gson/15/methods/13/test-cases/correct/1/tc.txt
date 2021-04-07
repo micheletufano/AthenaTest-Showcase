@@ -1,0 +1,1 @@
+@Test public void testNullValue() throws IOException { StringWriter sw = new StringWriter(); JsonWriter w = new JsonWriter(sw); w.jsonValue(null); assertEquals("null", sw.toString()); }

@@ -1,0 +1,1 @@
+@Test public void testFormat() { assertEquals("1970-01-01T00:00:00Z", ISO8601Utils.format(new Date(0))); assertEquals("1970-01-01T00:00:00Z", ISO8601Utils.format(new Date(1))); assertEquals("1970-01-01T00:00:00Z", ISO8601Utils.format(new Date(2))); assertEquals("1970-01-01T00:00:00Z", ISO8601Utils.format(new Date(3))); }

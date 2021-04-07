@@ -1,0 +1,1 @@
+@Test public void testIsLenient() { JsonWriter writer = new JsonWriter(new StringWriter()); assertFalse(writer.isLenient()); writer.setLenient(true); assertTrue(writer.isLenient()); }

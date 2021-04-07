@@ -1,0 +1,1 @@
+@Test public void testDoubleValue() throws IOException { StringWriter sw = new StringWriter(); JsonWriter writer = new JsonWriter(sw); writer.value(1.1); assertEquals("1.1", sw.toString()); }

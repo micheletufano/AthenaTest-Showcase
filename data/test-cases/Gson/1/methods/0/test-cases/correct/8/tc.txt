@@ -1,0 +1,1 @@
+@Test public void testGetTypeInfoForArray() { try { TypeInfoFactory.getTypeInfoForArray(null); fail(); } catch (Exception e) { } try { TypeInfoFactory.getTypeInfoForArray(null); fail(); } catch (Exception e) { } }

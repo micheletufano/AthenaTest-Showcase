@@ -1,0 +1,1 @@
+@Test public void double_empty() throws IOException { JsonReader reader = new JsonReader(new StringReader("")); try { reader.nextDouble(); fail("Expected an IOException"); } catch (IOException ioe) { } }

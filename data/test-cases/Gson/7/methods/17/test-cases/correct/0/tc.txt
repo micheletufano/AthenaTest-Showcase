@@ -1,0 +1,1 @@
+@Test public void testToString() { JsonReader reader = new JsonReader(new StringReader("[]")); assertEquals("JsonReader at line 1 column 1", reader.toString()); reader = new JsonReader(new StringReader("[]")); assertEquals("JsonReader at line 1 column 1", reader.toString()); }

@@ -1,0 +1,1 @@
+@Test public void testIsHtmlSafe() throws Exception { assertFalse(new JsonWriter(new StringWriter()).isHtmlSafe()); }
