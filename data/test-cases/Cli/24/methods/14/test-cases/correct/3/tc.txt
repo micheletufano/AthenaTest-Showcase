@@ -1,0 +1,1 @@
+@Test public void testArgName() { HelpFormatter formatter = new HelpFormatter(); formatter.setArgName("name"); assertEquals("name", formatter.getArgName()); }

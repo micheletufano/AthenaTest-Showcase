@@ -1,0 +1,1 @@
+@Test(expected = NullPointerException.class) public void testInvalidSyntax() { new HelpFormatter().printHelp("invalid", null); }

@@ -1,0 +1,1 @@
+@Test public void testIterator() { CommandLine c = new CommandLine(); Iterator it = c.iterator(); assertFalse(it.hasNext()); }

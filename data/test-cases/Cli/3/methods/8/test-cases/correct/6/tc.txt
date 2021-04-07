@@ -1,0 +1,1 @@
+@Test public void testCreateFiles() throws Exception { assertNull(TypeHandler.createFiles("")); }

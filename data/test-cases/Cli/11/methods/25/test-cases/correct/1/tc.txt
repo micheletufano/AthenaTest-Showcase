@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testPrintHelpWithNullSyntax() { HelpFormatter formatter = new HelpFormatter(); formatter.printHelp(new PrintWriter(new StringWriter()), 80, null, "header", new Options(), 0, 0, "footer", false); }

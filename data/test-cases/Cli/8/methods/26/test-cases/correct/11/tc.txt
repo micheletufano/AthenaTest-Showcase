@@ -1,0 +1,1 @@
+@Test(expected = NullPointerException.class) public void testPrintOptionsNullWriter() { new HelpFormatter().printOptions(null, 100, new Options(), 0, 0); }

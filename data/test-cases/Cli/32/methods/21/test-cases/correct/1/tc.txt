@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testInvalidSyntax() { new HelpFormatter().printHelp("", new Options()); }

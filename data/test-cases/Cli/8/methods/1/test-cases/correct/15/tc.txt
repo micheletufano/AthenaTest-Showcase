@@ -1,0 +1,1 @@
+@Test public void testGetWidth() { new HelpFormatter().getWidth(); }

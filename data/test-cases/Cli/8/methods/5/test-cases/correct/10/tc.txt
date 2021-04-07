@@ -1,0 +1,1 @@
+@Test public void testGetDescPadding() throws Exception { assertEquals(HelpFormatter.DEFAULT_DESC_PAD, new HelpFormatter().getDescPadding()); }

@@ -1,0 +1,1 @@
+@Test public void testGetSyntaxPrefix() { assertEquals(HelpFormatter.DEFAULT_SYNTAX_PREFIX, new HelpFormatter().getSyntaxPrefix()); }

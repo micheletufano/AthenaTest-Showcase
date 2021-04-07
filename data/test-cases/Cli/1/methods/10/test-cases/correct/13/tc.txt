@@ -1,0 +1,1 @@
+@Test public void testGetArgs() { System.out.println("getArgs"); CommandLine instance = new CommandLine(); String[] expResult = new String[0]; String[] result = instance.getArgs(); assertEquals(expResult.length, result.length); }

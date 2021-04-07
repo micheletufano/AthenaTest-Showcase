@@ -1,0 +1,1 @@
+@Test public void testGetOptionObject() { System.out.println("getOptionObject"); CommandLine instance = new CommandLine(); Object expResult = null; Object result = instance.getOptionObject("a"); assertEquals(expResult, result); }

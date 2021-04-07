@@ -1,0 +1,1 @@
+@Test public void testGetOptions() { CommandLine commandLine = new CommandLine(); Option[] options = commandLine.getOptions(); assertNotNull(options); assertEquals(options.length, 0); }

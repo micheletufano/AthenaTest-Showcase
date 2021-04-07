@@ -1,0 +1,1 @@
+{"identifier": "getArgName", "parameters": "()", "modifiers": "public", "return": "String", "body": "public String getArgName()\n    {\n        return argName;\n    }", "class": "Option", "signature": "String getArgName()", "full_signature": "public String getArgName()", "class_method_signature": "Option.getArgName()", "testcase": false, "constructor": false, "invocations": []}

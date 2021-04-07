@@ -1,0 +1,1 @@
+@Test public void testGetSelected_1() throws Exception { OptionGroup fixture = new OptionGroup(); String result = fixture.getSelected(); assertNull(result); }

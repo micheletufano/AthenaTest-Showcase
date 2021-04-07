@@ -1,0 +1,1 @@
+@Test public void testGetOptions_1() throws Exception { OptionGroup fixture = new OptionGroup(); Collection result = fixture.getOptions(); assertNotNull(result); }

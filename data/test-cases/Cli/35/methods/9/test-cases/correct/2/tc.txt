@@ -1,0 +1,1 @@
+@Test public void testHasOption() { Options opts = new Options(); opts.addOption("a", "a"); opts.addOption("b", "b"); opts.addOption("c", "c"); assertTrue(opts.hasOption("a")); assertTrue(opts.hasOption("b")); assertTrue(opts.hasOption("c")); assertFalse(opts.hasOption("d")); }

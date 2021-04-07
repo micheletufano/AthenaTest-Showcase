@@ -1,0 +1,1 @@
+@Test public void testOptionComparator() { HelpFormatter formatter = new HelpFormatter(); assertNotNull(formatter.getOptionComparator()); }

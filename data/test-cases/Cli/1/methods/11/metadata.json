@@ -1,0 +1,1 @@
+{"identifier": "getArgList", "parameters": "()", "modifiers": "public", "return": "List", "body": "public List getArgList()\n    {\n        return args;\n    }", "class": "CommandLine", "signature": "List getArgList()", "full_signature": "public List getArgList()", "class_method_signature": "CommandLine.getArgList()", "testcase": false, "constructor": false, "invocations": []}

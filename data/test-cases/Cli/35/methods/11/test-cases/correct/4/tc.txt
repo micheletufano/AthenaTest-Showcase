@@ -1,0 +1,1 @@
+@Test public void testHasShortOption() { Options opts = new Options(); opts.addOption("a", "a"); opts.addOption("b", "b"); assertTrue(opts.hasShortOption("a")); assertTrue(opts.hasShortOption("b")); assertFalse(opts.hasShortOption("c")); }

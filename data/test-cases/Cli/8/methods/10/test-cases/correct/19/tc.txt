@@ -1,0 +1,1 @@
+@Test public void testSetOptPrefix() { HelpFormatter formatter = new HelpFormatter(); formatter.setOptPrefix("a"); assertEquals("a", formatter.getOptPrefix()); formatter.setOptPrefix(null); assertNull(formatter.getOptPrefix()); }

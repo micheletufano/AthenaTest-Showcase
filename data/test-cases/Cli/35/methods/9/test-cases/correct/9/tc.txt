@@ -1,0 +1,1 @@
+@Test public void testHasLongOption() { Options options = new Options(); options.addOption("a", "a"); options.addOption("b", "b"); assertTrue(options.hasOption("a")); assertTrue(options.hasOption("b")); assertFalse(options.hasOption("c")); }

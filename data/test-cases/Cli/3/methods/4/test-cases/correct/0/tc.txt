@@ -1,0 +1,1 @@
+@Test public void testCreateClass() { System.out.println("createClass"); String str = "java.lang.String"; Class expResult = String.class; Class result = TypeHandler.createClass(str); assertEquals(expResult, result); }

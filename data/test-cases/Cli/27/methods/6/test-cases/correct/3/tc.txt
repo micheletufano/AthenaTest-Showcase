@@ -1,0 +1,1 @@
+@Test public void testIsRequired() throws Exception { System.out.println("isRequired"); OptionGroup instance = new OptionGroup(); boolean expResult = false; boolean result = instance.isRequired(); assertEquals(expResult, result); }

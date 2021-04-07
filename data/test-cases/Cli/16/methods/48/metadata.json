@@ -1,0 +1,1 @@
+{"identifier": "getParent", "parameters": "()", "modifiers": "public", "return": "Option", "body": "public Option getParent() {\n        return parent;\n    }", "class": "OptionImpl", "signature": "Option getParent()", "full_signature": "public Option getParent()", "class_method_signature": "OptionImpl.getParent()", "testcase": false, "constructor": false, "invocations": []}

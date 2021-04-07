@@ -1,0 +1,1 @@
+@Test public void testIterator() { System.out.println("iterator"); CommandLine instance = new CommandLine(); Iterator result = instance.iterator(); assertFalse(result.hasNext()); }

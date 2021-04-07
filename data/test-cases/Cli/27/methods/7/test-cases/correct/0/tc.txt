@@ -1,0 +1,1 @@
+@Test public void testToString_1() throws Exception { OptionGroup fixture = new OptionGroup(); String result = fixture.toString(); assertNotNull(result); }

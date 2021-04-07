@@ -1,0 +1,1 @@
+@Test public void testDescPadding() { HelpFormatter formatter = new HelpFormatter(); formatter.setDescPadding(20); assertEquals(20, formatter.getDescPadding()); }

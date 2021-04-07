@@ -1,0 +1,1 @@
+@Test public void testLeftPadding() { new HelpFormatter().getLeftPadding(); }

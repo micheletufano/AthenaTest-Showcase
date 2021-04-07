@@ -1,0 +1,1 @@
+@Test public void testCreateClass() throws Exception { final Class<?> clazz = TypeHandler.createClass("java.lang.String"); assertNotNull(clazz); assertEquals(String.class, clazz); }

@@ -1,0 +1,1 @@
+@Test public void testPrintOptions() { HelpFormatter formatter = new HelpFormatter(); Options options = new Options(); StringWriter sw = new StringWriter(); formatter.printOptions(new PrintWriter(sw), 80, options, 0, 0); System.out.println(sw.toString()); }

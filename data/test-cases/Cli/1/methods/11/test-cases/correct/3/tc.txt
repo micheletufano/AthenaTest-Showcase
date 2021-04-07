@@ -1,0 +1,1 @@
+@Test public void testGetArgList() { System.out.println("getArgList"); CommandLine instance = new CommandLine(); List result = instance.getArgList(); assertTrue(result.size() == 0); }

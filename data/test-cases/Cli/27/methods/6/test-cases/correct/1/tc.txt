@@ -1,0 +1,1 @@
+@Test public void testIsRequired_1() throws Exception { OptionGroup fixture = new OptionGroup(); boolean result = fixture.isRequired(); assertEquals(false, result); }

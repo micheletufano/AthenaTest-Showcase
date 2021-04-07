@@ -1,0 +1,1 @@
+@Test public void testDefaultPrefix() { HelpFormatter formatter = new HelpFormatter(); assertEquals(formatter.getOptPrefix(), HelpFormatter.DEFAULT_OPT_PREFIX); }

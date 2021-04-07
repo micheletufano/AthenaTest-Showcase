@@ -1,0 +1,1 @@
+@Test public void testSetWidth() { new HelpFormatter().setWidth(HelpFormatter.DEFAULT_WIDTH); assertEquals(HelpFormatter.DEFAULT_WIDTH, new HelpFormatter().getWidth()); }

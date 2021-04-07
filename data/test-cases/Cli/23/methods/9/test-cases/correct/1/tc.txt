@@ -1,0 +1,1 @@
+@Test public void testGetNewLine() { HelpFormatter formatter = new HelpFormatter(); formatter.setNewLine("a"); assertEquals("a", formatter.getNewLine()); }

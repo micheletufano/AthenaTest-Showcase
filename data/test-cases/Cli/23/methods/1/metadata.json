@@ -1,0 +1,1 @@
+{"identifier": "getWidth", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getWidth()\n    {\n        return defaultWidth;\n    }", "class": "HelpFormatter", "signature": "int getWidth()", "full_signature": "public int getWidth()", "class_method_signature": "HelpFormatter.getWidth()", "testcase": false, "constructor": false, "invocations": []}

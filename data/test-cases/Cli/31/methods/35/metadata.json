@@ -1,0 +1,1 @@
+{"identifier": "getType", "parameters": "()", "modifiers": "public", "return": "Object", "body": "public Object getType()\n    {\n        return type;\n    }", "class": "Option", "signature": "Object getType()", "full_signature": "public Object getType()", "class_method_signature": "Option.getType()", "testcase": false, "constructor": false, "invocations": []}

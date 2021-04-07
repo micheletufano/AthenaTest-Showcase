@@ -1,0 +1,1 @@
+@Test public void testGetOptions() { System.out.println("getOptions"); OptionGroup instance = new OptionGroup(); Collection result = instance.getOptions(); assertNotNull(result); }

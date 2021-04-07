@@ -1,0 +1,1 @@
+@Test public void testSetRequired() { System.out.println("setRequired"); boolean required = true; OptionGroup instance = new OptionGroup(); instance.setRequired(required); }

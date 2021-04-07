@@ -1,0 +1,1 @@
+@Test public void testGetOptions() { System.out.println("getOptions"); OptionGroup instance = new OptionGroup(); Collection expResult = null; Collection result = instance.getOptions(); }

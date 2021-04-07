@@ -1,0 +1,1 @@
+@Test public void testGetOptPrefix() { new HelpFormatter().getOptPrefix(); }

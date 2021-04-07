@@ -1,0 +1,1 @@
+ReverseStringComparator implements Comparator { public int compare(final Object o1, final Object o2) { final String s1 = (String) o1; final String s2 = (String) o2; return -s1.compareTo(s2); } private ReverseStringComparator(); static final Comparator getInstance(); int compare(final Object o1, final Object o2); }

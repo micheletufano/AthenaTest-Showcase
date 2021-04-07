@@ -1,0 +1,1 @@
+@Test public void testGetNames() throws Exception { System.out.println("getNames"); OptionGroup instance = new OptionGroup(); Collection expResult = null; Collection result = instance.getNames(); }

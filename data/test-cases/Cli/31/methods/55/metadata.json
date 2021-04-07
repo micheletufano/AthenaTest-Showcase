@@ -1,0 +1,1 @@
+{"identifier": "getArgs", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getArgs()\n    {\n        return numberOfArgs;\n    }", "class": "Option", "signature": "int getArgs()", "full_signature": "public int getArgs()", "class_method_signature": "Option.getArgs()", "testcase": false, "constructor": false, "invocations": []}

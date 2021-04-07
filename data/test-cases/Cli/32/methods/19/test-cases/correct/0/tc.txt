@@ -1,0 +1,1 @@
+@Test public void testOptionComparator() { HelpFormatter formatter = new HelpFormatter(); formatter.setOptionComparator(null); formatter.setOptionComparator(Comparator.naturalOrder()); formatter.setOptionComparator(Comparator.reverseOrder()); formatter.setOptionComparator(Comparator.reverseOrder()); formatter.setOptionComparator(Comparator.reverseOrder()); }

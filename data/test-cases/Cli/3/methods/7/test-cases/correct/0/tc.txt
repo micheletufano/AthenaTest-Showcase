@@ -1,0 +1,1 @@
+@Test public void testCreateFile() { System.out.println("createFile"); String str = ""; File expResult = new File(""); File result = TypeHandler.createFile(str); assertEquals(expResult, result); }

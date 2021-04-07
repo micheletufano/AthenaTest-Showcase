@@ -1,0 +1,1 @@
+@Test public void testCreateNumber() { System.out.println("createNumber"); String str = ""; Number expResult = null; Number result = TypeHandler.createNumber(str); assertEquals(expResult, result); }

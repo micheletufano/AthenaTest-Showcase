@@ -1,0 +1,1 @@
+@Test public void testSetLongOptSeparator() { HelpFormatter formatter = new HelpFormatter(); formatter.setLongOptSeparator("."); assertEquals(".", formatter.getLongOptSeparator()); }

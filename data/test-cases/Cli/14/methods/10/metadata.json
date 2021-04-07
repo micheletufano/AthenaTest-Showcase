@@ -1,0 +1,1 @@
+{"identifier": "getOptions", "parameters": "()", "modifiers": "public", "return": "List", "body": "public List getOptions() {\n        return options;\n    }", "class": "GroupImpl", "signature": "List getOptions()", "full_signature": "public List getOptions()", "class_method_signature": "GroupImpl.getOptions()", "testcase": false, "constructor": false, "invocations": []}

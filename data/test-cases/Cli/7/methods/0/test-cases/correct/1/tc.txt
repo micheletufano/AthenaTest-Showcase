@@ -1,0 +1,1 @@
+@Test public void testCreate() { final Option option = new PatternBuilder().create(); assertNotNull(option); }

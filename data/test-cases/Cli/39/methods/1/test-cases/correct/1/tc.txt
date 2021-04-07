@@ -1,0 +1,1 @@
+@Test public void testCreateValue_2() throws Exception { String str = ""; Class<?> clazz = null; Object result = null; try { result = TypeHandler.createValue(str, clazz); } catch (Exception e) { fail(e.getMessage()); } }

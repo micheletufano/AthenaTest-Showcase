@@ -1,0 +1,1 @@
+@Test public void testGetSelected() throws Exception { System.out.println("getSelected"); OptionGroup instance = new OptionGroup(); String expResult = ""; String result = instance.getSelected(); }

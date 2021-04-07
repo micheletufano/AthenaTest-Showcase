@@ -1,0 +1,1 @@
+@Test public void testSetRequired_1() throws Exception { OptionGroup fixture = new OptionGroup(); boolean required = false; fixture.setRequired(required); }

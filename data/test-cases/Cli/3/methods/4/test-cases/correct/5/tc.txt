@@ -1,0 +1,1 @@
+@Test public void testCreateClass() throws ClassNotFoundException { assertNotNull(TypeHandler.createClass("java.lang.String")); }

@@ -1,0 +1,1 @@
+@Test public void testToString() { System.out.println("toString"); OptionGroup instance = new OptionGroup(); String expResult = ""; String result = instance.toString(); }

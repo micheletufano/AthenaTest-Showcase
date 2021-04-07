@@ -1,0 +1,1 @@
+@Test public void testDefaultArgName() { HelpFormatter formatter = new HelpFormatter(); assertEquals(formatter.getArgName(), HelpFormatter.DEFAULT_ARG_NAME); }

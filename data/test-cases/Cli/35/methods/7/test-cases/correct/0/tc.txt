@@ -1,0 +1,1 @@
+@Test public void testGetOption() { Options options = new Options(); options.addOption("a", "a"); options.addOption("b", "b"); options.addOption("c", "c"); assertEquals(options.getOption("a"), options.getOption("a")); assertEquals(options.getOption("b"), options.getOption("b")); assertEquals(options.getOption("c"), options.getOption("c")); }

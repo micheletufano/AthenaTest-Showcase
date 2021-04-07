@@ -1,0 +1,1 @@
+@Test(expected = ParseException.class) public void testMissingOption() throws ParseException { final Options options = new Options(); final String[] arguments = {"-a"}; final CommandLineParser parser = new DefaultParser(); parser.parse(options, arguments); }

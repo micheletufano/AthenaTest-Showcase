@@ -1,0 +1,1 @@
+@Test public void testLongOpt() { Option option = OptionBuilder.withLongOpt("foo").create(); assertEquals("foo", option.getLongOpt()); }

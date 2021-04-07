@@ -1,0 +1,1 @@
+@Test public void testSetRequired() { OptionGroup optionGroup = new OptionGroup(); optionGroup.setRequired(true); assertTrue(optionGroup.isRequired()); }

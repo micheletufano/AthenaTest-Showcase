@@ -1,0 +1,1 @@
+@Test public void testDefaultWidth() { HelpFormatter formatter = new HelpFormatter(); formatter.setWidth(HelpFormatter.DEFAULT_WIDTH); }

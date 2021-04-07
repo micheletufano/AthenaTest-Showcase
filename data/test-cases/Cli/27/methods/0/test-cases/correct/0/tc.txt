@@ -1,0 +1,1 @@
+@Test public void testAddOption_1() throws Exception { OptionGroup fixture = new OptionGroup(); fixture.addOption(new Option("", "")); }

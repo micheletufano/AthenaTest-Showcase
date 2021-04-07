@@ -1,0 +1,1 @@
+{"identifier": "getMaximum", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getMaximum() {\n        return maximum;\n    }", "class": "GroupImpl", "signature": "int getMaximum()", "full_signature": "public int getMaximum()", "class_method_signature": "GroupImpl.getMaximum()", "testcase": false, "constructor": false, "invocations": []}

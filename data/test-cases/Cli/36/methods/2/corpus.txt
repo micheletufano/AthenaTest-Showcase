@@ -1,0 +1,1 @@
+OptionGroup implements Serializable { public Collection<Option> getOptions() { return optionMap.values(); } OptionGroup addOption(Option option); Collection<String> getNames(); Collection<Option> getOptions(); void setSelected(Option option); String getSelected(); void setRequired(boolean required); boolean isRequired(); @Override String toString(); }

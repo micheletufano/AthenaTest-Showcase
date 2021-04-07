@@ -1,0 +1,1 @@
+{"identifier": "getId", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getId() {\n        return id;\n    }", "class": "OptionImpl", "signature": "int getId()", "full_signature": "public int getId()", "class_method_signature": "OptionImpl.getId()", "testcase": false, "constructor": false, "invocations": []}

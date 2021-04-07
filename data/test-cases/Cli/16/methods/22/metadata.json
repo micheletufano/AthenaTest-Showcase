@@ -1,0 +1,1 @@
+{"identifier": "getPrefixes", "parameters": "()", "modifiers": "public", "return": "Set", "body": "public Set getPrefixes() {\n        return prefixes;\n    }", "class": "GroupImpl", "signature": "Set getPrefixes()", "full_signature": "public Set getPrefixes()", "class_method_signature": "GroupImpl.getPrefixes()", "testcase": false, "constructor": false, "invocations": []}

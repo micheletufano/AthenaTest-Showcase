@@ -1,0 +1,1 @@
+@Test public void testSetSelected_2() throws Exception { OptionGroup fixture = new OptionGroup(); fixture.setSelected(new Option("", "")); }

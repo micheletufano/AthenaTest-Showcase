@@ -1,0 +1,1 @@
+@Test public void testGetOptions() throws Exception { System.out.println("getOptions"); CommandLine instance = new CommandLine(); Option[] expResult = new Option[0]; Option[] result = instance.getOptions(); assertEquals(expResult, result); }

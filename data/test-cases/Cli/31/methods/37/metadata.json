@@ -1,0 +1,1 @@
+{"identifier": "getLongOpt", "parameters": "()", "modifiers": "public", "return": "String", "body": "public String getLongOpt()\n    {\n        return longOpt;\n    }", "class": "Option", "signature": "String getLongOpt()", "full_signature": "public String getLongOpt()", "class_method_signature": "Option.getLongOpt()", "testcase": false, "constructor": false, "invocations": []}

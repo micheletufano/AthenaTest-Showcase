@@ -1,0 +1,1 @@
+@Test public void testSetLongOptPrefix() throws Exception { HelpFormatter formatter = new HelpFormatter(); formatter.setLongOptPrefix("a"); assertEquals("a", formatter.getLongOptPrefix()); }

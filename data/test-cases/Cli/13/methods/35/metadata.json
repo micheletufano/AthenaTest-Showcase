@@ -1,0 +1,1 @@
+{"identifier": "getMinimum", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getMinimum() {\n        return minimum;\n    }", "class": "ArgumentImpl", "signature": "int getMinimum()", "full_signature": "public int getMinimum()", "class_method_signature": "ArgumentImpl.getMinimum()", "testcase": false, "constructor": false, "invocations": []}

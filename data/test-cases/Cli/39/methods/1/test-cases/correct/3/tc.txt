@@ -1,0 +1,1 @@
+@Test public void testCreateValue() throws Exception { assertNull(TypeHandler.createValue(null, null)); assertNull(TypeHandler.createValue("", null)); }

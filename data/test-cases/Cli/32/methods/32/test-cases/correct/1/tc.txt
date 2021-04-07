@@ -1,0 +1,1 @@
+@Test public void testPrintWrapped() { HelpFormatter formatter = new HelpFormatter(); ByteArrayOutputStream baos = new ByteArrayOutputStream(); PrintWriter pw = new PrintWriter(baos); formatter.printWrapped(pw, 80, 1, ""); assertEquals("", baos.toString()); }

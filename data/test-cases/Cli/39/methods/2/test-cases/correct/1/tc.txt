@@ -1,0 +1,1 @@
+@Test public void testCreateObject() throws Exception { Object obj = TypeHandler.createObject("java.lang.String"); assertNotNull(obj); assertTrue(obj instanceof String); }

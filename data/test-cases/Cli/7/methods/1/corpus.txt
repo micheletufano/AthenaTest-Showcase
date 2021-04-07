@@ -1,0 +1,1 @@
+PatternBuilder { public PatternBuilder reset() { options.clear(); return this; } PatternBuilder(); PatternBuilder( final GroupBuilder gbuilder, final DefaultOptionBuilder obuilder, final ArgumentBuilder abuilder); Option create(); PatternBuilder reset(); void withPattern(final String pattern); }

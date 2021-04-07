@@ -1,0 +1,1 @@
+@Test public void testCreateObject() { Object obj = TypeHandler.createObject("java.lang.String"); assertNotNull(obj); assertEquals("java.lang.String", obj.getClass().getName()); }

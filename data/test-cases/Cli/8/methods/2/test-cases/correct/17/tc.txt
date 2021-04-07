@@ -1,0 +1,1 @@
+@Test public void testSetLeftPadding() throws Exception { HelpFormatter formatter = new HelpFormatter(); formatter.setLeftPadding(10); assertEquals(10, formatter.getLeftPadding()); }

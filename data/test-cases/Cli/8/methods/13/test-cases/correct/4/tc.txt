@@ -1,0 +1,1 @@
+@Test public void testLongOptPrefix() { HelpFormatter formatter = new HelpFormatter(); assertEquals(HelpFormatter.DEFAULT_LONG_OPT_PREFIX, formatter.getLongOptPrefix()); }

@@ -1,0 +1,1 @@
+@Test public void testHasOption() { System.out.println("hasOption"); CommandLine instance = new CommandLine(); boolean expResult = false; boolean result = instance.hasOption("a"); assertEquals(expResult, result); result = instance.hasOption("b"); assertEquals(expResult, result); }

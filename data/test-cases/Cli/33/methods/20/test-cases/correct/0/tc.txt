@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMissingArgName() { HelpFormatter formatter = new HelpFormatter(); formatter.printHelp("", new Options()); }
