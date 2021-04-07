@@ -1,0 +1,1 @@
+@Test public void testGetDomainCrosshairValue() { XYPlot plot = new XYPlot(); assertFalse(plot.getDomainCrosshairValue() == 1.0); }

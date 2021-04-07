@@ -1,0 +1,1 @@
+@Test public void testIsDomainZoomable() { XYPlot plot = new XYPlot(); assertTrue(plot.isDomainZoomable()); plot.mapDatasetToDomainAxis(1, 2); assertTrue(plot.isDomainZoomable()); }

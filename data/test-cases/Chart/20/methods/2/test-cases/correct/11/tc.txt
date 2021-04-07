@@ -1,0 +1,1 @@
+@Test public void testEquals() { ValueMarker m1 = new ValueMarker(2.0); ValueMarker m2 = new ValueMarker(2.0); assertEquals(m1, m2); m1.setValue(3.0); assertFalse(m1.equals(m2)); m2.setValue(3.0); assertEquals(m1, m2); m1.setValue(4.0); assertFalse(m1.equals(m2)); m2.setValue(4.0); assertEquals(m1, m2); }

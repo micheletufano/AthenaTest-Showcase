@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { GrayPaintScale c1 = new GrayPaintScale(); GrayPaintScale c2 = (GrayPaintScale) c1.clone(); assertNotSame(c1, c2); assertSame(c1.getClass(), c2.getClass()); assertEquals(c1, c2); }

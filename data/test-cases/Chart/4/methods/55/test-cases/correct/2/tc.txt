@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList() { XYPlot p1 = new XYPlot(); XYPlot p2 = new XYPlot(); p1.setRenderers(new XYItemRenderer[0]); p2.setRenderers(new XYItemRenderer[0]); assertEquals(p1, p2); }

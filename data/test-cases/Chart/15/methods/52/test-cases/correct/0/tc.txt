@@ -1,0 +1,1 @@
+@Test public void testGetLabelLinkStroke() { PiePlot plot = new PiePlot(); assertNotNull(plot.getLabelLinkStroke()); }

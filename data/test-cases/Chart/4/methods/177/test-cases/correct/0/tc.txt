@@ -1,0 +1,1 @@
+@Test public void testGetFixedRangeAxisSpace() { XYPlot plot = new XYPlot(); assertNull(plot.getFixedRangeAxisSpace()); plot.setFixedRangeAxisSpace(null); assertNull(plot.getFixedRangeAxisSpace()); }

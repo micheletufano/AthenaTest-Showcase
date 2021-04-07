@@ -1,0 +1,1 @@
+{"identifier": "getWeight", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getWeight() {\n        return this.weight;\n    }", "class": "XYPlot", "signature": "int getWeight()", "full_signature": "public int getWeight()", "class_method_signature": "XYPlot.getWeight()", "testcase": false, "constructor": false, "invocations": []}

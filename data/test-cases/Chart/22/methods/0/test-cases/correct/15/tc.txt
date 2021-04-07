@@ -1,0 +1,1 @@
+@Test public void testGetRowCount() { KeyedObjects2D objects = new KeyedObjects2D(); assertEquals(0, objects.getRowCount()); }

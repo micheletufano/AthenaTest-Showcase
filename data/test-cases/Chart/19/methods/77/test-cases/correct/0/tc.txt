@@ -1,0 +1,1 @@
+@Test public void testGetRangeGridlinePaint() { CategoryPlot plot = new CategoryPlot(); assertNotNull(plot.getRangeGridlinePaint()); }

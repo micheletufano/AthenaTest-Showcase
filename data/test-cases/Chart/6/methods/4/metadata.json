@@ -1,0 +1,1 @@
+{"identifier": "hashCode", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int hashCode() {\n        return super.hashCode();\n    }", "class": "ShapeList", "signature": "int hashCode()", "full_signature": "public int hashCode()", "class_method_signature": "ShapeList.hashCode()", "testcase": false, "constructor": false, "invocations": ["hashCode"]}

@@ -1,0 +1,1 @@
+@Test public void testAxisOffset() { XYPlot plot = new XYPlot(); assertNotNull(plot.getAxisOffset()); }

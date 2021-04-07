@@ -1,0 +1,1 @@
+@Test public void testGetColumnIndex() { KeyedObjects2D o1 = new KeyedObjects2D(); assertEquals(-1, o1.getColumnIndex("R1")); assertEquals(-1, o1.getColumnIndex("R2")); assertEquals(-1, o1.getColumnIndex("R3")); assertEquals(-1, o1.getColumnIndex("R4")); }

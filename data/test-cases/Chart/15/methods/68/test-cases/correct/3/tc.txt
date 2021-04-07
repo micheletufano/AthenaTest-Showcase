@@ -1,0 +1,1 @@
+@Test public void testGetSimpleLabels() { PiePlot plot = new PiePlot(); assertEquals(false, plot.getSimpleLabels()); plot.setSimpleLabels(true); assertEquals(true, plot.getSimpleLabels()); }

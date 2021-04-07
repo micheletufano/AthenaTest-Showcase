@@ -1,0 +1,1 @@
+@Test public void testCanSelectByPoint() { XYPlot pl = new XYPlot(); assertFalse(pl.canSelectByPoint()); }

@@ -1,0 +1,1 @@
+@Test public void testFindMaximumDomainValue2() { DefaultIntervalXYDataset dataset = new DefaultIntervalXYDataset(); Number maximum = DatasetUtilities.findMaximumDomainValue(dataset); assertNull(maximum); }

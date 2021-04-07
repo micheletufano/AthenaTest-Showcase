@@ -1,0 +1,1 @@
+@Test public void testSetShape() { System.out.println("setShape"); ShapeList instance = new ShapeList(); instance.setShape(0, new Rectangle()); instance.setShape(1, new Rectangle()); instance.setShape(2, new Rectangle()); }

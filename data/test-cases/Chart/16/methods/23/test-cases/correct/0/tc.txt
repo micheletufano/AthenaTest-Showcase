@@ -1,0 +1,1 @@
+@Test public void testEquals() { DefaultIntervalCategoryDataset d1 = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][0]); DefaultIntervalCategoryDataset d2 = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][0]); assertEquals(d1, d2); }

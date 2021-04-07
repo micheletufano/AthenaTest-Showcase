@@ -1,0 +1,1 @@
+@Test public void testGetLabelOutlinePaint() { PiePlot plot = new PiePlot(); assertNotNull(plot.getLabelOutlinePaint()); }

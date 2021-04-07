@@ -1,0 +1,1 @@
+@Test public void testSetValue() { System.out.println("setValue"); double value = 100.0; ValueMarker instance = new ValueMarker(value); instance.setValue(value); assertEquals(value, instance.getValue(), 0.0); }

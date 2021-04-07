@@ -1,0 +1,1 @@
+@Test public void testRemoveRangeMarker() { XYPlot plot = new XYPlot(); assertFalse(plot.removeRangeMarker(new ValueMarker(1.0))); assertFalse(plot.removeRangeMarker(new ValueMarker(2.0))); }

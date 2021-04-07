@@ -1,0 +1,1 @@
+@Test public void testSetMaximumItemAge() { TimeSeries s1 = new TimeSeries("S1"); s1.setMaximumItemAge(10); assertEquals(10, s1.getMaximumItemAge()); }

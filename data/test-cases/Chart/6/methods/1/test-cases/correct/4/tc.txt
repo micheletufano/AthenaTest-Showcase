@@ -1,0 +1,1 @@
+@Test public void testSetShape_1() throws Exception { ShapeList fixture = new ShapeList(); fixture.setShape(0, new Rectangle()); }

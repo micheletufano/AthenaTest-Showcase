@@ -1,0 +1,1 @@
+@Test public void testGetRangeCrosshairStroke() { CategoryPlot plot = new CategoryPlot(); assertNotNull(plot.getRangeCrosshairStroke()); }

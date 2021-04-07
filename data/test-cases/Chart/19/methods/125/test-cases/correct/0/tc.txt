@@ -1,0 +1,1 @@
+@Test public void testGetCategories() { CategoryPlot plot = new CategoryPlot(); assertNull(plot.getCategories()); }

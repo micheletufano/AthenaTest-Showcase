@@ -1,0 +1,1 @@
+@Test public void testHashCode_1() throws Exception { ShapeList fixture = new ShapeList(); int result = fixture.hashCode(); }

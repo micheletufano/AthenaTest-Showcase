@@ -1,0 +1,1 @@
+@Test public void testSetDrawSharedDomainAxis() { CategoryPlot p1 = new CategoryPlot(); p1.setDrawSharedDomainAxis(true); CategoryPlot p2 = new CategoryPlot(); p2.setDrawSharedDomainAxis(false); assertNotSame(p1, p2); }

@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList2() { CategoryPlot p1 = new CategoryPlot(); CategoryPlot p2 = new CategoryPlot(); p1.setRenderers(new CategoryItemRenderer[0]); p2.setRenderers(new CategoryItemRenderer[0]); assertEquals(p1, p2); }

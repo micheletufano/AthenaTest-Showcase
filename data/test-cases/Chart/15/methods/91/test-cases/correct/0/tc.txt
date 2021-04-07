@@ -1,0 +1,1 @@
+@Test public void testGetPlotType() { System.out.println("getPlotType"); PiePlot instance = new PiePlot(); String expResult = ""; String result = instance.getPlotType(); }

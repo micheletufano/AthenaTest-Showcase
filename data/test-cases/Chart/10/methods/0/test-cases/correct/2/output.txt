@@ -1,0 +1,6 @@
+       Lines total: 3
+     Lines covered: 3
+  Conditions total: 0
+Conditions covered: 0
+     Line coverage: 100.0%
+Condition coverage: 0.0%

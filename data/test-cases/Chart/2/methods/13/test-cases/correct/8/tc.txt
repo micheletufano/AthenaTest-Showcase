@@ -1,0 +1,1 @@
+@Test public void testIsEmptyOrNull() { PieDataset dataset = null; assertTrue(DatasetUtilities.isEmptyOrNull(dataset)); }

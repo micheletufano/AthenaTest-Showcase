@@ -1,0 +1,1 @@
+@Test public void testGetRangeTickBandPaint() { XYPlot plot = new XYPlot(); assertNull(plot.getRangeTickBandPaint()); }

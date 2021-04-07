@@ -1,0 +1,1 @@
+@Test public void testGetAutoSort() { XYSeries s1 = new XYSeries("S1"); assertTrue(s1.getAutoSort()); }

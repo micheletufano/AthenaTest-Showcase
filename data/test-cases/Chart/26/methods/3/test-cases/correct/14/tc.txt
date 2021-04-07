@@ -1,0 +1,1 @@
+@Test public void testEquals() { Axis a1 = new CategoryAxis("Test"); Axis a2 = new CategoryAxis("Test"); assertEquals(a1, a2); a1.setLabel("ABC"); assertNotEquals(a1, a2); }

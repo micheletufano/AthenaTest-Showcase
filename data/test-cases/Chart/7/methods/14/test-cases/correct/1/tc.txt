@@ -1,0 +1,1 @@
+@Test public void testHashcode() { TimePeriodValues s1 = new TimePeriodValues("Test"); TimePeriodValues s2 = new TimePeriodValues("Test"); assertEquals(s1, s2); int h1 = s1.hashCode(); int h2 = s2.hashCode(); assertEquals(h1, h2); }

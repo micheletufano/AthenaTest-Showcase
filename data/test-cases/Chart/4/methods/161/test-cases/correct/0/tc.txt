@@ -1,0 +1,1 @@
+@Test public void testDomainCrosshairPaint() { XYPlot plot = new XYPlot(); assertNotNull(plot.getDomainCrosshairPaint()); }

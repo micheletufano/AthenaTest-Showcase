@@ -1,0 +1,1 @@
+@Test public void testEquals() { MinMaxCategoryRenderer r1 = new MinMaxCategoryRenderer(); r1.setDrawLines(true); MinMaxCategoryRenderer r2 = new MinMaxCategoryRenderer(); r2.setDrawLines(true); assertEquals(r1, r2); r1.setDrawLines(false); r2.setDrawLines(false); assertEquals(r1, r2); }

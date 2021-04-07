@@ -1,0 +1,1 @@
+@Test public void testEquals() { Axis a1 = new CategoryAxis("Test"); Axis a2 = new CategoryAxis("Test"); a1.setLabelFont(Axis.DEFAULT_AXIS_LABEL_FONT); a2.setLabelFont(Axis.DEFAULT_AXIS_LABEL_FONT); assertEquals(a1, a2); }

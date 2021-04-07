@@ -1,0 +1,1 @@
+@Test public void testCreateRegularCross() { System.out.println("createRegularCross"); float l = 0.0f; float t = 0.0f; Shape result = ShapeUtilities.createRegularCross(l, t); assertNotNull(result); }

@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList1() { XYPlot p1 = new XYPlot(); p1.setRangeGridlinesVisible(true); XYPlot p2 = new XYPlot(); p2.setRangeGridlinesVisible(true); assertEquals(p1, p2); }

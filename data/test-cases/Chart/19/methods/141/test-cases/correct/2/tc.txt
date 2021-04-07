@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { CategoryPlot plot = new CategoryPlot(); CategoryPlot plot2 = (CategoryPlot) plot.clone(); assertNotSame(plot, plot2); assertSame(plot.getClass(), plot2.getClass()); assertEquals(plot, plot2); }

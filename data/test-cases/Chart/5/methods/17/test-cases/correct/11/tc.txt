@@ -1,0 +1,1 @@
+@Test public void testClear() { XYSeries s1 = new XYSeries("S1"); s1.add(1.0, 1.1); s1.add(2.0, 2.2); s1.add(3.0, 3.3); s1.add(4.0, 4.4); s1.add(5.0, 5.5); s1.clear(); assertEquals(0, s1.getItemCount()); }

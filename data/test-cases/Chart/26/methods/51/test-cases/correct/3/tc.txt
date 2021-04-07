@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { Axis a1 = new CategoryAxis("Name"); Axis a2 = (CategoryAxis) a1.clone(); assertNotSame(a1, a2); assertSame(a1.getClass(), a2.getClass()); assertEquals(a1, a2); }

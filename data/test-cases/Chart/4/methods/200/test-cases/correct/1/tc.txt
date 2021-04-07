@@ -1,0 +1,1 @@
+@Test public void testCanSelectByPoint() { XYPlot plot = new XYPlot(); assertFalse(plot.canSelectByPoint()); plot.setOrientation(PlotOrientation.VERTICAL); assertFalse(plot.canSelectByPoint()); }

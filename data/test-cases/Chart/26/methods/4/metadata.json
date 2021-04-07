@@ -1,0 +1,1 @@
+{"identifier": "getLabelFont", "parameters": "()", "modifiers": "public", "return": "Font", "body": "public Font getLabelFont() {\n        return this.labelFont;\n    }", "class": "Axis", "signature": "Font getLabelFont()", "full_signature": "public Font getLabelFont()", "class_method_signature": "Axis.getLabelFont()", "testcase": false, "constructor": false, "invocations": []}

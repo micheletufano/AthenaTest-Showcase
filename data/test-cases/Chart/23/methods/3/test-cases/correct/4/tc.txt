@@ -1,0 +1,1 @@
+@Test public void testEquals() { MinMaxCategoryRenderer r1 = new MinMaxCategoryRenderer(); r1.setGroupPaint(Color.BLUE); MinMaxCategoryRenderer r2 = new MinMaxCategoryRenderer(); r2.setGroupPaint(Color.BLUE); assertEquals(r1, r2); }

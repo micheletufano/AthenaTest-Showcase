@@ -1,0 +1,1 @@
+@Test public void testGetBaseSectionOutlinePaint() { PiePlot plot = new PiePlot(); assertNotNull(plot.getBaseSectionOutlinePaint()); }

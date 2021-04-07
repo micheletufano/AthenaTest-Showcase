@@ -1,0 +1,1 @@
+@Test public void testIsDomainZoomable() { CategoryPlot plot = new CategoryPlot(); assertFalse("testIsDomainZoomable 0", plot.isDomainZoomable()); }

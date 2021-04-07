@@ -1,0 +1,1 @@
+@Test public void testIsDrawLines() { MinMaxCategoryRenderer r1 = new MinMaxCategoryRenderer(); assertFalse(r1.isDrawLines()); r1.setDrawLines(true); assertTrue(r1.isDrawLines()); }

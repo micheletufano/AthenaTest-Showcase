@@ -1,0 +1,1 @@
+@Test public void testSetCategoryKeys() { DefaultIntervalCategoryDataset empty = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][0]); empty.setCategoryKeys(new Comparable[0]); assertEquals(0, empty.getCategoryCount()); assertEquals(0, empty.getRowCount()); assertEquals(0, empty.getColumnCount()); }

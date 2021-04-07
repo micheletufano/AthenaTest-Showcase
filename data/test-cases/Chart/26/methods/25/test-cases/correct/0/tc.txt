@@ -1,0 +1,1 @@
+@Test public void testNullTickLabelFont() { Axis axis = new CategoryAxis("Test"); try { axis.setTickLabelFont(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { } }

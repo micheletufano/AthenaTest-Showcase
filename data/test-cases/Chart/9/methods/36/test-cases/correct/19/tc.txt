@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { TimeSeries s1 = new TimeSeries("S1"); TimeSeries s2 = (TimeSeries) s1.clone(); assertSame(s1.getClass(), s2.getClass()); assertEquals(s1, s2); }

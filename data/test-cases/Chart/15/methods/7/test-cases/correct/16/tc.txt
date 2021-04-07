@@ -1,0 +1,1 @@
+@Test public void testNullDirection() { PiePlot plot = new PiePlot(); try { plot.setDirection(null); fail("IllegalArgumentException should have been thrown on null direction"); } catch (IllegalArgumentException e) { assertEquals("Null \'direction\' argument.", e.getMessage()); } }

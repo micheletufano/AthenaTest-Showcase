@@ -1,0 +1,1 @@
+@Test public void testEquals1() { StatisticalBarRenderer r1 = new StatisticalBarRenderer(); StatisticalBarRenderer r2 = new StatisticalBarRenderer(); assertEquals(r1, r2); }

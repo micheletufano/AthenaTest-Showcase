@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { KeyedObjects2D ko1 = new KeyedObjects2D(); ko1.addObject("R1", "R1", "C1"); ko1.addObject("R2", "R2", "C2"); ko1.addObject("R3", "R3", "C3"); KeyedObjects2D ko2 = (KeyedObjects2D) ko1.clone(); assertEquals(ko1, ko2); }

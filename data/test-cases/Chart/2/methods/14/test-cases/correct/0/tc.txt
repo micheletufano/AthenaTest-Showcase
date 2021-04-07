@@ -1,0 +1,1 @@
+@Test public void testIsEmptyOrNullCategoryDataset() { DefaultCategoryDataset d1 = new DefaultCategoryDataset(); assertTrue(DatasetUtilities.isEmptyOrNull(d1)); DefaultCategoryDataset d2 = new DefaultCategoryDataset(); assertTrue(DatasetUtilities.isEmptyOrNull(d2)); }

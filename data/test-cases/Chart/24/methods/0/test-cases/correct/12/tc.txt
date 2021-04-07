@@ -1,0 +1,1 @@
+@Test public void testGetLowerBound() { GrayPaintScale g1 = new GrayPaintScale(); assertEquals(0.0, g1.getLowerBound(), 0.0); }

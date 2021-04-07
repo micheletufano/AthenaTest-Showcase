@@ -1,0 +1,1 @@
+{"identifier": "getYearValue", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getYearValue() {\n        return this.year;\n    }", "class": "Week", "signature": "int getYearValue()", "full_signature": "public int getYearValue()", "class_method_signature": "Week.getYearValue()", "testcase": false, "constructor": false, "invocations": []}

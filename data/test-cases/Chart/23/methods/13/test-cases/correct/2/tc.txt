@@ -1,0 +1,1 @@
+@Test public void testEquals3() { MinMaxCategoryRenderer r1 = new MinMaxCategoryRenderer(); MinMaxCategoryRenderer r2 = new MinMaxCategoryRenderer(); assertEquals(r1, r2); }

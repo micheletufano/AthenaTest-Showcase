@@ -1,0 +1,1 @@
+@Test public void testSetOrientation() { XYPlot plot = new XYPlot(); plot.setOrientation(PlotOrientation.VERTICAL); assertEquals(PlotOrientation.VERTICAL, plot.getOrientation()); }

@@ -1,0 +1,1 @@
+@Test public void testGetYearValue() { Week w = new Week(2, 1999); assertEquals(1999, w.getYearValue()); }

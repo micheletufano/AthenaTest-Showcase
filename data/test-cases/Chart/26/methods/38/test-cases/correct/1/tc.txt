@@ -1,0 +1,1 @@
+@Test public void testGetTickMarkPaint() { Axis axis = new CategoryAxis("Test"); assertEquals(Axis.DEFAULT_TICK_MARK_PAINT, axis.getTickMarkPaint()); }

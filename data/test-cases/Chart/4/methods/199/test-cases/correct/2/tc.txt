@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { XYPlot plot = new XYPlot(); XYPlot clone = (XYPlot) plot.clone(); assertNotSame(plot, clone); assertSame(plot.getClass(), clone.getClass()); assertEquals(plot, clone); }

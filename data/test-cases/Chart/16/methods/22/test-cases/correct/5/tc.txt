@@ -1,0 +1,1 @@
+@Test public void testGetRowCount() { DefaultIntervalCategoryDataset empty = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][1]); assertEquals(0, empty.getRowCount()); }

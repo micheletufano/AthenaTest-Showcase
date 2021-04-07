@@ -1,0 +1,1 @@
+@Test public void testIsDomainGridlinesVisible() { CategoryPlot plot = new CategoryPlot(); plot.setDomainGridlinesVisible(true); assertTrue(plot.isDomainGridlinesVisible()); }

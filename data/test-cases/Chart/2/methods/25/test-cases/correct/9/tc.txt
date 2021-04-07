@@ -1,0 +1,1 @@
+@Test public void testFindRangeBounds3() { DefaultIntervalXYDataset dataset = new DefaultIntervalXYDataset(); Range r = DatasetUtilities.findRangeBounds(dataset, false); assertNull(r); }

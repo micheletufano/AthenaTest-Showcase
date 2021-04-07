@@ -1,0 +1,1 @@
+@Test public void testGenerateToolTipFragment_1() throws Exception { StandardToolTipTagFragmentGenerator fixture = new StandardToolTipTagFragmentGenerator(); String result = fixture.generateToolTipFragment(""); assertNotNull(result); }

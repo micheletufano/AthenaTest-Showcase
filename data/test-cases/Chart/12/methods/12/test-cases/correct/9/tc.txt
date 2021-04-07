@@ -1,0 +1,1 @@
+@Test public void testGetPlotType() { assertTrue(new MultiplePiePlot(new DefaultCategoryDataset()).getPlotType().contains("Multiple Pie Plot")); }

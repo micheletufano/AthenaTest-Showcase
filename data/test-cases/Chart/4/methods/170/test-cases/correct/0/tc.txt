@@ -1,0 +1,1 @@
+@Test public void testGetRangeCrosshairStroke() { XYPlot plot = new XYPlot(); assertNotNull(plot.getRangeCrosshairStroke()); }

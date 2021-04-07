@@ -1,0 +1,1 @@
+@Test public void testNullTickLabelPaint() { Axis axis = new CategoryAxis("Test"); try { axis.setTickLabelPaint(null); fail("IllegalArgumentException should have been thrown on null parameter"); } catch (IllegalArgumentException e) { assertEquals("Null \'paint\' argument.", e.getMessage()); } }

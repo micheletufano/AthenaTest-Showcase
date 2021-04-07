@@ -1,0 +1,1 @@
+{"identifier": "getPlot", "parameters": "()", "modifiers": "public", "return": "Plot", "body": "public Plot getPlot() {\n        return this.plot;\n    }", "class": "Axis", "signature": "Plot getPlot()", "full_signature": "public Plot getPlot()", "class_method_signature": "Axis.getPlot()", "testcase": false, "constructor": false, "invocations": []}

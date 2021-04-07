@@ -1,0 +1,1 @@
+@Test public void testGetDomainGridlinePaint() { XYPlot plot = new XYPlot(); assertNotNull(plot.getDomainGridlinePaint()); }

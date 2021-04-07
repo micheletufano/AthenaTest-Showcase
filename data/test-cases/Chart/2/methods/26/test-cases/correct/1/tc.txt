@@ -1,0 +1,1 @@
+@Test public void testFindRangeBounds_WithoutVisibleSeries() { DefaultIntervalXYDataset dataset = new DefaultIntervalXYDataset(); Range r = DatasetUtilities.findRangeBounds(dataset); assertNull(r); }

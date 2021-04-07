@@ -1,0 +1,1 @@
+@Test public void testSetLabelFont() { Axis axis = new CategoryAxis("Test"); try { axis.setLabelFont(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { assertEquals("Null \'font\' argument.", e.getMessage()); } }

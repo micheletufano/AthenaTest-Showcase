@@ -1,0 +1,1 @@
+@Test public void testEquals_Object() { PiePlot p1 = new PiePlot(); p1.setIgnoreZeroValues(true); PiePlot p2 = new PiePlot(); p2.setIgnoreZeroValues(true); assertEquals(p1, p2); }

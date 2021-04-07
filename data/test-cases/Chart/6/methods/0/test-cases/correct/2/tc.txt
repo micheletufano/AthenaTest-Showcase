@@ -1,0 +1,1 @@
+@Test public void testGetShape() { System.out.println("getShape"); ShapeList instance = new ShapeList(); instance.getShape(0); instance.getShape(1); }

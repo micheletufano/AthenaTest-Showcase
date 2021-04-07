@@ -1,0 +1,1 @@
+@Test public void testGetRangeAxisCount() { XYPlot plot = new XYPlot(); assertEquals(1, plot.getRangeAxisCount()); }

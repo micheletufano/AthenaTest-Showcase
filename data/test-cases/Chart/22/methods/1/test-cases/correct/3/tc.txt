@@ -1,0 +1,1 @@
+@Test public void testGetColumnCount() { KeyedObjects2D ko2 = new KeyedObjects2D(); assertEquals(0, ko2.getColumnCount()); ko2.addObject(new Object(), "R1", "C1"); assertEquals(1, ko2.getColumnCount()); ko2.addObject(new Object(), "R1", "C2"); assertEquals(2, ko2.getColumnCount()); }

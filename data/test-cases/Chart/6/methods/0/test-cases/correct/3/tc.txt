@@ -1,0 +1,1 @@
+@Test public void testGetShape() { ShapeList list = new ShapeList(); assertNull(list.getShape(0)); }

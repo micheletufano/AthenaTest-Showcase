@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { PiePlot p1 = new PiePlot(); PiePlot p2 = (PiePlot) p1.clone(); assertNotSame(p1, p2); }

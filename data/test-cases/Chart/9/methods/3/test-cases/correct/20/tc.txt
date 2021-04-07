@@ -1,0 +1,1 @@
+@Test public void testSetRangeDescription() { TimeSeries s1 = new TimeSeries("S1"); s1.setRangeDescription("Range 1"); assertEquals("Range 1", s1.getRangeDescription()); s1.setRangeDescription("Range 2"); assertEquals("Range 2", s1.getRangeDescription()); }

@@ -1,0 +1,1 @@
+@Test public void testSetRowRenderingOrder() { CategoryPlot plot = new CategoryPlot(); plot.setRowRenderingOrder(SortOrder.DESCENDING); assertEquals(SortOrder.DESCENDING, plot.getRowRenderingOrder()); }

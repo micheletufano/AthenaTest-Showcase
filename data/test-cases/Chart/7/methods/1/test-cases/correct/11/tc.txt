@@ -1,0 +1,1 @@
+@Test public void testSetDomainDescription() { System.out.println("setDomainDescription"); String description = "testSetDomainDescription"; TimePeriodValues instance = new TimePeriodValues("Test"); instance.setDomainDescription(description); }

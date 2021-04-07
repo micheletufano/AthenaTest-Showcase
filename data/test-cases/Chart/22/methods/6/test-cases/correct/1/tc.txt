@@ -1,0 +1,1 @@
+@Test public void testGetColumnKey() { KeyedObjects2D ko1 = new KeyedObjects2D(); ko1.addObject(new Object(), "R1", "C1"); assertEquals("C1", ko1.getColumnKey(0)); ko1.addObject(new Object(), "R2", "C2"); assertEquals("C2", ko1.getColumnKey(1)); }

@@ -1,0 +1,1 @@
+@Test public void testGetTimePeriods() { TimeSeries s1 = new TimeSeries("S1"); assertTrue(s1.getTimePeriods().isEmpty()); }

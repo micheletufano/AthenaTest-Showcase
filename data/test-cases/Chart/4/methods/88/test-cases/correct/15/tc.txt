@@ -1,0 +1,1 @@
+@Test public void testIsDomainZeroBaselineVisible() { XYPlot plot = new XYPlot(); assertEquals(plot.isDomainZeroBaselineVisible(), false); plot.setDomainZeroBaselineVisible(true); assertEquals(plot.isDomainZeroBaselineVisible(), true); }

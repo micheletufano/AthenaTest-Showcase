@@ -1,0 +1,1 @@
+@Test public void testGetTickLabelFont() { assertEquals(Axis.DEFAULT_TICK_LABEL_FONT, new CategoryAxis("").getTickLabelFont()); }

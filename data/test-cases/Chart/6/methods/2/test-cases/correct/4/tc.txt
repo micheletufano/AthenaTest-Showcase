@@ -1,0 +1,1 @@
+@Test public void testClone() throws CloneNotSupportedException { ShapeList shapeList1 = new ShapeList(); ShapeList shapeList2 = (ShapeList) shapeList1.clone(); assertNotSame(shapeList1, shapeList2); assertEquals(shapeList1, shapeList2); }

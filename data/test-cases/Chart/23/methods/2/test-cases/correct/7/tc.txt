@@ -1,0 +1,1 @@
+@Test public void testGetGroupPaint() { MinMaxCategoryRenderer r = new MinMaxCategoryRenderer(); assertNotNull(r.getGroupPaint()); }

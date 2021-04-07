@@ -1,0 +1,1 @@
+@Test public void testFindRangeBounds_CategoryDataset2() { DefaultCategoryDataset dataset = new DefaultCategoryDataset(); Range r = DatasetUtilities.findRangeBounds(dataset); assertNull(r); }

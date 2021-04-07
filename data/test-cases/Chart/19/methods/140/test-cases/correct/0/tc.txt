@@ -1,0 +1,1 @@
+@Test public void testEquals() { CategoryPlot plot1 = new CategoryPlot(); CategoryPlot plot2 = new CategoryPlot(); assertEquals(plot1, plot2); }

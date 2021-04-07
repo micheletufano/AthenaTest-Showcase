@@ -1,0 +1,1 @@
+@Test public void testIsRangeMinorGridlinesVisible() { XYPlot plot = new XYPlot(); plot.setRangeMinorGridlinesVisible(true); assertEquals(true, plot.isRangeMinorGridlinesVisible()); plot.setRangeMinorGridlinesVisible(false); assertEquals(false, plot.isRangeMinorGridlinesVisible()); }

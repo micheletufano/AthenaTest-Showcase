@@ -1,0 +1,1 @@
+@Test public void testCreateDiagonalCross() { assertNotNull(ShapeUtilities.createDiagonalCross(0.0f, 0.0f)); }

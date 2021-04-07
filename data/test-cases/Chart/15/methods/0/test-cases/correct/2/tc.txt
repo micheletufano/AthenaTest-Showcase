@@ -1,0 +1,1 @@
+@Test public void testGetDataset() { PiePlot p = new PiePlot(); assertNull(p.getDataset()); p.setDataset(new DefaultPieDataset()); assertEquals(new DefaultPieDataset(), p.getDataset()); }

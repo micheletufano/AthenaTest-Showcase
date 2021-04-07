@@ -1,0 +1,1 @@
+@Test public void testGetColumnKeys() { DefaultBoxAndWhiskerCategoryDataset empty = new DefaultBoxAndWhiskerCategoryDataset(); List keys = empty.getColumnKeys(); assertEquals(0, keys.size()); }

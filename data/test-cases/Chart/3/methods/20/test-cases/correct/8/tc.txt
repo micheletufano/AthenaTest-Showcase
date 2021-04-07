@@ -1,0 +1,1 @@
+@Test public void testGetValue() { TimeSeries s1 = new TimeSeries("S1"); s1.add(new Year(1999), 1.0); assertEquals(1.0, s1.getValue(new Year(1999))); s1.add(new Year(2000), 2.0); assertEquals(2.0, s1.getValue(new Year(2000))); }

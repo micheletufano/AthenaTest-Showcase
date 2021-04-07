@@ -1,0 +1,1 @@
+@Test public void testSetDomainZeroBaselineVisible() { XYPlot plot1 = new XYPlot(); plot1.setDomainZeroBaselineVisible(true); XYPlot plot2 = new XYPlot(); plot2.setDomainZeroBaselineVisible(false); assertNotSame(plot1, plot2); }

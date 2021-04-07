@@ -1,0 +1,1 @@
+@Test public void testGetLabelPaint() { Axis axis = new CategoryAxis("Test"); assertEquals(Axis.DEFAULT_AXIS_LABEL_PAINT, axis.getLabelPaint()); }

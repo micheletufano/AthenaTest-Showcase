@@ -1,0 +1,1 @@
+ShapeList extends AbstractObjectList { public int hashCode() { return super.hashCode(); } ShapeList(); Shape getShape(int index); void setShape(int index, Shape shape); Object clone(); boolean equals(Object obj); int hashCode(); }

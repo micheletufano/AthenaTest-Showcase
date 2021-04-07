@@ -1,0 +1,1 @@
+@Test public void testGetURLGenerator() { PiePlot plot = new PiePlot(); assertNull(plot.getURLGenerator()); plot.setURLGenerator(new StandardPieURLGenerator()); assertEquals(new StandardPieURLGenerator(), plot.getURLGenerator()); }

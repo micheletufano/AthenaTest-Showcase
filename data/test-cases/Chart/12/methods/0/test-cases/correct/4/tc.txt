@@ -1,0 +1,1 @@
+@Test public void testGetDataset() { DefaultCategoryDataset d = new DefaultCategoryDataset(); assertEquals(d, new MultiplePiePlot(d).getDataset()); }

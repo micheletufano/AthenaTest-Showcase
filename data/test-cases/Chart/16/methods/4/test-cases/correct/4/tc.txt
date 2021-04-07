@@ -1,0 +1,1 @@
+@Test public void testGetCategoryCount() { double[][] starts = new double[0][0]; double[][] ends = new double[0][0]; DefaultIntervalCategoryDataset empty = new DefaultIntervalCategoryDataset(starts, ends); assertEquals(0, empty.getCategoryCount()); }

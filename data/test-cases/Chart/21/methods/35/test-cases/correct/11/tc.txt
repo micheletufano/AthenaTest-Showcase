@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { DefaultBoxAndWhiskerCategoryDataset d1 = new DefaultBoxAndWhiskerCategoryDataset(); DefaultBoxAndWhiskerCategoryDataset clone = (DefaultBoxAndWhiskerCategoryDataset) d1.clone(); assertNotSame(d1, clone); assertSame(d1.getClass(), clone.getClass()); assertEquals(d1, clone); }

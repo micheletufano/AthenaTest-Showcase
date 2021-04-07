@@ -1,0 +1,1 @@
+@Test public void testGetItemCount() { TimePeriodValues s = new TimePeriodValues("Test"); assertEquals(0, s.getItemCount()); }

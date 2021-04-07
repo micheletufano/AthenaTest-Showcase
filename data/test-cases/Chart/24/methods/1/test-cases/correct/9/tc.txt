@@ -1,0 +1,1 @@
+@Test public void testGetUpperBound() { GrayPaintScale gps = new GrayPaintScale(0.0, 1.0); assertEquals(1.0, gps.getUpperBound(), 0.0); }

@@ -1,0 +1,1 @@
+@Test public void testGetSeriesKey() { DefaultIntervalCategoryDataset empty = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][0]); try { empty.getSeriesKey(-1); fail("IllegalArgumentException should have been thrown on negative key"); } catch (IllegalArgumentException e) { assertEquals("No such series : -1", e.getMessage()); } }

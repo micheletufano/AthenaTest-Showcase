@@ -1,0 +1,1 @@
+@Test public void testSetRangeDescription() { TimePeriodValues s1 = new TimePeriodValues("Test"); s1.setRangeDescription("Test"); assertEquals("Test", s1.getRangeDescription()); }

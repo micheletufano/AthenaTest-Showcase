@@ -1,0 +1,1 @@
+@Test public void testIsDomainCrosshairVisible() { XYPlot plot = new XYPlot(); plot.setDomainCrosshairVisible(true); assertTrue(plot.isDomainCrosshairVisible()); }

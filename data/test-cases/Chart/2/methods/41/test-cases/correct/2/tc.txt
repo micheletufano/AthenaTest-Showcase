@@ -1,0 +1,1 @@
+@Test public void testFindMaximumRangeValue2() { DefaultIntervalXYDataset dataset = new DefaultIntervalXYDataset(); assertNull(DatasetUtilities.findMaximumRangeValue(dataset)); }

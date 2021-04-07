@@ -1,0 +1,1 @@
+@Test public void testGetX() { XYSeries s1 = new XYSeries("S1"); s1.add(1.0, 1.0); s1.add(2.0, 2.0); s1.add(3.0, 3.0); s1.add(4.0, 4.0); s1.add(5.0, 5.0); assertEquals(1.0, s1.getX(0)); assertEquals(2.0, s1.getX(1)); assertEquals(3.0, s1.getX(2)); assertEquals(4.0, s1.getX(3)); assertEquals(5.0, s1.getX(4)); }

@@ -1,0 +1,1 @@
+@Test public void testSetRangeCrosshairLockedOnData() { XYPlot plot = new XYPlot(); plot.setRangeCrosshairLockedOnData(false); assertFalse(plot.isRangeCrosshairLockedOnData()); plot.setRangeCrosshairLockedOnData(true); assertTrue(plot.isRangeCrosshairLockedOnData()); }

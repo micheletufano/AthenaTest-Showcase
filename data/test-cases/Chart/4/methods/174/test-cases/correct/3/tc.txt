@@ -1,0 +1,1 @@
+@Test public void testGetFixedDomainAxisSpace() { XYPlot plot = new XYPlot(); assertNull(plot.getFixedDomainAxisSpace()); }

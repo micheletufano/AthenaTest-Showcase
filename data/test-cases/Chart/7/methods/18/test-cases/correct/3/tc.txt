@@ -1,0 +1,1 @@
+@Test public void testGetMaxStartIndex() { TimePeriodValues s1 = new TimePeriodValues("Test"); assertEquals(-1, s1.getMaxStartIndex()); }

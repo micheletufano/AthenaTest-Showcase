@@ -1,0 +1,1 @@
+@Test public void testGetAxisLinePaint() { Axis axis = new CategoryAxis("Test"); assertEquals(Axis.DEFAULT_AXIS_LINE_PAINT, axis.getAxisLinePaint()); }

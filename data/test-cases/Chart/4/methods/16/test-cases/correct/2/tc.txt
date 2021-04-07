@@ -1,0 +1,1 @@
+@Test public void testClearDomainAxes() { XYPlot plot = new XYPlot(); plot.clearDomainAxes(); assertEquals(0, plot.getDomainAxisCount()); }

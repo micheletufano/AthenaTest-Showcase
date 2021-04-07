@@ -1,0 +1,1 @@
+@Test public void testGetDataset() { DefaultCategoryDataset dataset = new DefaultCategoryDataset(); MultiplePiePlot plot = new MultiplePiePlot(dataset); assertSame(dataset, plot.getDataset()); }

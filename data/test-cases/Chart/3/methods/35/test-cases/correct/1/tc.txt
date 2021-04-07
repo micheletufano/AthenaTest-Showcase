@@ -1,0 +1,1 @@
+@Test public void testRemoveAgedItems2() { TimeSeries s1 = new TimeSeries("S1"); s1.removeAgedItems(1, true); assertEquals(0, s1.getItemCount()); }

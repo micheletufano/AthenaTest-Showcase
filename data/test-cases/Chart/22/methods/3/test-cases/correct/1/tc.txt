@@ -1,0 +1,1 @@
+@Test public void testGetRowKey() { KeyedObjects2D ko1 = new KeyedObjects2D(); ko1.addObject(new Integer(1), "R1", "C1"); assertEquals("R1", ko1.getRowKey(0)); }

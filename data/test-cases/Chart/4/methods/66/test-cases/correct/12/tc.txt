@@ -1,0 +1,1 @@
+@Test public void testIsDomainMinorGridlinesVisible() { XYPlot p = new XYPlot(); assertFalse(p.isDomainMinorGridlinesVisible()); p.setDomainMinorGridlinesVisible(true); assertTrue(p.isDomainMinorGridlinesVisible()); p.setDomainMinorGridlinesVisible(false); assertFalse(p.isDomainMinorGridlinesVisible()); }

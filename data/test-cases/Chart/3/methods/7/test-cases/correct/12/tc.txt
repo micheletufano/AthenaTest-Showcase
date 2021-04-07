@@ -1,0 +1,1 @@
+@Test public void testSetMaximumItemCount() { TimeSeries s1 = new TimeSeries("S1"); s1.setMaximumItemCount(10); assertEquals(10, s1.getMaximumItemCount()); }

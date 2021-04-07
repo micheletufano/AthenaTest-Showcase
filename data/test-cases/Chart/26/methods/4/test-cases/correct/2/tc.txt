@@ -1,0 +1,1 @@
+@Test public void testGetLabelFont() { assertEquals(Axis.DEFAULT_AXIS_LABEL_FONT, new CategoryAxis("Test").getLabelFont()); }

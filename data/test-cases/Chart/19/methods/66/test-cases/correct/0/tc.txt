@@ -1,0 +1,1 @@
+@Test public void testSetDomainGridlinesVisible() { CategoryPlot p1 = new CategoryPlot(); p1.setDomainGridlinesVisible(true); CategoryPlot p2 = new CategoryPlot(); p2.setDomainGridlinesVisible(false); assertNotSame(p1, p2); }

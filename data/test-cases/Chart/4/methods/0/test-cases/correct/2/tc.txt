@@ -1,0 +1,1 @@
+@Test public void testGetPlotType() { XYPlot plot = new XYPlot(); assertFalse(plot.getPlotType().isEmpty()); }

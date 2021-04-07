@@ -1,0 +1,1 @@
+@Test public void testIsRangeZoomable() { CategoryPlot plot = new CategoryPlot(); assertTrue(plot.isRangeZoomable()); plot.mapDatasetToRangeAxis(1, 2); assertTrue(plot.isRangeZoomable()); }

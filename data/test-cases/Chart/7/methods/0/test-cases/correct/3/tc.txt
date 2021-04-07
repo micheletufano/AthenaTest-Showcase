@@ -1,0 +1,1 @@
+@Test public void testGetDomainDescription() { TimePeriodValues s = new TimePeriodValues("Test Series"); assertFalse(s.getDomainDescription().equals("")); }

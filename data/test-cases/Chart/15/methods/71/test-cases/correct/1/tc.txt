@@ -1,0 +1,1 @@
+@Test public void testSetSimpleLabelOffset() { PiePlot plot = new PiePlot(); try { plot.setSimpleLabelOffset(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { } }

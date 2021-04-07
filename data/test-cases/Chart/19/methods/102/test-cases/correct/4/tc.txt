@@ -1,0 +1,1 @@
+@Test public void testIsRangeCrosshairLockedOnData() { CategoryPlot plot = new CategoryPlot(); assertTrue(plot.isRangeCrosshairLockedOnData()); plot.setRangeCrosshairLockedOnData(true); assertTrue(plot.isRangeCrosshairLockedOnData()); }

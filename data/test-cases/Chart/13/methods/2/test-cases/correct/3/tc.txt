@@ -1,0 +1,1 @@
+@Test public void testClear() { System.out.println("clear"); BorderArrangement instance = new BorderArrangement(); instance.clear(); assertTrue(instance.equals(instance)); }

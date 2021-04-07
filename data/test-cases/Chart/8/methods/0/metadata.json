@@ -1,0 +1,1 @@
+{"identifier": "getYear", "parameters": "()", "modifiers": "public", "return": "Year", "body": "public Year getYear() {\n        return new Year(this.year);\n    }", "class": "Week", "signature": "Year getYear()", "full_signature": "public Year getYear()", "class_method_signature": "Week.getYear()", "testcase": false, "constructor": false, "invocations": []}

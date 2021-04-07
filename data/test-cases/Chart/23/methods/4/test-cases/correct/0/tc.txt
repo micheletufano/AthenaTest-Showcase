@@ -1,0 +1,1 @@
+@Test public void testGetGroupStroke() { MinMaxCategoryRenderer r = new MinMaxCategoryRenderer(); assertNotNull(r.getGroupStroke()); }

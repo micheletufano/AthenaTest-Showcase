@@ -1,0 +1,1 @@
+@Test public void testGetItemCount() { TimeSeries series = new TimeSeries("S1"); assertEquals(0, series.getItemCount()); }

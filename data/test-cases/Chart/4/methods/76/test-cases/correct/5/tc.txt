@@ -1,0 +1,1 @@
+@Test public void testIsRangeGridlinesVisible() { XYPlot plot = new XYPlot(); assertTrue(plot.isRangeGridlinesVisible()); plot.setRangeGridlinesVisible(true); assertTrue(plot.isRangeGridlinesVisible()); }

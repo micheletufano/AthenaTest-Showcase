@@ -1,0 +1,1 @@
+@Test public void testGetRangeMinorGridlinePaint() { XYPlot plot = new XYPlot(); assertNotNull(plot.getRangeMinorGridlinePaint()); }

@@ -1,0 +1,1 @@
+@Test public void testIsDomainPannable() { XYPlot plot = new XYPlot(); assertEquals(false, plot.isDomainPannable()); plot.setDomainPannable(true); assertEquals(true, plot.isDomainPannable()); }

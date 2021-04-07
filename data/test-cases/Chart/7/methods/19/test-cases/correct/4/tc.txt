@@ -1,0 +1,1 @@
+@Test public void testGetMinMiddleIndex() { TimePeriodValues s = new TimePeriodValues("Test Series"); assertEquals(-1, s.getMinMiddleIndex()); }

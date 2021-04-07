@@ -1,0 +1,1 @@
+@Test public void testIsEmptyOrNull() { DefaultIntervalXYDataset d = new DefaultIntervalXYDataset(); assertTrue(DatasetUtilities.isEmptyOrNull(d)); }

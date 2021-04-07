@@ -1,0 +1,1 @@
+@Test public void testEquals() { GrayPaintScale g1 = new GrayPaintScale(); GrayPaintScale g2 = new GrayPaintScale(); assertEquals(g1, g2); }

@@ -1,0 +1,1 @@
+@Test public void testGetDomainAxisIndex() { CategoryAxis xAxis = new CategoryAxis("X"); CategoryAxis yAxis = new CategoryAxis("Y"); CategoryPlot plot = new CategoryPlot(); assertEquals(-1, plot.getDomainAxisIndex(xAxis)); plot.setDomainAxis(1, yAxis); assertEquals(1, plot.getDomainAxisIndex(yAxis)); }

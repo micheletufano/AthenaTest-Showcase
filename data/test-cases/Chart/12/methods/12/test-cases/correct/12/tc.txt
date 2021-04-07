@@ -1,0 +1,1 @@
+@Test public void testGetPlotType() { String result = new MultiplePiePlot().getPlotType(); assertEquals("Multiple Pie Plot", result); }

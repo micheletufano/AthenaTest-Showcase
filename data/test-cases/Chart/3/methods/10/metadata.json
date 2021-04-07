@@ -1,0 +1,1 @@
+{"identifier": "getMinY", "parameters": "()", "modifiers": "public", "return": "double", "body": "public double getMinY() {\n        return this.minY;\n    }", "class": "TimeSeries", "signature": "double getMinY()", "full_signature": "public double getMinY()", "class_method_signature": "TimeSeries.getMinY()", "testcase": false, "constructor": false, "invocations": []}

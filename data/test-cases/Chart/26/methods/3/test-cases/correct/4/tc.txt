@@ -1,0 +1,1 @@
+@Test public void testSetLabel() { Axis axis = new CategoryAxis("Test"); axis.setLabel("ABC"); assertEquals("ABC", axis.getLabel()); axis.setLabel("ABC"); assertEquals("ABC", axis.getLabel()); axis.setLabel("ABC"); assertEquals("ABC", axis.getLabel()); axis.setLabel("ABC"); assertEquals("ABC", axis.getLabel()); }

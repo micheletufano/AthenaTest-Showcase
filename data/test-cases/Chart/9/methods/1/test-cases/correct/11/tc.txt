@@ -1,0 +1,1 @@
+@Test public void testSetDomainDescription() { TimeSeries s1 = new TimeSeries("S1"); s1.setDomainDescription("Domain 2"); assertEquals("Domain 2", s1.getDomainDescription()); s1.setDomainDescription("Domain 3"); assertEquals("Domain 3", s1.getDomainDescription()); }

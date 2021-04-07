@@ -1,0 +1,1 @@
+@Test public void testIsDomainCrosshairLockedOnData() { XYPlot plot = new XYPlot(); plot.setDomainCrosshairLockedOnData(true); assertTrue(plot.isDomainCrosshairLockedOnData()); plot.setDomainCrosshairLockedOnData(false); assertFalse(plot.isDomainCrosshairLockedOnData()); }

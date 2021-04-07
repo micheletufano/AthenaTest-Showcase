@@ -1,0 +1,1 @@
+@Test public void testFindMaximumStackedRangeValue() { DefaultCategoryDataset dataset = new DefaultCategoryDataset(); dataset.addValue(1.0, "R1", "C1"); dataset.addValue(2.0, "R2", "C2"); dataset.addValue(3.0, "R3", "C3"); Number max = DatasetUtilities.findMaximumStackedRangeValue(dataset); assertEquals(new Double(3.0), max); }

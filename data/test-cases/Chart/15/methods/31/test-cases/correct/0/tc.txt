@@ -1,0 +1,1 @@
+@Test public void testGetShadowPaint() { PiePlot plot = new PiePlot(); assertNotNull(plot.getShadowPaint()); }

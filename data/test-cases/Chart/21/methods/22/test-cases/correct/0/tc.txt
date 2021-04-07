@@ -1,0 +1,1 @@
+@Test public void testGetRangeUpperBound() { DefaultBoxAndWhiskerCategoryDataset d1 = new DefaultBoxAndWhiskerCategoryDataset(); assertTrue(Double.isNaN(d1.getRangeUpperBound(false))); assertTrue(Double.isNaN(d1.getRangeUpperBound(true))); }

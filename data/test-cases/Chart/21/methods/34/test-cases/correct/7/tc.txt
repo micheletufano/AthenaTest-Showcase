@@ -1,0 +1,1 @@
+@Test public void testEquals() { DefaultBoxAndWhiskerCategoryDataset c1 = new DefaultBoxAndWhiskerCategoryDataset(); DefaultBoxAndWhiskerCategoryDataset c2 = new DefaultBoxAndWhiskerCategoryDataset(); assertEquals(c1, c2); }

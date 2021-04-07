@@ -1,0 +1,1 @@
+@Test public void testGetMinStartIndex() { TimePeriodValues s1 = new TimePeriodValues("Test Series"); assertEquals(-1, s1.getMinStartIndex()); }

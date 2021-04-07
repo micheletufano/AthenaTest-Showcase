@@ -1,0 +1,1 @@
+@Test public void testGetFixedDomainAxisSpace() { CategoryPlot plot = new CategoryPlot(); assertNull(plot.getFixedDomainAxisSpace()); }

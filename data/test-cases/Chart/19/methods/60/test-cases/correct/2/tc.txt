@@ -1,0 +1,1 @@
+@Test public void testSetDatasetRenderingOrder() { CategoryPlot plot = new CategoryPlot(); try { plot.setDatasetRenderingOrder(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { assertEquals("Null 'order\' argument.", e.getMessage()); } }

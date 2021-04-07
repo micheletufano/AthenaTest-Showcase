@@ -1,0 +1,1 @@
+@Test public void testIsRangeGridlinesVisible() { CategoryPlot plot = new CategoryPlot(); assertTrue(plot.isRangeGridlinesVisible()); plot.setRangeGridlinesVisible(true); assertTrue(plot.isRangeGridlinesVisible()); }

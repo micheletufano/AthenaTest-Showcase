@@ -1,0 +1,1 @@
+@Test public void testIsEmptyOrNull() { DefaultXYDataset dataset = new DefaultXYDataset(); assertTrue(DatasetUtilities.isEmptyOrNull(dataset)); }

@@ -1,0 +1,1 @@
+@Test public void testGetTimePeriodClass() { TimeSeries s1 = new TimeSeries("S1"); assertNull(s1.getTimePeriodClass()); }

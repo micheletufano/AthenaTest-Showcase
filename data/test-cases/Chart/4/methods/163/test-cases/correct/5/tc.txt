@@ -1,0 +1,1 @@
+@Test public void testIsRangeCrosshairVisible() { XYPlot p1 = new XYPlot(); assertFalse(p1.isRangeCrosshairVisible()); p1.setRangeCrosshairVisible(true); assertTrue(p1.isRangeCrosshairVisible()); }

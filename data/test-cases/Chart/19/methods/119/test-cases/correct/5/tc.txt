@@ -1,0 +1,1 @@
+@Test public void testGetWeight() { CategoryPlot p1 = new CategoryPlot(); assertEquals(0, p1.getWeight()); p1.setWeight(1); assertEquals(1, p1.getWeight()); p1.setWeight(0); assertEquals(0, p1.getWeight()); }

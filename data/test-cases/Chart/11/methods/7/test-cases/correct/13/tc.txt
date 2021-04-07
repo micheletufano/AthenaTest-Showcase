@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testCreateTranslatedShapeNullShape() { ShapeUtilities.createTranslatedShape(null, 0, 0); }

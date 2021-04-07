@@ -1,0 +1,1 @@
+@Test public void testIsVisible() { Axis axis = new CategoryAxis("Test"); assertEquals(true, axis.isVisible()); axis.setVisible(false); assertEquals(false, axis.isVisible()); }

@@ -1,0 +1,1 @@
+@Test public void testEquals() { MultiplePiePlot plot1 = new MultiplePiePlot(); MultiplePiePlot plot2 = new MultiplePiePlot(); assertEquals(plot1, plot2); plot1.setLimit(1.0); assertFalse(plot1.equals(plot2)); plot2.setLimit(1.0); assertEquals(plot1, plot2); }

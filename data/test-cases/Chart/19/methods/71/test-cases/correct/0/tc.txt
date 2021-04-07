@@ -1,0 +1,1 @@
+@Test public void testGetDomainGridlinePaint() { CategoryPlot plot = new CategoryPlot(); assertNotNull(plot.getDomainGridlinePaint()); }

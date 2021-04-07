@@ -1,0 +1,1 @@
+@Test public void testSetRangeCrosshairLockedOnData() { CategoryPlot p1 = new CategoryPlot(); p1.setRangeCrosshairLockedOnData(true); CategoryPlot p2 = new CategoryPlot(); p2.setRangeCrosshairLockedOnData(false); assertNotSame(p1, p2); }

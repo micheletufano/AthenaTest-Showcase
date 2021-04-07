@@ -1,0 +1,1 @@
+@Test public void testIsRangeCrosshairVisible() { CategoryPlot p = new CategoryPlot(); p.setRangeCrosshairVisible(true); assertTrue(p.isRangeCrosshairVisible()); p.setRangeCrosshairVisible(false); assertFalse(p.isRangeCrosshairVisible()); }

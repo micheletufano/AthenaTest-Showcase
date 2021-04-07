@@ -1,0 +1,1 @@
+@Test public void testEquals2() { BorderArrangement b1 = new BorderArrangement(); BorderArrangement b2 = new BorderArrangement(); assertEquals(b1, b2); }

@@ -1,0 +1,1 @@
+@Test public void testSetRangeCrosshairPaint() { CategoryPlot plot = new CategoryPlot(); try { plot.setRangeCrosshairPaint(null); fail("IllegalArgumentException should have been thrown on null key"); } catch (IllegalArgumentException e) { assertEquals("Null \'paint\' argument.", e.getMessage()); } }

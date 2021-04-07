@@ -1,0 +1,1 @@
+@Test public void testClone() { Ellipse2D ellipse1 = new Ellipse2D.Double(1.0, 2.0, 3.0, 4.0); Ellipse2D ellipse2 = (Ellipse2D) ShapeUtilities.clone(ellipse1); assertEquals(ellipse1, ellipse2); }

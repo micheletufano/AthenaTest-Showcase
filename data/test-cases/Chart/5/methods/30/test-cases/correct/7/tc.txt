@@ -1,0 +1,1 @@
+@Test public void testHashcode() { XYSeries s1 = new XYSeries("S1"); XYSeries s2 = new XYSeries("S1"); assertEquals(s1, s2); int h1 = s1.hashCode(); int h2 = s2.hashCode(); assertEquals(h1, h2); }

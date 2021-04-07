@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList() { XYPlot plot1 = new XYPlot(); plot1.addRangeMarker(new ValueMarker(1.0)); XYPlot plot2 = new XYPlot(); plot2.addRangeMarker(new ValueMarker(1.0)); assertEquals(plot1, plot2); }

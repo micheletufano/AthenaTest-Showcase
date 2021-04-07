@@ -1,0 +1,1 @@
+@Test public void testIllegalArgument2() { PiePlot plot = new PiePlot(); try { plot.setDirection(null); fail("IllegalArgumentException should have been thrown on null key"); } catch (IllegalArgumentException e) { assertEquals("Null \'direction\' argument.", e.getMessage()); } }

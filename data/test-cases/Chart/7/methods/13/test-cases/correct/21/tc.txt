@@ -1,0 +1,1 @@
+@Test public void testEquals() { TimePeriodValues s1 = new TimePeriodValues("Test"); TimePeriodValues s2 = new TimePeriodValues("Test"); assertEquals(s1, s2); }

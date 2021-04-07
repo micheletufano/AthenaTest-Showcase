@@ -1,0 +1,1 @@
+@Test public void testAxisOffset() { CategoryPlot plot = new CategoryPlot(); assertNotNull(plot.getAxisOffset()); }

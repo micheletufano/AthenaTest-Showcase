@@ -1,0 +1,1 @@
+@Test public void testEquals() { ShapeList l1 = new ShapeList(); ShapeList l2 = new ShapeList(); assertEquals(l1, l2); }

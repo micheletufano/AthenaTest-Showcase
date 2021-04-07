@@ -1,0 +1,1 @@
+@Test public void testEquals() { XYPlot p1 = new XYPlot(); XYPlot p2 = new XYPlot(); assertEquals(p1, p2); }

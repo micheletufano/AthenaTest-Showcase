@@ -1,0 +1,1 @@
+@Test public void testSetLabelToolTip() { Axis axis = new CategoryAxis("Test"); axis.setLabelToolTip("Test"); assertEquals("Test", axis.getLabelToolTip()); }

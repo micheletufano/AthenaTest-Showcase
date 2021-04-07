@@ -1,0 +1,1 @@
+@Test public void testGetRowCount() { DefaultBoxAndWhiskerCategoryDataset empty = new DefaultBoxAndWhiskerCategoryDataset(); assertTrue(empty.getRowCount() == 0); }

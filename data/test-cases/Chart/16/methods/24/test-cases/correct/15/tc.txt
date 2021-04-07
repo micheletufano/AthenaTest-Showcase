@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { DefaultIntervalCategoryDataset a = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][0]); DefaultIntervalCategoryDataset b = (DefaultIntervalCategoryDataset) a.clone(); assertNotSame(a, b); assertSame(a.getClass(), b.getClass()); assertEquals(a, b); }

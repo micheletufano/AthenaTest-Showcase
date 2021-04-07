@@ -1,0 +1,1 @@
+@Test public void testGetQuadrantPaint() { XYPlot plot = new XYPlot(); assertNull(plot.getQuadrantPaint(0)); assertNull(plot.getQuadrantPaint(1)); assertNull(plot.getQuadrantPaint(2)); assertNull(plot.getQuadrantPaint(3)); }

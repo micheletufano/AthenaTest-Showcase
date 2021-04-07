@@ -1,0 +1,1 @@
+@Test public void testClearAnnotations() { CategoryPlot plot = new CategoryPlot(); assertTrue(plot.getAnnotations().isEmpty()); plot.clearAnnotations(); assertTrue(plot.getAnnotations().isEmpty()); }

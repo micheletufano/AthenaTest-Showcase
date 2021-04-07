@@ -1,0 +1,1 @@
+@Test public void testGetItemCount() { TimePeriodValues s = new TimePeriodValues("Test"); assertEquals(0, s.getItemCount()); s.add(new Year(1999), 1.0); assertEquals(1, s.getItemCount()); }

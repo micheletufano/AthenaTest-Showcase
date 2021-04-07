@@ -1,0 +1,1 @@
+@Test public void testSetRangeGridlinesVisible() { CategoryPlot plot1 = new CategoryPlot(); plot1.setRangeGridlinesVisible(true); CategoryPlot plot2 = new CategoryPlot(); plot2.setRangeGridlinesVisible(false); assertNotSame(plot1, plot2); }

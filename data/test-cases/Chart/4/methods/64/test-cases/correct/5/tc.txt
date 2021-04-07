@@ -1,0 +1,1 @@
+@Test public void testIsDomainGridlinesVisible() { XYPlot plot1 = new XYPlot(); plot1.setDomainGridlinesVisible(false); assertFalse(plot1.isDomainGridlinesVisible()); plot1.setDomainGridlinesVisible(true); assertTrue(plot1.isDomainGridlinesVisible()); }

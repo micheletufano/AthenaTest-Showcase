@@ -1,0 +1,1 @@
+@Test public void testSetTickLabelPaint() { Axis axis = new CategoryAxis("Test"); axis.setTickLabelPaint(Axis.DEFAULT_TICK_LABEL_PAINT); assertEquals(Axis.DEFAULT_TICK_LABEL_PAINT, axis.getTickLabelPaint()); }

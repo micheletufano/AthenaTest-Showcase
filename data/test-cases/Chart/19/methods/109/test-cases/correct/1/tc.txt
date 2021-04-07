@@ -1,0 +1,1 @@
+@Test public void testGetRangeCrosshairPaint() { CategoryPlot plot = new CategoryPlot(); Paint result = plot.getRangeCrosshairPaint(); assertNotNull(result); }

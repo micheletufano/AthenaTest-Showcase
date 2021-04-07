@@ -1,0 +1,1 @@
+@Test public void testEquals() { MultiplePiePlot p1 = new MultiplePiePlot(); MultiplePiePlot p2 = new MultiplePiePlot(); assertEquals(p1, p2); p1.setAggregatedItemsKey("A"); assertNotEquals(p1, p2); p2.setAggregatedItemsKey("A"); assertEquals(p1, p2); p1.setAggregatedItemsKey("B"); assertNotEquals(p1, p2); }

@@ -1,0 +1,1 @@
+@Test public void testDoesNotDrawSharedDomainAxis() { CategoryPlot plot = new CategoryPlot(); assertFalse(plot.getDrawSharedDomainAxis()); }

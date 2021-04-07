@@ -1,0 +1,1 @@
+@Test public void testToString() { Week w = new Week(1, 2002); assertEquals("Week 1, 2002", w.toString()); }

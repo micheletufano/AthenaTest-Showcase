@@ -1,0 +1,1 @@
+@Test public void testGetTickLabelInsets() { Axis axis = new CategoryAxis("Test"); assertEquals(Axis.DEFAULT_TICK_LABEL_INSETS, axis.getTickLabelInsets()); }

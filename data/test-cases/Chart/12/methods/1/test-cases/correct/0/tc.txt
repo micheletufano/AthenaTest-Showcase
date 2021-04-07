@@ -1,0 +1,1 @@
+@Test public void testEquals() { MultiplePiePlot p1 = new MultiplePiePlot(); MultiplePiePlot p2 = new MultiplePiePlot(); assertEquals(p1, p2); }

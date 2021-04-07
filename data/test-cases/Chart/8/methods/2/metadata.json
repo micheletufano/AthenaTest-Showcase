@@ -1,0 +1,1 @@
+{"identifier": "getWeek", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getWeek() {\n        return this.week;\n    }", "class": "Week", "signature": "int getWeek()", "full_signature": "public int getWeek()", "class_method_signature": "Week.getWeek()", "testcase": false, "constructor": false, "invocations": []}

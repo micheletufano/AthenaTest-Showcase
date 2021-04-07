@@ -1,0 +1,1 @@
+ShapeList extends AbstractObjectList { public Shape getShape(int index) { return (Shape) get(index); } ShapeList(); Shape getShape(int index); void setShape(int index, Shape shape); Object clone(); boolean equals(Object obj); int hashCode(); }

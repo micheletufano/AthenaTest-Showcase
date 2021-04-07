@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { TimePeriodValues v1 = new TimePeriodValues("Test"); TimePeriodValues v2 = (TimePeriodValues) v1.clone(); assertNotSame(v1, v2); assertSame(v1.getClass(), v2.getClass()); assertEquals(v1, v2); }

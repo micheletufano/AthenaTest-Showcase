@@ -1,0 +1,1 @@
+@Test public void testSetRangeDescription() { System.out.println("setRangeDescription"); String description = ""; TimePeriodValues instance = new TimePeriodValues("Test Series"); instance.setRangeDescription(description); }

@@ -1,0 +1,1 @@
+@Test public void testSetDirection() { PiePlot plot = new PiePlot(); try { plot.setDirection(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { } try { plot.setDirection(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { } }

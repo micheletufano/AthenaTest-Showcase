@@ -1,0 +1,1 @@
+@Test public void testSetDomainDescription() { TimePeriodValues s1 = new TimePeriodValues("S1"); s1.setDomainDescription("Test"); assertEquals("Test", s1.getDomainDescription()); s1.setDomainDescription("Test"); assertEquals("Test", s1.getDomainDescription()); }

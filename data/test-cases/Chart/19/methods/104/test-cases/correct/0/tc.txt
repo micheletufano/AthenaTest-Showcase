@@ -1,0 +1,1 @@
+@Test public void testGetRangeCrosshairValue() { CategoryPlot plot = new CategoryPlot(); assertFalse(plot.getRangeCrosshairValue() == 1.0); }

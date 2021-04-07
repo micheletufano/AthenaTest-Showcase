@@ -1,0 +1,1 @@
+@Test public void testHashCode() { KeyedObjects2D obj1 = new KeyedObjects2D(); KeyedObjects2D obj2 = new KeyedObjects2D(); assertEquals(obj1.hashCode(), obj2.hashCode()); }

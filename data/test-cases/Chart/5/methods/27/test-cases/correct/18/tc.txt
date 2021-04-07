@@ -1,0 +1,1 @@
+@Test public void testCloning() throws CloneNotSupportedException { XYSeries s1 = new XYSeries("Series 1"); s1.add(1.0, 1.1); XYSeries s2 = (XYSeries) s1.clone(); assertNotSame(s1, s2); assertSame(s1.getKey(), s2.getKey()); assertEquals(s1.getKey(), s2.getKey()); assertEquals(s1, s2); }

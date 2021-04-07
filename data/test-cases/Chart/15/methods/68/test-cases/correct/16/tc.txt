@@ -1,0 +1,1 @@
+@Test public void testConstructor() { PiePlot plot = new PiePlot(); assertNotNull(plot); assertFalse(plot.getSimpleLabels()); }

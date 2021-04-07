@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList() { CategoryPlot p1 = new CategoryPlot(); p1.setRangeCrosshairValue(1.0); CategoryPlot p2 = new CategoryPlot(); p2.setRangeCrosshairValue(1.0); assertEquals(p1, p2); }

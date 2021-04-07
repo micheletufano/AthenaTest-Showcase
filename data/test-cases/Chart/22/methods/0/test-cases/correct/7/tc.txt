@@ -1,0 +1,1 @@
+@Test public void testGetRowCount() { System.out.println("getRowCount"); KeyedObjects2D instance = new KeyedObjects2D(); int expResult = 0; int result = instance.getRowCount(); assertEquals(expResult, result); }

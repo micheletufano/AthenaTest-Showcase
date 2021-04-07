@@ -1,0 +1,1 @@
+@Test public void testGetLegendLabelToolTipGenerator() { PiePlot plot = new PiePlot(); assertNull(plot.getLegendLabelToolTipGenerator()); plot.setLegendLabelToolTipGenerator(null); assertNull(plot.getLegendLabelToolTipGenerator()); }

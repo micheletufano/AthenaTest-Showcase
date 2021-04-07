@@ -1,0 +1,1 @@
+@Test public void testDomainGridlineStroke() { XYPlot plot = new XYPlot(); assertNotNull(plot.getDomainGridlineStroke()); }

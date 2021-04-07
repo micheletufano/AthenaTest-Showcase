@@ -1,0 +1,1 @@
+@Test public void testGetMinStartIndex() { TimePeriodValues s = new TimePeriodValues("Test"); assertEquals(-1, s.getMinStartIndex()); s.add(new Year(1999), 1.0); assertEquals(0, s.getMinStartIndex()); }

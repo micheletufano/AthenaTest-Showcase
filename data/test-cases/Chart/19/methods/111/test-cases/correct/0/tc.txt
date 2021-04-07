@@ -1,0 +1,1 @@
+@Test public void testGetAnnotations() { CategoryPlot plot = new CategoryPlot(); assertNotNull(plot.getAnnotations()); assertEquals(0, plot.getAnnotations().size()); }

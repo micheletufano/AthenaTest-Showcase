@@ -1,0 +1,1 @@
+@Test public void testHashCode() { Week w1 = new Week(1, 2001); Week w2 = new Week(1, 2001); assertEquals(w1, w2); assertEquals(w1.hashCode(), w2.hashCode()); }

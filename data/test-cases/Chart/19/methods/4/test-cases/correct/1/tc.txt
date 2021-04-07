@@ -1,0 +1,1 @@
+@Test public void testSetAxisOffset() { CategoryPlot plot = new CategoryPlot(); try { plot.setAxisOffset(null); fail("IllegalArgumentException should have been thrown on null parameter"); } catch (IllegalArgumentException e) { assertEquals("Null \'offset\' argument.", e.getMessage()); } }

@@ -1,0 +1,1 @@
+ShapeList extends AbstractObjectList { public Object clone() throws CloneNotSupportedException { return super.clone(); } ShapeList(); Shape getShape(int index); void setShape(int index, Shape shape); Object clone(); boolean equals(Object obj); int hashCode(); }

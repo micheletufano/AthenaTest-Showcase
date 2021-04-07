@@ -1,0 +1,1 @@
+@Test public void testGetPieIndex() { PiePlot plot = new PiePlot(); assertEquals(0, plot.getPieIndex()); plot.setPieIndex(0); assertEquals(0, plot.getPieIndex()); }

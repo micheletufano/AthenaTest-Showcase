@@ -1,0 +1,1 @@
+@Test public void testCanSelectByRegion() { XYPlot p = new XYPlot(); assertTrue(p.canSelectByRegion()); }

@@ -1,0 +1,1 @@
+@Test public void testGetSerialIndex() { Week w = new Week(1, 2001); assertEquals(2001L * 53L + 1, w.getSerialIndex()); }

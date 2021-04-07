@@ -1,0 +1,1 @@
+@Test public void testHashcode() { ShapeList list = new ShapeList(); assertEquals(list.hashCode(), list.hashCode()); }

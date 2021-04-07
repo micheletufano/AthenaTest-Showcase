@@ -1,0 +1,1 @@
+ValueMarker extends Marker { public double getValue() { return this.value; } ValueMarker(double value); ValueMarker(double value, Paint paint, Stroke stroke); ValueMarker(double value, Paint paint, Stroke stroke, Paint outlinePaint, Stroke outlineStroke, float alpha); double getValue(); void setValue(double value); boolean equals(Object obj); }

@@ -1,0 +1,1 @@
+@Test public void testSetPieIndex() { System.out.println("setPieIndex"); int index = 1; PiePlot instance = new PiePlot(); instance.setPieIndex(index); }

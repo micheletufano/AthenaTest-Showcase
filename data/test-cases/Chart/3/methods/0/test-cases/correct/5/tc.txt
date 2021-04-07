@@ -1,0 +1,1 @@
+@Test public void testGetDomainDescription() { TimeSeries s1 = new TimeSeries("S1"); assertFalse(s1.getDomainDescription().isEmpty()); }

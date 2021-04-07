@@ -1,0 +1,1 @@
+@Test public void testGetLabelInsets() { Axis axis = new CategoryAxis("Test"); assertEquals(Axis.DEFAULT_AXIS_LABEL_INSETS, axis.getLabelInsets()); }

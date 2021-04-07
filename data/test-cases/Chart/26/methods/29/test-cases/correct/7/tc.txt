@@ -1,0 +1,1 @@
+@Test public void testNullTickLabelInsets() { Axis axis = new CategoryAxis("Test"); try { axis.setTickLabelInsets(null); fail("IllegalArgumentException should have been thrown on null argument"); } catch (IllegalArgumentException e) { assertEquals("Null 'insets' argument.", e.getMessage()); } }

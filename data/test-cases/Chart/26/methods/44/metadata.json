@@ -1,0 +1,1 @@
+{"identifier": "configure", "parameters": "()", "modifiers": "public abstract", "return": "void", "body": "public abstract void configure();", "class": "Axis", "signature": "void configure()", "full_signature": "public abstract void configure()", "class_method_signature": "Axis.configure()", "testcase": false, "constructor": false, "invocations": []}

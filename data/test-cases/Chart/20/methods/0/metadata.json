@@ -1,0 +1,1 @@
+{"identifier": "getValue", "parameters": "()", "modifiers": "public", "return": "double", "body": "public double getValue() {\n        return this.value;\n    }", "class": "ValueMarker", "signature": "double getValue()", "full_signature": "public double getValue()", "class_method_signature": "ValueMarker.getValue()", "testcase": false, "constructor": false, "invocations": []}

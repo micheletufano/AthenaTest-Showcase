@@ -1,0 +1,1 @@
+@Test public void testGetWeight() { XYPlot plot = new XYPlot(); assertEquals(1, plot.getWeight()); }

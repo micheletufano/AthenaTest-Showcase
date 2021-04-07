@@ -1,0 +1,1 @@
+@Test public void testGetPlotType() { CategoryPlot plot = new CategoryPlot(); assertNotNull(plot.getPlotType()); }

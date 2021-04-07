@@ -1,0 +1,1 @@
+@Test public void testSetGroupPaint() { MinMaxCategoryRenderer renderer = new MinMaxCategoryRenderer(); renderer.setGroupPaint(Color.RED); assertEquals(Color.RED, renderer.getGroupPaint()); }

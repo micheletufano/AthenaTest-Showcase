@@ -1,0 +1,1 @@
+@Test public void testSetSectionOutlinesVisible() { PiePlot plot = new PiePlot(); plot.setSectionOutlinesVisible(true); assertTrue(plot.getSectionOutlinesVisible()); plot.setSectionOutlinesVisible(false); assertFalse(plot.getSectionOutlinesVisible()); }

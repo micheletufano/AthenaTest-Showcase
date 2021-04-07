@@ -1,0 +1,1 @@
+@Test public void testRangePannable() { XYPlot plot = new XYPlot(); assertFalse(plot.isRangePannable()); plot.setRangePannable(true); assertTrue(plot.isRangePannable()); }

@@ -1,0 +1,1 @@
+GrayPaintScale implements PaintScale, PublicCloneable, Serializable { public Object clone() throws CloneNotSupportedException { return super.clone(); } GrayPaintScale(); GrayPaintScale(double lowerBound, double upperBound); double getLowerBound(); double getUpperBound(); Paint getPaint(double value); boolean equals(Object obj); Object clone(); }

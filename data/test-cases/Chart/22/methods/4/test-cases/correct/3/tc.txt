@@ -1,0 +1,1 @@
+@Test public void testGetRowIndex() { KeyedObjects2D o1 = new KeyedObjects2D(); assertEquals(-1, o1.getRowIndex("R1")); assertEquals(-1, o1.getRowIndex("R2")); assertEquals(-1, o1.getRowIndex("R3")); }

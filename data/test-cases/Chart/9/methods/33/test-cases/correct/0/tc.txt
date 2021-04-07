@@ -1,0 +1,1 @@
+@Test public void testClear() { TimeSeries s1 = new TimeSeries("S1"); s1.clear(); assertTrue(s1.getItems().isEmpty()); }

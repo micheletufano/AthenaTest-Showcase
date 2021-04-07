@@ -1,0 +1,1 @@
+@Test public void testGetRangeLowerBound() { DefaultBoxAndWhiskerCategoryDataset d1 = new DefaultBoxAndWhiskerCategoryDataset(); assertTrue(Double.isNaN(d1.getRangeLowerBound(false))); assertTrue(Double.isNaN(d1.getRangeLowerBound(true))); }

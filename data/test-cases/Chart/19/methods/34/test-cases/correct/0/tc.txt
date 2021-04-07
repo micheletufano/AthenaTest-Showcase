@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList2() { CategoryPlot p1 = new CategoryPlot(); p1.setRangeAxisLocation(0, AxisLocation.BOTTOM_OR_LEFT); CategoryPlot p2 = new CategoryPlot(); p2.setRangeAxisLocation(0, AxisLocation.BOTTOM_OR_LEFT); assertEquals(p1, p2); }

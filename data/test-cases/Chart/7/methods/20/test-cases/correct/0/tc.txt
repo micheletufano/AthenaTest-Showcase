@@ -1,0 +1,1 @@
+@Test public void testGetMaxMiddleIndex() { TimePeriodValues s1 = new TimePeriodValues("S1"); assertEquals(-1, s1.getMaxMiddleIndex()); TimePeriodValues s2 = new TimePeriodValues("S2"); assertEquals(-1, s2.getMaxMiddleIndex()); }

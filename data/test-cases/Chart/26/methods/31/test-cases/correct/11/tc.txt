@@ -1,0 +1,1 @@
+@Test public void testTickMarksVisible() { Axis axis = new CategoryAxis("Test"); axis.setTickMarksVisible(Axis.DEFAULT_TICK_MARKS_VISIBLE); assertEquals(Axis.DEFAULT_TICK_MARKS_VISIBLE, axis.isTickMarksVisible()); }

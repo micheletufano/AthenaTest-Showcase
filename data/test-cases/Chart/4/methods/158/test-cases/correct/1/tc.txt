@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList() { XYPlot p1 = new XYPlot(); p1.setDomainCrosshairValue(1.0, true); XYPlot p2 = new XYPlot(); p2.setDomainCrosshairValue(1.0, true); assertEquals(p1, p2); }

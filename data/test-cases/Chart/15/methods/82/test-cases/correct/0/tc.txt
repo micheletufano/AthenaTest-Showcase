@@ -1,0 +1,1 @@
+@Test public void testGetLegendLabelGenerator() { PiePlot plot = new PiePlot(); assertNotNull(plot.getLegendLabelGenerator()); }

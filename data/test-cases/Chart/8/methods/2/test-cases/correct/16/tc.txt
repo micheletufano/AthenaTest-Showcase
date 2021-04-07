@@ -1,0 +1,1 @@
+@Test public void testGetWeek() { Week w = new Week(4, 2000); assertEquals(4, w.getWeek()); }

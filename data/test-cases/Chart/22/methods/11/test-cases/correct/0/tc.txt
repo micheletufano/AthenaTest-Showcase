@@ -1,0 +1,1 @@
+@Test public void testSetObject() { KeyedObjects2D ko1 = new KeyedObjects2D(); ko1.setObject("A", "R1", "C1"); ko1.setObject("B", "R1", "C2"); assertEquals("A", ko1.getObject("R1", "C1")); assertEquals("B", ko1.getObject("R1", "C2")); }

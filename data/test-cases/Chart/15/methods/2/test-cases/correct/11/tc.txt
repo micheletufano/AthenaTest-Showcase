@@ -1,0 +1,1 @@
+@Test public void testConstructor() { PiePlot p1 = new PiePlot(); assertEquals(0, p1.getPieIndex()); }

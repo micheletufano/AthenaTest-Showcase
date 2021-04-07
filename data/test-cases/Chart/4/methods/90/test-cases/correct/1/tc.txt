@@ -1,0 +1,1 @@
+@Test public void testGetDomainZeroBaselineStroke() { XYPlot plot = new XYPlot(); assertNotNull(plot.getDomainZeroBaselineStroke()); }

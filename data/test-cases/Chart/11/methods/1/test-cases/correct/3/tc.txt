@@ -1,0 +1,1 @@
+@Test public void testEqualLine2D() { Line2D l1 = new Line2D.Double(); Line2D l2 = new Line2D.Double(); assertTrue(ShapeUtilities.equal(l1, l2)); }

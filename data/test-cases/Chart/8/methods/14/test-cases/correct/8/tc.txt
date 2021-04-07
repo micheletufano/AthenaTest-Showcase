@@ -1,0 +1,1 @@
+@Test public void testCompareTo() { Week w1 = new Week(1, 1950); Week w2 = new Week(1, 1950); assertTrue(w1.compareTo(w2) == 0); assertTrue(w2.compareTo(w1) == 0); }

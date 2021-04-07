@@ -1,0 +1,1 @@
+@Test public void testClearAnnotations() { XYPlot plot = new XYPlot(); assertTrue(plot.getAnnotations().isEmpty()); plot.clearAnnotations(); assertTrue(plot.getAnnotations().isEmpty()); }

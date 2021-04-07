@@ -1,0 +1,1 @@
+@Test public void testNullLabelLinkPaint() { PiePlot plot = new PiePlot(); try { plot.setLabelLinkPaint(null); fail("IllegalArgumentException should have been thrown on null input"); } catch (IllegalArgumentException e) { assertEquals("Null \'paint\' argument.", e.getMessage()); } }

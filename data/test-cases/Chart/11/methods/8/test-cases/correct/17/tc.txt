@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testCreateTranslatedShapeNullShape() { ShapeUtilities.createTranslatedShape(null, RectangleAnchor.BOTTOM_LEFT, 10, 10); }

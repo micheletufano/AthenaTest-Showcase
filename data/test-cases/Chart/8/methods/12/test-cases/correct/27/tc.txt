@@ -1,0 +1,1 @@
+@Test public void testEquals() { Week w1 = new Week(); Week w2 = new Week(); assertEquals(w1, w2); }

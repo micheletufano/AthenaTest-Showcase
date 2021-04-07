@@ -1,0 +1,1 @@
+@Test public void testRemove() { XYSeries s1 = new XYSeries("S1"); s1.add(1.0, 1.0); s1.add(2.0, 2.0); s1.add(3.0, 3.0); s1.add(4.0, 4.0); s1.add(5.0, 5.0); s1.add(6.0, 6.0); s1.add(7.0, 7.0); s1.add(8.0, 8.0); s1.add(9.0, 9.0); s1.add(10.0, 10.0); s1.add(11.0, 11.0); s1.remove(1.0); s1.remove(2.0); s1.remove(3.0); s1.remove(4.0); }

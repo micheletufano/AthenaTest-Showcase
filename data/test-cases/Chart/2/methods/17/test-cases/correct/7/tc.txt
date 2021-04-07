@@ -1,0 +1,1 @@
+@Test public void testFindDomainBounds3() { DefaultIntervalXYDataset dataset = new DefaultIntervalXYDataset(); Range r = DatasetUtilities.findDomainBounds(dataset, false); assertNull(r); }

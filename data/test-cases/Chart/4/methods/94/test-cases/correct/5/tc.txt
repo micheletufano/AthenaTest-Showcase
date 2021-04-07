@@ -1,0 +1,1 @@
+@Test public void testIsRangeZeroBaselineVisible() { XYPlot p1 = new XYPlot(); assertFalse(p1.isRangeZeroBaselineVisible()); p1.setRangeZeroBaselineVisible(true); assertTrue(p1.isRangeZeroBaselineVisible()); }

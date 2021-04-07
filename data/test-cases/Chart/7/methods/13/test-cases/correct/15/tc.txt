@@ -1,0 +1,1 @@
+@Test public void testEquals() { TimePeriodValues s1 = new TimePeriodValues("Series 1"); TimePeriodValues s2 = new TimePeriodValues("Series 1"); assertEquals(s1, s2); assertEquals(s2, s1); s1.add(new Year(1999), 1.0); assertFalse(s1.equals(s2)); s2.add(new Year(1999), 1.0); assertEquals(s1, s2); }

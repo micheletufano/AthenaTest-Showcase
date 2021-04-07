@@ -1,0 +1,1 @@
+{"identifier": "getLabelURL", "parameters": "()", "modifiers": "public", "return": "String", "body": "public String getLabelURL() {\n        return this.labelURL;\n    }", "class": "Axis", "signature": "String getLabelURL()", "full_signature": "public String getLabelURL()", "class_method_signature": "Axis.getLabelURL()", "testcase": false, "constructor": false, "invocations": []}

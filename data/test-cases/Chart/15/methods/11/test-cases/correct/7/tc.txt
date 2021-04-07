@@ -1,0 +1,1 @@
+@Test public void testSetCircular() { System.out.println("setCircular"); boolean flag = false; PiePlot instance = new PiePlot(); instance.setCircular(flag); }

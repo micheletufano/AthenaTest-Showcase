@@ -1,0 +1,1 @@
+{"identifier": "isVisible", "parameters": "()", "modifiers": "public", "return": "boolean", "body": "public boolean isVisible() {\n        return this.visible;\n    }", "class": "Axis", "signature": "boolean isVisible()", "full_signature": "public boolean isVisible()", "class_method_signature": "Axis.isVisible()", "testcase": false, "constructor": false, "invocations": []}

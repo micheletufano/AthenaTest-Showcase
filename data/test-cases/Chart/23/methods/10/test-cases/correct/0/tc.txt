@@ -1,0 +1,1 @@
+@Test public void testGetMinIcon() { MinMaxCategoryRenderer r = new MinMaxCategoryRenderer(); assertNotNull(r.getMinIcon()); }

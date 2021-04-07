@@ -1,0 +1,1 @@
+@Test public void testIgnoreNullValues() { PiePlot p1 = new PiePlot(); p1.setIgnoreNullValues(true); assertTrue(p1.getIgnoreNullValues()); p1.setIgnoreNullValues(false); assertFalse(p1.getIgnoreNullValues()); }

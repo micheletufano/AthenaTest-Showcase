@@ -1,0 +1,1 @@
+@Test public void testSetInteriorGap() { PiePlot plot = new PiePlot(); try { plot.setInteriorGap(-1.0); fail("IllegalArgumentException should have been thrown on negative number"); } catch (IllegalArgumentException e) { } try { plot.setInteriorGap(1.0); fail("IllegalArgumentException should have been thrown on invalid number"); } catch (IllegalArgumentException e) { } }

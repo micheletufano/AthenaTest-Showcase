@@ -1,0 +1,1 @@
+@Test public void testSetDomainCrosshairLockedOnData() { XYPlot plot1 = new XYPlot(); plot1.setDomainCrosshairLockedOnData(true); XYPlot plot2 = new XYPlot(); plot2.setDomainCrosshairLockedOnData(false); assertNotSame(plot1, plot2); }

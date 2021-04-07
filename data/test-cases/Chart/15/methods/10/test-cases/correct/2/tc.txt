@@ -1,0 +1,1 @@
+@Test public void testIsCircular() { PiePlot p1 = new PiePlot(); p1.setCircular(true); assertTrue(p1.isCircular()); p1.setCircular(false, false); assertFalse(p1.isCircular()); }

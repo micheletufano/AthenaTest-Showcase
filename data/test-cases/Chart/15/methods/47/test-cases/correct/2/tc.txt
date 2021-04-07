@@ -1,0 +1,1 @@
+@Test public void testSetLabelLinksVisible() { PiePlot plot = new PiePlot(); plot.setLabelLinksVisible(true); assertTrue(plot.getLabelLinksVisible()); }

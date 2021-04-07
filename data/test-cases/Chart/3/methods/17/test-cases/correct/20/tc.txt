@@ -1,0 +1,1 @@
+@Test public void testGetTimePeriods() { TimeSeries s1 = new TimeSeries("S1"); assertTrue(s1.getTimePeriods().isEmpty()); s1.add(new Year(1999), 1.0); assertEquals(1, s1.getTimePeriods().size()); }

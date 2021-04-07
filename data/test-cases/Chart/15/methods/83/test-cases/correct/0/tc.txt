@@ -1,0 +1,1 @@
+@Test public void testSetLegendLabelGenerator() { PiePlot plot = new PiePlot(); try { plot.setLegendLabelGenerator(null); fail("IllegalArgumentException should have been thrown on null parameter"); } catch (IllegalArgumentException e) { } }

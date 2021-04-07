@@ -1,0 +1,1 @@
+@Test public void testErrorIndicatorStroke() { StatisticalBarRenderer r = new StatisticalBarRenderer(); assertNotNull(r.getErrorIndicatorStroke()); }

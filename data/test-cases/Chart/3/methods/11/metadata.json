@@ -1,0 +1,1 @@
+{"identifier": "getMaxY", "parameters": "()", "modifiers": "public", "return": "double", "body": "public double getMaxY() {\n        return this.maxY;\n    }", "class": "TimeSeries", "signature": "double getMaxY()", "full_signature": "public double getMaxY()", "class_method_signature": "TimeSeries.getMaxY()", "testcase": false, "constructor": false, "invocations": []}

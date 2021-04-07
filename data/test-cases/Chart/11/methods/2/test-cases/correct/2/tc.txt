@@ -1,0 +1,1 @@
+@Test public void testEqualEllipse2D() { Ellipse2D e1 = new Ellipse2D.Double(1.0, 1.0, 1.0, 1.0); Ellipse2D e2 = new Ellipse2D.Double(1.0, 1.0, 1.0, 1.0); assertTrue(ShapeUtilities.equal(e1, e2)); }

@@ -1,0 +1,1 @@
+@Test public void testEquals_ObjectList2() { CategoryPlot p1 = new CategoryPlot(); p1.setDrawSharedDomainAxis(true); CategoryPlot p2 = new CategoryPlot(); p2.setDrawSharedDomainAxis(true); assertEquals(p1, p2); }

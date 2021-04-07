@@ -1,0 +1,1 @@
+@Test public void testGetRenderer() { XYPlot plot = new XYPlot(); XYItemRenderer renderer = new StandardXYItemRenderer(); plot.setRenderer(renderer); assertEquals(renderer, plot.getRenderer()); }

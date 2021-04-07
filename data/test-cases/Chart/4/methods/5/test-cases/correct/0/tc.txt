@@ -1,0 +1,1 @@
+@Test public void testGetDomainAxis() { XYPlot plot = new XYPlot(); assertNull(plot.getDomainAxis()); }

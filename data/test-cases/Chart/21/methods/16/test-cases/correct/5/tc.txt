@@ -1,0 +1,1 @@
+@Test public void testGetRowIndex() { DefaultBoxAndWhiskerCategoryDataset d = new DefaultBoxAndWhiskerCategoryDataset(); assertEquals(-1, d.getRowIndex("R1")); }

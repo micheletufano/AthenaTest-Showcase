@@ -1,0 +1,1 @@
+@Test public void testEquals() { KeyedObjects2D ko1 = new KeyedObjects2D(); KeyedObjects2D ko2 = new KeyedObjects2D(); assertEquals(ko1, ko2); }

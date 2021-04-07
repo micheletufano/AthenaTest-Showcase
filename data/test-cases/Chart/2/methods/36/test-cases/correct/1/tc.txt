@@ -1,0 +1,1 @@
+@Test public void testFindMinimumDomainValue3() { DefaultIntervalXYDataset dataset = new DefaultIntervalXYDataset(); Number min = DatasetUtilities.findMinimumDomainValue(dataset); assertNull(min); }

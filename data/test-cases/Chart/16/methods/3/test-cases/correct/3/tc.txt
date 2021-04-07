@@ -1,0 +1,1 @@
+@Test public void testSetSeriesKeys() { DefaultIntervalCategoryDataset empty = new DefaultIntervalCategoryDataset(new double[0][0], new double[0][0]); try { empty.setSeriesKeys(null); fail("IllegalArgumentException should have been thrown on null key"); } catch (IllegalArgumentException e) { assertEquals("Null 'seriesKeys\' argument.", e.getMessage()); } }

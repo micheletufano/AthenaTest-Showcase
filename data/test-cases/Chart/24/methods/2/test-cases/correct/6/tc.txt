@@ -1,0 +1,1 @@
+@Test public void testGetPaint() { GrayPaintScale g1 = new GrayPaintScale(); GrayPaintScale g2 = new GrayPaintScale(); assertEquals(g1.getPaint(0.0), g2.getPaint(0.0)); assertEquals(g1.getPaint(1.0), g2.getPaint(1.0)); assertEquals(g1.getPaint(2.0), g2.getPaint(2.0)); }

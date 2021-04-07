@@ -1,0 +1,1 @@
+@Test public void testGetColumnCount() { DefaultBoxAndWhiskerCategoryDataset d = new DefaultBoxAndWhiskerCategoryDataset(); assertEquals(0, d.getColumnCount()); }

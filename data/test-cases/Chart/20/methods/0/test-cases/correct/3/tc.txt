@@ -1,0 +1,1 @@
+@Test public void testGetValue() { System.out.println("getValue"); ValueMarker instance = new ValueMarker(100); double expResult = 100.0; double result = instance.getValue(); assertEquals(expResult, result, 0.0); }

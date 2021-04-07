@@ -1,0 +1,1 @@
+{"identifier": "getLabel", "parameters": "()", "modifiers": "public", "return": "String", "body": "public String getLabel() {\n        return this.label;\n    }", "class": "Axis", "signature": "String getLabel()", "full_signature": "public String getLabel()", "class_method_signature": "Axis.getLabel()", "testcase": false, "constructor": false, "invocations": []}

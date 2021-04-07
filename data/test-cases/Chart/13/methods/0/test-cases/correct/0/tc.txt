@@ -1,0 +1,1 @@
+@Test public void testAdd() { System.out.println("add"); Object key = null; BorderArrangement instance = new BorderArrangement(); instance.add(null, key); }
