@@ -1,0 +1,1 @@
+@Test public void testGetAutoFlush() { final boolean expected = false; final boolean actual = CSVFormat.DEFAULT.getAutoFlush(); assertEquals(expected, actual); }

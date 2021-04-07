@@ -1,0 +1,1 @@
+@Test public void testGetDelimiter() throws Exception { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); assertEquals(delimiter, CSVFormat.DEFAULT.getDelimiter()); }

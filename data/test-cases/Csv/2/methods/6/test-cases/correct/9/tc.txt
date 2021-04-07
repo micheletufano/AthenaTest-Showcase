@@ -1,0 +1,1 @@
+@Test public void testGetComment() { final String[] values = new String[]{"a", "b", "c"}; final Map<String, Integer> mapping = new HashMap<String, Integer>(); final CSVRecord record = new CSVRecord(values, mapping, "comment", 0); assertEquals("comment", record.getComment()); }

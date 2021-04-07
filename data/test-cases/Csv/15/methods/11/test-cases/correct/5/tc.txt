@@ -1,0 +1,1 @@
+@Test public void testGetIgnoreHeaderCase() { final boolean expected = CSVFormat.DEFAULT.getIgnoreHeaderCase(); assertEquals(expected, CSVFormat.DEFAULT.getIgnoreHeaderCase()); }

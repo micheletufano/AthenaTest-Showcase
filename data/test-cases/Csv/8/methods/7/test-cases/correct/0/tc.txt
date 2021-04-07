@@ -1,0 +1,1 @@
+@Test public void testGetIgnoreEmptyLines() { assertFalse(CSVFormat.RFC4180.getIgnoreEmptyLines()); assertTrue(CSVFormat.RFC4180.withIgnoreEmptyLines(true).getIgnoreEmptyLines()); assertFalse(CSVFormat.RFC4180.withIgnoreEmptyLines(false).getIgnoreEmptyLines()); }

@@ -1,0 +1,1 @@
+@Test public void testGetAutoFlush() { assertFalse(CSVFormat.DEFAULT.getAutoFlush()); assertFalse(CSVFormat.INFORMIX_UNLOAD_CSV.getAutoFlush()); assertTrue(CSVFormat.INFORMIX_UNLOAD_CSV.withAutoFlush(true).getAutoFlush()); }

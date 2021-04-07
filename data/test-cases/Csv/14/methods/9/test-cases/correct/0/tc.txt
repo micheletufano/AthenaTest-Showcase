@@ -1,0 +1,1 @@
+@Test public void testGetHeaderComments() { String[] headerComments = CSVFormat.DEFAULT.getHeaderComments(); assertNull(headerComments); headerComments = CSVFormat.INFORMIX_UNLOAD.getHeaderComments(); assertNull(headerComments); }

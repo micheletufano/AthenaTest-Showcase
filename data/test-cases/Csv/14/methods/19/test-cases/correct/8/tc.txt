@@ -1,0 +1,1 @@
+@Test public void testDefaultGetTrim() { final CSVFormat format = CSVFormat.DEFAULT; assertFalse(format.getTrim()); }

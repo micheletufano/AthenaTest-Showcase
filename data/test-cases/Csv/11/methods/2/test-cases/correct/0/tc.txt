@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void parse_url_null_charset() throws IOException { CSVParser.parse((URL) null, Charset.defaultCharset(), CSVFormat.DEFAULT); }

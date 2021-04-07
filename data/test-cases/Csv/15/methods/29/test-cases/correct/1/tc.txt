@@ -1,0 +1,1 @@
+@Test public void testPrintAppendable() throws Exception { final StringBuilder sb = new StringBuilder(); CSVFormat.DEFAULT.print(sb); assertEquals("", sb.toString()); }

@@ -1,0 +1,1 @@
+@Test public void testWithHeader() { final String[] header = new String[]{"a", "b", "c"}; final CSVFormat format = CSVFormat.RFC4180.withHeader(header); assertEquals(header, format.getHeader()); }

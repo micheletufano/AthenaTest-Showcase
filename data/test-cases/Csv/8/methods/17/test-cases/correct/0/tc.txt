@@ -1,0 +1,1 @@
+@Test public void testIsNullHandling() { assertFalse(CSVFormat.DEFAULT.isNullHandling()); assertFalse(CSVFormat.RFC4180.isNullHandling()); assertFalse(CSVFormat.EXCEL.isNullHandling()); assertFalse(CSVFormat.TDF.isNullHandling()); assertFalse(CSVFormat.MYSQL.isNullHandling()); }

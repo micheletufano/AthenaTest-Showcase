@@ -1,0 +1,1 @@
+@Test public void testGetIgnoreSurroundingSpaces() throws Exception { assertFalse(CSVFormat.DEFAULT.getIgnoreSurroundingSpaces()); assertFalse(CSVFormat.INFORMIX_UNLOAD.getIgnoreSurroundingSpaces()); }

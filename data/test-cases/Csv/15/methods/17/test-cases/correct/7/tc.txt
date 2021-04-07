@@ -1,0 +1,1 @@
+@Test public void testGetSkipHeaderRecord() { final boolean expected = CSVFormat.DEFAULT.getSkipHeaderRecord(); assertEquals(expected, CSVFormat.DEFAULT.getSkipHeaderRecord()); }

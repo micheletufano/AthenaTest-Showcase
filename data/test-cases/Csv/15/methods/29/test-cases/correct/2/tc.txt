@@ -1,0 +1,1 @@
+@Test public void testPrint() throws Exception { final StringBuilder builder = new StringBuilder(); CSVFormat.DEFAULT.print(builder); assertEquals("", builder.toString()); }

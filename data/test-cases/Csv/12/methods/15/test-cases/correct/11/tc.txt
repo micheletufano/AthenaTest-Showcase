@@ -1,0 +1,1 @@
+@Test public void testHashCode() throws Exception { assertEquals(CSVFormat.RFC4180.hashCode(), CSVFormat.RFC4180.hashCode()); }

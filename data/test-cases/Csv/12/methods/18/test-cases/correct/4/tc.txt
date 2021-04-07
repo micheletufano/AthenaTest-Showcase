@@ -1,0 +1,1 @@
+@Test public void testIsNullStringSet() { final boolean result = CSVFormat.RFC4180.isNullStringSet(); assertFalse(result); }

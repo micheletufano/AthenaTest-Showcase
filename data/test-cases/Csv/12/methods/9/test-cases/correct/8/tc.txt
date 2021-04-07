@@ -1,0 +1,1 @@
+@Test public void testGetIgnoreSurroundingSpaces() { final boolean result = CSVFormat.RFC4180.getIgnoreSurroundingSpaces(); assertFalse(result); }

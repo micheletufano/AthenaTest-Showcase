@@ -1,0 +1,1 @@
+@Test public void testGetSkipHeaderRecord() { assertFalse(CSVFormat.RFC4180.getSkipHeaderRecord()); assertFalse(CSVFormat.EXCEL.getSkipHeaderRecord()); assertFalse(CSVFormat.TDF.getSkipHeaderRecord()); assertFalse(CSVFormat.MYSQL.getSkipHeaderRecord()); }

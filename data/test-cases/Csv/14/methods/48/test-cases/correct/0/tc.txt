@@ -1,0 +1,1 @@
+@Test public void testWithIgnoreHeaderCase() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean ignoreHeaderCase = false; final CSVFormat format = CSVFormat.DEFAULT.withIgnoreHeaderCase(ignoreHeaderCase); assertEquals(delimiter, format.getDelimiter()); assertEquals(ignoreHeaderCase, format.getIgnoreHeaderCase()); }

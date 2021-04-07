@@ -1,0 +1,1 @@
+@Test public void testIsNullStringSet() throws Exception { assertFalse(CSVFormat.DEFAULT.isNullStringSet()); assertFalse(CSVFormat.INFORMIX_UNLOAD.isNullStringSet()); }

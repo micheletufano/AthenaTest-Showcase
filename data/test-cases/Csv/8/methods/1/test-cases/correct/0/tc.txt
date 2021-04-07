@@ -1,0 +1,1 @@
+@Test public void testEquals() { final CSVFormat csvFormat1 = CSVFormat.RFC4180; final CSVFormat csvFormat2 = CSVFormat.RFC4180; assertEquals(csvFormat1, csvFormat2); assertEquals(csvFormat1.hashCode(), csvFormat2.hashCode()); }

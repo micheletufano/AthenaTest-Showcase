@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMappingNotFound() { final String[] values = new String[]{"one", "two", "three", "four"}; final Map<String, Integer> mapping = new HashMap<String, Integer>(); final CSVRecord record = new CSVRecord(values, mapping, "comment", 1); record.get("header"); }

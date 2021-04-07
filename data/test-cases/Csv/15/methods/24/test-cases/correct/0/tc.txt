@@ -1,0 +1,1 @@
+@Test public void testIsNullStringSet() { final boolean isNullStringSet = CSVFormat.DEFAULT.isNullStringSet(); assertFalse(isNullStringSet); final boolean isNullStringSet2 = CSVFormat.INFORMIX_UNLOAD.isNullStringSet(); assertFalse(isNullStringSet2); }

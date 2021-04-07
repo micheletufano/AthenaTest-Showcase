@@ -1,0 +1,1 @@
+@Test public void testGetAutoFlush() throws Exception { assertFalse(CSVFormat.DEFAULT.getAutoFlush()); assertFalse(CSVFormat.INFORMIX_UNLOAD.getAutoFlush()); assertFalse(CSVFormat.MYSQL.getAutoFlush()); }

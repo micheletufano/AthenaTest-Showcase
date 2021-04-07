@@ -1,0 +1,1 @@
+@Test public void testWithSkipHeaderRecord() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean skipHeaderRecord = false; final CSVFormat format = CSVFormat.DEFAULT.withSkipHeaderRecord(skipHeaderRecord); assertEquals(delimiter, format.getDelimiter()); assertEquals(skipHeaderRecord, format.getSkipHeaderRecord()); }

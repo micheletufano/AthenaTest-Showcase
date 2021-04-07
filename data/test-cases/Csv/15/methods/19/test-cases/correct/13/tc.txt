@@ -1,0 +1,1 @@
+@Test public void testGetTrim() throws Exception { final boolean result = CSVFormat.DEFAULT.getTrim(); assertEquals(false, result); }

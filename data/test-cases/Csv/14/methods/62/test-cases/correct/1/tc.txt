@@ -1,0 +1,1 @@
+@Test public void testWithTrim() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean trim = false; final CSVFormat csvFormat = CSVFormat.DEFAULT.withTrim(trim); assertEquals(delimiter, csvFormat.getDelimiter()); assertEquals(trim, csvFormat.getTrim()); }

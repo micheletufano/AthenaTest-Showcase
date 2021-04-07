@@ -1,0 +1,1 @@
+@Test public void testGetIgnoreSurroundingSpaces() throws Exception { final boolean expResult = false; final boolean result = CSVFormat.DEFAULT.getIgnoreSurroundingSpaces(); assertEquals(expResult, result); }

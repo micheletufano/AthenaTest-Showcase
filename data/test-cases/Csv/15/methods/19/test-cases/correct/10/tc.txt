@@ -1,0 +1,1 @@
+@Test public void testGetTrim() throws Exception { final boolean expected = CSVFormat.DEFAULT.getTrim(); final boolean actual = CSVFormat.DEFAULT.getTrim(); assertEquals(expected, actual); }

@@ -1,0 +1,1 @@
+@Test public void testWithAllowMissingColumnNames() { final CSVFormat newFormat = CSVFormat.RFC4180.withAllowMissingColumnNames(true); assertEquals(newFormat, CSVFormat.RFC4180); }

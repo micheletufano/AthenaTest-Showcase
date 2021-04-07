@@ -1,0 +1,1 @@
+@Test public void testWithRecordSeparator() { final StringBuilder builder = new StringBuilder(); }

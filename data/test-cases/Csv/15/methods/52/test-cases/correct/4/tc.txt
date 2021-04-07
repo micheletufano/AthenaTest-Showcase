@@ -1,0 +1,1 @@
+@Test public void testWithIgnoreSurroundingSpaces() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean ignoreSurroundingSpaces = true; final CSVFormat newFormat = CSVFormat.DEFAULT.withIgnoreSurroundingSpaces(); assertEquals(delimiter, newFormat.getDelimiter()); assertEquals(ignoreSurroundingSpaces, newFormat.getIgnoreSurroundingSpaces()); }

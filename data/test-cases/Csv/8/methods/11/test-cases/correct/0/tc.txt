@@ -1,0 +1,1 @@
+@Test public void testGetQuotePolicy() { final Quote quotePolicy = CSVFormat.RFC4180.getQuotePolicy(); assertEquals(quotePolicy, CSVFormat.RFC4180.getQuotePolicy()); }

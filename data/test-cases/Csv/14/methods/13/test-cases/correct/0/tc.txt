@@ -1,0 +1,1 @@
+@Test public void testGetNullString() { assertEquals(CSVFormat.DEFAULT.getNullString(), null); assertEquals(CSVFormat.INFORMIX_UNLOAD.getNullString(), null); assertEquals(CSVFormat.RFC4180.getNullString(), null); }

@@ -1,0 +1,1 @@
+@Test public void testIsEscapingDefault() { assertFalse(CSVFormat.DEFAULT.isEscaping()); }

@@ -1,0 +1,1 @@
+@Test public void testWithFirstRecordAsHeader() throws Exception { final CSVFormat format = CSVFormat.DEFAULT.withFirstRecordAsHeader(); final StringBuilder sb = new StringBuilder(); format.print(sb); assertEquals("", sb.toString()); }

@@ -1,0 +1,1 @@
+@Test public void testGet() { String[] values = new String[]{"a", "b", "c"}; Map<String, Integer> mapping = new HashMap<String, Integer>(); CSVRecord record = new CSVRecord(values, mapping, null, 0); assertEquals("a", record.get(0)); assertEquals("b", record.get(1)); assertEquals("c", record.get(2)); }

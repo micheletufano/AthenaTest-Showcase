@@ -1,0 +1,1 @@
+@Test public void testIsCommentMarkerSet() { final boolean result = CSVFormat.RFC4180.isCommentMarkerSet(); assertFalse(result); }

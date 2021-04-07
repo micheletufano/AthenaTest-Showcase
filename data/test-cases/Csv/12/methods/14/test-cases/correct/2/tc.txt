@@ -1,0 +1,1 @@
+@Test public void testGetSkipHeaderRecord() { final boolean expected = false; final boolean actual = CSVFormat.RFC4180.getSkipHeaderRecord(); assertEquals(expected, actual); }

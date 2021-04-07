@@ -1,0 +1,1 @@
+@Test public void testIsQuoteCharacterSet() { final boolean quoteCharSet = CSVFormat.RFC4180.isQuoteCharacterSet(); assertTrue(quoteCharSet); }

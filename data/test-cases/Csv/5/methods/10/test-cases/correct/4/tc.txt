@@ -1,0 +1,1 @@
+@Test public void testGetOut() { final StringWriter out = new StringWriter(); final CSVPrinter printer = new CSVPrinter(out, CSVFormat.DEFAULT); assertEquals(out, printer.getOut()); }

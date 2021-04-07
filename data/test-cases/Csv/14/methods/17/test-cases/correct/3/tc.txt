@@ -1,0 +1,1 @@
+@Test public void testGetSkipHeaderRecord() { assertFalse(CSVFormat.DEFAULT.getSkipHeaderRecord()); assertFalse(CSVFormat.RFC4180.getSkipHeaderRecord()); }

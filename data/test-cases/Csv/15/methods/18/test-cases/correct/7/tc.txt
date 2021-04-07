@@ -1,0 +1,1 @@
+@Test public void testGetTrailingDelimiter() { final boolean expResult = false; final boolean result = CSVFormat.DEFAULT.getTrailingDelimiter(); assertEquals(expResult, result); }

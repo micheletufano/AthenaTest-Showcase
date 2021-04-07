@@ -1,0 +1,1 @@
+@Test public void testWithTrailingDelimiter() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean trailingDelimiter = false; final CSVFormat newFormat = CSVFormat.DEFAULT.withTrailingDelimiter(trailingDelimiter); assertEquals(delimiter, newFormat.getDelimiter()); assertEquals(trailingDelimiter, newFormat.getTrailingDelimiter()); }

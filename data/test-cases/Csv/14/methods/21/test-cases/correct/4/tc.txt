@@ -1,0 +1,1 @@
+@Test public void testIsCommentMarkerSet() { assertFalse(CSVFormat.DEFAULT.isCommentMarkerSet()); assertFalse(CSVFormat.INFORMIX_UNLOAD.isCommentMarkerSet()); assertFalse(CSVFormat.RFC4180.isCommentMarkerSet()); }

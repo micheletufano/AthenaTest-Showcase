@@ -1,0 +1,1 @@
+@Test public void newFormatTest() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final CSVFormat format = CSVFormat.newFormat(delimiter); assertNotNull(format); }

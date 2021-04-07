@@ -1,0 +1,1 @@
+@Test public void testGetSkipHeaderRecord() { final boolean skipHeaderRecord = CSVFormat.RFC4180.getSkipHeaderRecord(); assertFalse(skipHeaderRecord); }

@@ -1,0 +1,1 @@
+@Test public void testWithHeader() throws Exception { final String[] header = new String[]{"a", "b", "c"}; final CSVFormat format = CSVFormat.DEFAULT.withHeader(header); assertEquals(header, format.getHeader()); }

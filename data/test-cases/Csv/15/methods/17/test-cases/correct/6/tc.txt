@@ -1,0 +1,1 @@
+@Test public void testGetSkipHeaderRecord() throws Exception { final boolean expected = false; final boolean actual = CSVFormat.INFORMIX_UNLOAD.getSkipHeaderRecord(); assertEquals(expected, actual); }

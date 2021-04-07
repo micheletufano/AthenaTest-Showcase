@@ -1,0 +1,1 @@
+{"identifier": "getOut", "parameters": "()", "modifiers": "public", "return": "Appendable", "body": "public Appendable getOut() {\n        return this.out;\n    }", "class": "CSVPrinter", "signature": "Appendable getOut()", "full_signature": "public Appendable getOut()", "class_method_signature": "CSVPrinter.getOut()", "testcase": false, "constructor": false, "invocations": []}

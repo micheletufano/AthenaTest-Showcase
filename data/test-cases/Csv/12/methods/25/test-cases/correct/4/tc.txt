@@ -1,0 +1,1 @@
+@Test public void testWithDelimiter() throws Exception { final char delimiter = CSVFormat.RFC4180.getDelimiter(); final CSVFormat newFormat = CSVFormat.RFC4180.withDelimiter(delimiter); assertEquals(delimiter, newFormat.getDelimiter()); }

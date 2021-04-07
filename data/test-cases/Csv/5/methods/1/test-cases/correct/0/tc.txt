@@ -1,0 +1,1 @@
+@Test public void testFlush() throws IOException { final StringWriter out = new StringWriter(); final CSVPrinter printer = new CSVPrinter(out, CSVFormat.DEFAULT); printer.flush(); assertEquals("", out.toString()); }

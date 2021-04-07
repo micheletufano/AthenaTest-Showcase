@@ -1,0 +1,1 @@
+@Test public void testToString() { final String[] values = new String[]{"one", "two", "three"}; final Map<String, Integer> mappings = new HashMap<String, Integer>(); mappings.put("one", 1); mappings.put("two", 2); mappings.put("three", 3); final CSVRecord record = new CSVRecord(values, mappings, null, 0); assertEquals("[one, two, three]", record.toString()); }

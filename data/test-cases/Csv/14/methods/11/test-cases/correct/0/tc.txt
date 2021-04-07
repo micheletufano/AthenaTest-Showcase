@@ -1,0 +1,1 @@
+@Test public void testGetIgnoreHeaderCase() { assertFalse(CSVFormat.DEFAULT.getIgnoreHeaderCase()); assertFalse(CSVFormat.INFORMIX_UNLOAD.getIgnoreHeaderCase()); assertFalse(CSVFormat.RFC4180.getIgnoreHeaderCase()); }

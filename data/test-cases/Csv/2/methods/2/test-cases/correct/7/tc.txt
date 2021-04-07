@@ -1,0 +1,1 @@
+@Test public void testIsConsistentWithMapping() { final String[] values = new String[]{"a", "b", "c"}; final Map<String, Integer> mapping = new HashMap<String, Integer>(); mapping.put("a", 1); mapping.put("b", 2); mapping.put("c", 3); final CSVRecord record = new CSVRecord(values, mapping, "comment", 1); assertTrue(record.isConsistent()); }

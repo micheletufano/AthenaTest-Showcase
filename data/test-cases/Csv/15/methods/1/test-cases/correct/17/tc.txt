@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testInvalidFormat4() { CSVFormat.valueOf("invalid"); }

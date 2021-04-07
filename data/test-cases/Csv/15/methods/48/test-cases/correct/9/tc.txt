@@ -1,0 +1,1 @@
+@Test public void testWithIgnoreEmptyLines() { final CSVFormat format = CSVFormat.DEFAULT.withIgnoreEmptyLines(); assertTrue(format.getIgnoreEmptyLines()); }

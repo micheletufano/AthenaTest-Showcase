@@ -1,0 +1,1 @@
+@Test public void testClose() throws Exception { final StringWriter out = new StringWriter(); final CSVPrinter printer = new CSVPrinter(out, CSVFormat.DEFAULT); printer.close(); assertEquals("", out.toString()); }

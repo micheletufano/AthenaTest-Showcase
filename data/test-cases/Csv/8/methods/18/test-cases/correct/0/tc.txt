@@ -1,0 +1,1 @@
+@Test public void testIsQuoting() { final boolean quoting = CSVFormat.RFC4180.isQuoting(); assertTrue(quoting); }

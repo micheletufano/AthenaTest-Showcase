@@ -1,0 +1,1 @@
+@Test public void testIsConsistent() { final String[] values = new String[]{"one", "two", "three"}; final Map<String, Integer> mapping = new HashMap<String, Integer>(); mapping.put("one", 1); mapping.put("two", 2); mapping.put("three", 3); final CSVRecord csvRecord = new CSVRecord(values, mapping, null, 0); assertTrue(csvRecord.isConsistent()); }

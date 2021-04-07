@@ -1,0 +1,1 @@
+@Test public void testWithAllowMissingColumnNames() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean allowMissingColumnNames = true; final CSVFormat format = CSVFormat.DEFAULT.withAllowMissingColumnNames(); assertEquals(delimiter, format.getDelimiter()); assertEquals(allowMissingColumnNames, format.getAllowMissingColumnNames()); }

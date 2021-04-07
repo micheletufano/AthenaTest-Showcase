@@ -1,0 +1,1 @@
+@Test public void testDefaultConstructorIgnoreEmptyLines() { assertTrue(CSVFormat.DEFAULT.getIgnoreEmptyLines()); }

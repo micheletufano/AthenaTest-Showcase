@@ -1,0 +1,1 @@
+@Test public void testIsEscapeCharacterSet() throws Exception { assertFalse(CSVFormat.DEFAULT.isEscapeCharacterSet()); assertTrue(CSVFormat.INFORMIX_UNLOAD.isEscapeCharacterSet()); }

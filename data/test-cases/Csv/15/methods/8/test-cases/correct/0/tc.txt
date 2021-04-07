@@ -1,0 +1,1 @@
+@Test public void testGetHeader() { String[] header = CSVFormat.DEFAULT.getHeader(); assertNull(header); header = CSVFormat.INFORMIX_UNLOAD.getHeader(); assertNull(header); }

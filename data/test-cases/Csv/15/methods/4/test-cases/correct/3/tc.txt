@@ -1,0 +1,1 @@
+@Test public void testGetAllowMissingColumnNames() { assertFalse(CSVFormat.DEFAULT.getAllowMissingColumnNames()); assertFalse(CSVFormat.INFORMIX_UNLOAD.getAllowMissingColumnNames()); assertFalse(CSVFormat.MYSQL.getAllowMissingColumnNames()); }

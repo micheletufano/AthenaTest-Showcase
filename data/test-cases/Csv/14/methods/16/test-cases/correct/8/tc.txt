@@ -1,0 +1,1 @@
+@Test public void testGetRecordSeparator() { assertEquals(CSVFormat.DEFAULT.getRecordSeparator(), CSVFormat.DEFAULT.getRecordSeparator()); assertEquals(CSVFormat.INFORMIX_UNLOAD_CSV.getRecordSeparator(), CSVFormat.INFORMIX_UNLOAD_CSV.getRecordSeparator()); assertEquals(CSVFormat.RFC4180.getRecordSeparator(), CSVFormat.RFC4180.getRecordSeparator()); }

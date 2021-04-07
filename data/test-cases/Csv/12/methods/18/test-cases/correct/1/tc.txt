@@ -1,0 +1,1 @@
+@Test public void testIsNullStringSet() { assertFalse(CSVFormat.DEFAULT.isNullStringSet()); assertFalse(CSVFormat.RFC4180.isNullStringSet()); assertFalse(CSVFormat.EXCEL.isNullStringSet()); assertFalse(CSVFormat.TDF.isNullStringSet()); assertFalse(CSVFormat.MYSQL.isNullStringSet()); }

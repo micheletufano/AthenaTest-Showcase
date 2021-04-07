@@ -1,0 +1,1 @@
+@Test public void testWithIgnoreEmptyLines() { final char delimiter = CSVFormat.DEFAULT.getDelimiter(); final boolean ignoreEmptyLines = true; final CSVFormat format = CSVFormat.DEFAULT.withIgnoreEmptyLines(ignoreEmptyLines); assertEquals(delimiter, format.getDelimiter()); assertEquals(ignoreEmptyLines, format.getIgnoreEmptyLines()); }

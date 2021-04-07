@@ -1,0 +1,1 @@
+{"identifier": "getComment", "parameters": "()", "modifiers": "public", "return": "String", "body": "public String getComment() {\n        return comment;\n    }", "class": "CSVRecord", "signature": "String getComment()", "full_signature": "public String getComment()", "class_method_signature": "CSVRecord.getComment()", "testcase": false, "constructor": false, "invocations": []}

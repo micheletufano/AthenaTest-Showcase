@@ -1,0 +1,1 @@
+{"identifier": "getTrim", "parameters": "()", "modifiers": "public", "return": "boolean", "body": "public boolean getTrim() {\n        return trim;\n    }", "class": "CSVFormat", "signature": "boolean getTrim()", "full_signature": "public boolean getTrim()", "class_method_signature": "CSVFormat.getTrim()", "testcase": false, "constructor": false, "invocations": []}
