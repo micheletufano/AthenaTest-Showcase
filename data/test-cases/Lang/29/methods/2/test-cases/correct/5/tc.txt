@@ -1,0 +1,1 @@
+@Test public void testGetUserDir() throws Exception { assertNotNull(SystemUtils.getUserDir()); }

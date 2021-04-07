@@ -1,0 +1,1 @@
+@Test public void testDefaultIfEmpty() throws Exception { System.out.println("defaultIfEmpty"); String str = ""; String defaultStr = ""; String expResult = ""; String result = StringUtils.defaultIfEmpty(str, defaultStr); assertEquals(expResult, result); }

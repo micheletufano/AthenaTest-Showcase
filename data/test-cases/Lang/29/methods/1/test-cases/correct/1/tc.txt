@@ -1,0 +1,1 @@
+@Test public void testGetJavaIoTmpDir() { assertNotNull(SystemUtils.getJavaIoTmpDir()); assertTrue(SystemUtils.getJavaIoTmpDir().exists()); }

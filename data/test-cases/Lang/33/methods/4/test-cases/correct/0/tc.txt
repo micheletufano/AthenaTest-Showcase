@@ -1,0 +1,1 @@
+@Test public void testGetPackageNameFromClass() { assertEquals("java.lang", ClassUtils.getPackageName(Object.class)); }

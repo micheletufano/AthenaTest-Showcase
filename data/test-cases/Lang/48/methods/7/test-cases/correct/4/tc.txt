@@ -1,0 +1,1 @@
+@Test public void testAppendLongArray() { long[] lhs = new long[]{1L, 2L, 3L}; long[] rhs = new long[]{1L, 2L, 3L}; EqualsBuilder builder = new EqualsBuilder(); builder.append(lhs, rhs); assertTrue(builder.isEquals()); assertArrayEquals(lhs, rhs); }

@@ -1,0 +1,1 @@
+@Test public void testJavaScriptEscape() throws Exception { assertEquals("", StringEscapeUtils.escapeJavaScript("")); }

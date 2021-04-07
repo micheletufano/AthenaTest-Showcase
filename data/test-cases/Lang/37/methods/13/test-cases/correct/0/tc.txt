@@ -1,0 +1,1 @@
+@Test public void subarrayLongArray() { long[] array = new long[] {1, 2, 3}; long[] subarray = ArrayUtils.subarray(array, 0, array.length); assertArrayEquals(new long[] {1, 2, 3}, subarray); }

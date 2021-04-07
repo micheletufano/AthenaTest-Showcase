@@ -1,0 +1,1 @@
+@Test public void testAppendCharArray() throws Exception { assertTrue(new EqualsBuilder().append(char[].class, char[].class).isEquals()); }

@@ -1,0 +1,1 @@
+@Test(expected = ArithmeticException.class) public void testDivideByZero() { Fraction f1 = Fraction.ONE; Fraction f2 = Fraction.ZERO; f1.divideBy(f2); }

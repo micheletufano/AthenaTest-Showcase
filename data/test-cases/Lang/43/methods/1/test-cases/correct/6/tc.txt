@@ -1,0 +1,1 @@
+@Test public void testApplyPattern3() { ExtendedMessageFormat f = new ExtendedMessageFormat("%m %s %s %s", Locale.US, null); f.applyPattern("%m %s %s %s"); assertEquals("%m %s %s %s", f.toPattern()); }

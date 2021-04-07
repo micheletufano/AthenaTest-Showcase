@@ -1,0 +1,1 @@
+@Test public void testAppend() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append(new int[]{1, 2, 3, 4}); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

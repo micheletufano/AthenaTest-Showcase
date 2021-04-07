@@ -1,0 +1,1 @@
+@Test public void testAppendSuper(){ HashCodeBuilder hcb = new HashCodeBuilder(); hcb.appendSuper(1); assertEquals(hcb.hashCode(), hcb.toHashCode()); }

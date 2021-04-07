@@ -1,0 +1,1 @@
+@Test public void testAppendShortArray() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append(new short[]{1, 2}); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

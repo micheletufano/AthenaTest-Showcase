@@ -1,0 +1,1 @@
+@Test public void testToStringOnOff() { System.out.println("toStringOnOff"); Boolean bool = true; String expResult = "on"; String result = BooleanUtils.toStringOnOff(bool); assertEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test public void testRandomAscii() throws Exception { assertTrue(RandomStringUtils.randomAscii(10).length() > 0); }

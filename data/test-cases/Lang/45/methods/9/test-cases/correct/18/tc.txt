@@ -1,0 +1,1 @@
+@Test public void testInitials() throws Exception { assertEquals("a", WordUtils.initials("a")); assertEquals("b", WordUtils.initials("b")); assertEquals("c", WordUtils.initials("c")); assertEquals("d", WordUtils.initials("d")); assertEquals("e", WordUtils.initials("e")); assertEquals("f", WordUtils.initials("f")); }

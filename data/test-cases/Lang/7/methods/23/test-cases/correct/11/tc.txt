@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMinDoubleArrayEmpty() { NumberUtils.min(new double[]{}); }

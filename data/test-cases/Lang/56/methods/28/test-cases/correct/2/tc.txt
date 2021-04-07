@@ -1,0 +1,1 @@
+@Test public void getLocale() throws Exception { assertNotNull(FastDateFormat.getInstance().getLocale()); }

@@ -1,0 +1,1 @@
+@Test public void testAppend() { assertEquals(new HashCodeBuilder().append((char)1).toHashCode(), new HashCodeBuilder().append(1).toHashCode()); }

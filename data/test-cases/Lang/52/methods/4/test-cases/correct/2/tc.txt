@@ -1,0 +1,1 @@
+@Test public void testUnescapeJava() { assertNull(StringEscapeUtils.unescapeJava(null)); assertEquals("", StringEscapeUtils.unescapeJava("")); assertEquals("a", StringEscapeUtils.unescapeJava("a")); assertEquals("a", StringEscapeUtils.unescapeJava("a")); assertEquals("a", StringEscapeUtils.unescapeJava("a")); }

@@ -1,0 +1,1 @@
+@Test public void testToBoolean() { System.out.println("toBoolean"); boolean expResult = true; boolean result = BooleanUtils.toBoolean(true); assertEquals(expResult, result); expResult = false; result = BooleanUtils.toBoolean(false); assertEquals(expResult, result); }

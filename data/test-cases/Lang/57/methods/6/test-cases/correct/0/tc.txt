@@ -1,0 +1,1 @@
+@Test public void testLanguagesByCountry() { List langs = LocaleUtils.languagesByCountry(Locale.GERMANY.getCountry()); assertNotNull(langs); assertEquals(1, langs.size()); assertEquals(Locale.GERMANY, langs.get(0)); }

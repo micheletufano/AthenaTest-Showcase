@@ -1,0 +1,1 @@
+@Test public void isEmpty() { float[] array = null; assertTrue(ArrayUtils.isEmpty(array)); }

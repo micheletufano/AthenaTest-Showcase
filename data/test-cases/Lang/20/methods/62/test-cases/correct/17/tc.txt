@@ -1,0 +1,1 @@
+@Test public void testSplit() throws Exception { assertArrayEquals(new String[]{"a", "b", "c"}, StringUtils.split("a,b,c", ",")); }

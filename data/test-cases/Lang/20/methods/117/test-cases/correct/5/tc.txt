@@ -1,0 +1,1 @@
+@Test public void testLowerCase() throws Exception { assertEquals(null, StringUtils.lowerCase(null, Locale.getDefault())); assertEquals("", StringUtils.lowerCase("", Locale.getDefault())); assertEquals("a", StringUtils.lowerCase("a", Locale.getDefault())); assertEquals("a", StringUtils.lowerCase("a", Locale.getDefault())); }

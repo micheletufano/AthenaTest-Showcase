@@ -1,0 +1,1 @@
+@Test public void testAppendBoolean() { assertTrue(new EqualsBuilder().append(true, true).isEquals()); assertFalse(new EqualsBuilder().append(true, false).isEquals()); }

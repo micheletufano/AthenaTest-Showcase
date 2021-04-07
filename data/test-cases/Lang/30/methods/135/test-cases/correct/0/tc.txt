@@ -1,0 +1,1 @@
+@Test public void abbreviate() { System.out.println("abbreviate"); String str = "abc"; int maxWidth = 10; String expResult = "abc"; String result = StringUtils.abbreviate(str, maxWidth); System.out.println(result); assertEquals(expResult, result); }

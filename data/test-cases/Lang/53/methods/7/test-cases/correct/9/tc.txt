@@ -1,0 +1,1 @@
+@Test public void testAddMonths() throws ParseException { Calendar cal1 = new GregorianCalendar(); cal1.set(Calendar.MONTH, Calendar.FEBRUARY); cal1.set(Calendar.YEAR, 2010); Date date1 = new Date(cal1.getTimeInMillis()); Date date2 = new Date(cal1.getTimeInMillis()); assertEquals(date1, DateUtils.addMonths(date1, 3)); assertEquals(date2, DateUtils.addMonths(date2, 3)); }

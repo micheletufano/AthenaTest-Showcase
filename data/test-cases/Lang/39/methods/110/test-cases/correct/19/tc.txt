@@ -1,0 +1,1 @@
+@Test public void testLowerCase() { System.out.println("lowerCase"); String str = null; String expResult = null; String result = StringUtils.lowerCase(str, null); assertEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMaxByteArray() { NumberUtils.max(new byte[]{}); }

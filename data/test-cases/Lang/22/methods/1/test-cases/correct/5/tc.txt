@@ -1,0 +1,1 @@
+@Test(expected = ArithmeticException.class) public void testGetFractionNegativeNumerator() { Fraction.getFraction(-1, 2, -1); }

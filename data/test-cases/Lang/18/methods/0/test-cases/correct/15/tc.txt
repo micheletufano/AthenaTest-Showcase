@@ -1,0 +1,1 @@
+@Test public void testGetInstance() { FastDateFormat fdf = FastDateFormat.getInstance(); assertNotNull(fdf); }

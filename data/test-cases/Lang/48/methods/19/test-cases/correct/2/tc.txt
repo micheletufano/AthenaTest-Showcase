@@ -1,0 +1,1 @@
+@Test public void testAppendShortArray() { assertTrue(new EqualsBuilder().append(new short[] {1, 2, 3}, new short[] {1, 2, 3}).isEquals()); }

@@ -1,0 +1,1 @@
+@Test public void testStartsWith() { System.out.println("startsWith"); String str = "abc"; boolean expResult = true; boolean result = StringUtils.startsWith(str, "a"); assertEquals(expResult, result); str = "abc"; expResult = false; result = StringUtils.startsWith(str, "b"); assertEquals(expResult, result); }

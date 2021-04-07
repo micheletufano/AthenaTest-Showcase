@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testGetCharsWithNegativeStartIndex() { StrBuilder sb = new StrBuilder("abc"); sb.getChars(-1, 2, new char[0], 1); }

@@ -1,0 +1,1 @@
+@Test(expected=IllegalArgumentException.class) public void testToBooleanObject_4args_Negative() { BooleanUtils.toBooleanObject(-1, 1, 1, 1); }

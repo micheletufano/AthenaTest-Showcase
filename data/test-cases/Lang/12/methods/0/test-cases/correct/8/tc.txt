@@ -1,0 +1,1 @@
+@Test public void testRandomString() { for (int i = 0; i < 100; i++) { String randomString = RandomStringUtils.random(10); assertNotNull(randomString); } }

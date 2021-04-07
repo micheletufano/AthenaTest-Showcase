@@ -1,0 +1,1 @@
+@Test public void testGetClass() throws ClassNotFoundException { assertEquals(String.class, ClassUtils.getClass("java.lang.String")); assertEquals(Integer.class, ClassUtils.getClass("java.lang.Integer")); assertEquals(Long.class, ClassUtils.getClass("java.lang.Long")); assertEquals(Double.class, ClassUtils.getClass("java.lang.Double")); }

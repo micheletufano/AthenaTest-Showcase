@@ -1,0 +1,1 @@
+@Test public void testAppendLongArray() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append(new long[]{1L, 2L, 3L}); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

@@ -1,0 +1,1 @@
+@Test public void testAppend() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append((byte)1); hcb.append((byte)2); hcb.append((byte)3); hcb.append((byte)4); hcb.append((byte)5); hcb.append((byte)6); hcb.append((byte)7); hcb.append((byte)8); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

@@ -1,0 +1,1 @@
+@Test public void testIsAsciiPrintable() { assertFalse(StringUtils.isAsciiPrintable(null)); assertTrue(StringUtils.isAsciiPrintable("")); }

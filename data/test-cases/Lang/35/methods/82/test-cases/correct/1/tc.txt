@@ -1,0 +1,1 @@
+@Test public void testContainsDouble() { double[] array = new double[] {1, 2, 3, 4}; assertTrue(ArrayUtils.contains(array, 1)); assertTrue(ArrayUtils.contains(array, 2)); assertTrue(ArrayUtils.contains(array, 3)); assertTrue(ArrayUtils.contains(array, 4)); assertFalse(ArrayUtils.contains(array, 5)); assertFalse(ArrayUtils.contains(array, 6)); }

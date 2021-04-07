@@ -1,0 +1,1 @@
+@Test public void testGetNullText_1() throws Exception { StrBuilder fixture = new StrBuilder(); String result = fixture.getNullText(); assertNull(result); }

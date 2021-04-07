@@ -1,0 +1,1 @@
+@Test public void testToString() throws Exception { assertNotNull(FastDateFormat.getInstance().toString()); }

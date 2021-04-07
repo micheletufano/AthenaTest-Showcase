@@ -1,0 +1,1 @@
+@Test public void testNegate() { assertEquals(Boolean.FALSE, BooleanUtils.negate(true)); assertEquals(Boolean.TRUE, BooleanUtils.negate(false)); assertEquals(null, BooleanUtils.negate(null)); }

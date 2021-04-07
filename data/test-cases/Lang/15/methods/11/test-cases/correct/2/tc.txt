@@ -1,0 +1,1 @@
+@Test public void isArrayTypeWithGenericArrayType() { assertTrue(TypeUtils.isArrayType(Integer[].class)); }

@@ -1,0 +1,1 @@
+@Test public void testContainsChar() { char[] array = new char[] { 'a', 'b', 'c' }; assertTrue(ArrayUtils.contains(array, 'a')); assertTrue(ArrayUtils.contains(array, 'b')); assertTrue(ArrayUtils.contains(array, 'c')); assertFalse(ArrayUtils.contains(array, 'd')); }

@@ -1,0 +1,1 @@
+@Test public void testCreateFloat() { assertEquals(Float.valueOf(0.0f), NumberUtils.createFloat("0")); assertEquals(Float.valueOf(1.0f), NumberUtils.createFloat("1")); assertEquals(Float.valueOf(-1.0f), NumberUtils.createFloat("-1")); }

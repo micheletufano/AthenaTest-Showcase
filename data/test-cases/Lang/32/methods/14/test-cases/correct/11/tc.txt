@@ -1,0 +1,1 @@
+@Test public void testAppendDoubleArray() { assertEquals(new HashCodeBuilder().append(new double[]{1,2,3,4,5,6}).toHashCode(), new HashCodeBuilder().append(new double[]{1,2,3,4,5,6}).toHashCode()); }

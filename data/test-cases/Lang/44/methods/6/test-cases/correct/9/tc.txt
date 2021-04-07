@@ -1,0 +1,1 @@
+@Test public void testCreateLong() { assertEquals(Long.valueOf(1L), NumberUtils.createLong("1")); assertEquals(Long.valueOf(-1L), NumberUtils.createLong("-1")); }

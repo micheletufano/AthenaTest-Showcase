@@ -1,0 +1,1 @@
+@Test public void testJavaScriptEscape() throws Exception { Writer out = new StringWriter(); StringEscapeUtils.escapeJavaScript(out, "abc"); assertEquals("abc", out.toString()); }

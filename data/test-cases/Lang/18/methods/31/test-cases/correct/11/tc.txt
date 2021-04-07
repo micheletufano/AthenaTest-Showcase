@@ -1,0 +1,1 @@
+@Test public void testToString() { assertTrue(FastDateFormat.getInstance().toString().contains("FastDateFormat")); }

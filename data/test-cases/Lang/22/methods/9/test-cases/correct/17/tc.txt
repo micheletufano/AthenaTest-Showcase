@@ -1,0 +1,1 @@
+@Test public void testIntValue() { assertEquals(1, Fraction.getFraction("1").intValue()); assertEquals(2, Fraction.getFraction("2").intValue()); assertEquals(3, Fraction.getFraction("3").intValue()); assertEquals(4, Fraction.getFraction("4").intValue()); assertEquals(5, Fraction.getFraction("5").intValue()); }

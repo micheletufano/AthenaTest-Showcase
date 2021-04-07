@@ -1,0 +1,1 @@
+@Test public void testGetPattern() { FastDatePrinter datePrinter = new FastDatePrinter("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", TimeZone.getDefault(), Locale.US); assertEquals("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", datePrinter.getPattern()); }

@@ -1,0 +1,1 @@
+@Test public void testGetTimeZoneOverridesCalendar() throws Exception { assertFalse(FastDateFormat.getInstance().getTimeZoneOverridesCalendar()); }

@@ -1,0 +1,1 @@
+@Test public void testEqualsFloatArray() { float[] array1 = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f}; float[] array2 = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f}; assertTrue(NumberUtils.equals(array1, array2)); }

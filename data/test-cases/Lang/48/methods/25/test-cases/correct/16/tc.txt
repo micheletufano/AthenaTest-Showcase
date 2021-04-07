@@ -1,0 +1,1 @@
+@Test public void testIsEquals() throws Exception { assertTrue(new EqualsBuilder().isEquals()); }

@@ -1,0 +1,1 @@
+@Test public void testAsTokenizer() { StrBuilder strBuilder = new StrBuilder(); StrTokenizer tokenizer = strBuilder.asTokenizer(); assertNotNull(tokenizer); }

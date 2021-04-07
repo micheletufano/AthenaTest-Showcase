@@ -1,0 +1,1 @@
+@Test public void testGetLevenshteinDistance() { assertEquals(0, StringUtils.getLevenshteinDistance("", "")); }

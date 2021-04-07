@@ -1,0 +1,1 @@
+@Test public void testGetJavaIoTmpDir() throws Exception { assertNotNull(SystemUtils.getJavaIoTmpDir()); }

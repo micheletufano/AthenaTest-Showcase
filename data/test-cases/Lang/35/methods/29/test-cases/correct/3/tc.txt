@@ -1,0 +1,1 @@
+@Test public void testIsSameLengthDoubleArray() { double[] array1 = null; double[] array2 = new double[] {}; assertTrue(ArrayUtils.isSameLength(array1, array2)); }

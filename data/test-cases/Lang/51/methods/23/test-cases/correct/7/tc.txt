@@ -1,0 +1,1 @@
+@Test(expected=IllegalArgumentException.class) public void testToBooleanObjectInt3() { BooleanUtils.toBooleanObject(0, 1, 2, 3); }

@@ -1,0 +1,1 @@
+@Test public void testRandomString() { int count = 100; for (int i = 0; i < count; i++) { String random = RandomStringUtils.random(count); System.out.println(random); } }

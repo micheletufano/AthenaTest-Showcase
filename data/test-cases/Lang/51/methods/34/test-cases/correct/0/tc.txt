@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testXorArrayEmpty() { BooleanUtils.xor(new boolean[0]); }

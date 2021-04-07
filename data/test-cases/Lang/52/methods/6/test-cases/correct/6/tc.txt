@@ -1,0 +1,1 @@
+@Test public void testUnescapeJavaScript() { assertEquals("", StringEscapeUtils.unescapeJavaScript("")); assertEquals("abc", StringEscapeUtils.unescapeJavaScript("abc")); }

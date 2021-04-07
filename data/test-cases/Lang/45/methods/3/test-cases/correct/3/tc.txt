@@ -1,0 +1,1 @@
+@Test public void testCapitalizeEmptyString() { assertEquals("", WordUtils.capitalize("", new char[]{})); }

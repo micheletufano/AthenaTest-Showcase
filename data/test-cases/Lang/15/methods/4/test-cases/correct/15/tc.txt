@@ -1,0 +1,1 @@
+@Test public void isInstanceWithArray() { assertTrue(TypeUtils.isInstance(new Integer[0], Integer[].class)); }

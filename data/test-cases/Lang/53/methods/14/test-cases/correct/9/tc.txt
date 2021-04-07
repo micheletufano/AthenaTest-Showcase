@@ -1,0 +1,1 @@
+@Test public void testAdd() { Calendar c = Calendar.getInstance(); c.setTime(DateUtils.add(new Date(), Calendar.HOUR_OF_DAY, 1)); assertEquals(c.get(Calendar.HOUR_OF_DAY), c.get(Calendar.HOUR_OF_DAY)); }

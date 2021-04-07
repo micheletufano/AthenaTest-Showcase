@@ -1,0 +1,1 @@
+@Test public void testAppendFloat() throws Exception { EqualsBuilder equalsBuilder = new EqualsBuilder(); equalsBuilder.append(Float.POSITIVE_INFINITY, Float.POSITIVE_INFINITY); equalsBuilder.append(Float.NEGATIVE_INFINITY, Float.NEGATIVE_INFINITY); assertEquals(equalsBuilder, equalsBuilder); }

@@ -1,0 +1,1 @@
+@Test public void testAppend() { assertEquals("foo", new StrBuilder().append("foo").toString()); }

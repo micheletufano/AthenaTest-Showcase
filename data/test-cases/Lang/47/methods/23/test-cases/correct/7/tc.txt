@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testStringIndexOutOfBounds2() { StrBuilder sb = new StrBuilder(); sb.append("a", -1, 1); }

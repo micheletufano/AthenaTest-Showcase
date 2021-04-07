@@ -1,0 +1,1 @@
+@Test public void testAppendFloat() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append(Float.POSITIVE_INFINITY); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

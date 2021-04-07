@@ -1,0 +1,1 @@
+@Test public void testIndexOfDifference() throws Exception { assertEquals(StringUtils.INDEX_NOT_FOUND, StringUtils.indexOfDifference(null, null)); assertEquals(StringUtils.INDEX_NOT_FOUND, StringUtils.indexOfDifference("", "")); }

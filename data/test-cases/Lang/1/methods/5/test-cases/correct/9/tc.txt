@@ -1,0 +1,1 @@
+@Test public void testToFloat() { assertEquals(0.0f, NumberUtils.toFloat("0.0"), 0.0f); assertEquals(0.0f, NumberUtils.toFloat("0.0"), 0.0f); assertEquals(0.0f, NumberUtils.toFloat("-0.0"), 0.0f); assertEquals(0.0f, NumberUtils.toFloat("-0.0"), 0.0f); assertEquals(0.0f, NumberUtils.toFloat("-0.0"), 0.0f); assertEquals(0.0f, NumberUtils.toFloat("-0.0"), 0.0f); }

@@ -1,0 +1,1 @@
+@Test public void testUnescapeJavaScript() { assertNull(StringEscapeUtils.unescapeJavaScript(null)); }

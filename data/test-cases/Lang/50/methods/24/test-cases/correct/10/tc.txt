@@ -1,0 +1,1 @@
+@Test public void testParseObject() { assertEquals(null, FastDateFormat.getInstance().parseObject("", new ParsePosition(0))); assertEquals(null, FastDateFormat.getInstance("").parseObject("", new ParsePosition(0))); assertEquals(null, FastDateFormat.getInstance("yyyyMMdd").parseObject("", new ParsePosition(0))); }

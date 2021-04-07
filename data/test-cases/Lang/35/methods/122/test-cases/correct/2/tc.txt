@@ -1,0 +1,1 @@
+@Test public void isEmpty() { byte[] array = null; assertTrue(ArrayUtils.isEmpty(array)); }

@@ -1,0 +1,1 @@
+@Test(expected = IllegalStateException.class) public void testStopWhenNotRunning() { StopWatch stopWatch = new StopWatch(); stopWatch.stop(); }

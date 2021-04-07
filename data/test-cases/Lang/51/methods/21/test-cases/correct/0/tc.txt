@@ -1,0 +1,1 @@
+@Test public void testToIntegerObject_1() throws Exception { assertEquals(null, BooleanUtils.toIntegerObject(null)); }

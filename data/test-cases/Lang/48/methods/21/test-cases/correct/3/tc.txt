@@ -1,0 +1,1 @@
+@Test public void testAppendByteArray() throws Exception { assertTrue(new EqualsBuilder().append(byte[].class, byte[].class).isEquals()); }

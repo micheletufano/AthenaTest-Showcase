@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testRandomString_NegativeCount() { RandomStringUtils.random(-1); }

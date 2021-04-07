@@ -1,0 +1,1 @@
+@Test public void isAssignableWithClass() { assertTrue(TypeUtils.isAssignable(Integer.class, Integer.class)); }

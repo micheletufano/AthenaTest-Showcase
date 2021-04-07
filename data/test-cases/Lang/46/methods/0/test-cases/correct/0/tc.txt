@@ -1,0 +1,1 @@
+@Test public void testJavaEscape() throws Exception { Writer out = new StringWriter(); StringEscapeUtils.escapeJava(out, "test"); assertEquals("test", out.toString()); }

@@ -1,0 +1,1 @@
+@Test public void testIsFalse() { assertFalse(BooleanUtils.isFalse(null)); assertFalse(BooleanUtils.isFalse(true)); assertTrue(BooleanUtils.isFalse(false)); }

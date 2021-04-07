@@ -1,0 +1,1 @@
+@Test public void testContains() { String str = "abc"; assertTrue(StringUtils.contains(str, "a")); assertTrue(StringUtils.contains(str, "b")); assertTrue(StringUtils.contains(str, "c")); assertFalse(StringUtils.contains(str, "d")); assertFalse(StringUtils.contains(str, "e")); assertFalse(StringUtils.contains(str, "f")); }

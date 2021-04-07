@@ -1,0 +1,1 @@
+@Test public void testMinimum() { assertEquals(0L, NumberUtils.minimum(0L, 0L, 0L)); assertEquals(1L, NumberUtils.minimum(1L, 1L, 1L)); assertEquals(2L, NumberUtils.minimum(2L, 2L, 2L)); assertEquals(3L, NumberUtils.minimum(3L, 3L, 3L)); }

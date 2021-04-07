@@ -1,0 +1,1 @@
+@Test public void testIsSameInstant() { Calendar cal1 = new GregorianCalendar(TimeZone.getTimeZone("America/Los_Angeles")); Calendar cal2 = new GregorianCalendar(TimeZone.getTimeZone("America/Los_Angeles")); assertTrue(DateUtils.isSameInstant(cal1, cal2)); }

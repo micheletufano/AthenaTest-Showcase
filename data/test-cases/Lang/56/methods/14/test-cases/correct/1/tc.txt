@@ -1,0 +1,1 @@
+@Test public void testGetDateTimeInstance() throws ParseException { FastDateFormat df = FastDateFormat.getDateTimeInstance(FastDateFormat.FULL, FastDateFormat.MEDIUM, Locale.US); assertNotNull(df); df = FastDateFormat.getDateTimeInstance(FastDateFormat.MEDIUM, FastDateFormat.LONG, Locale.US); assertNotNull(df); }

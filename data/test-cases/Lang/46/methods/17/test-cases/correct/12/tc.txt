@@ -1,0 +1,1 @@
+@Test public void testCsv() { assertNull(StringEscapeUtils.escapeCsv(null)); assertEquals("", StringEscapeUtils.escapeCsv("")); }

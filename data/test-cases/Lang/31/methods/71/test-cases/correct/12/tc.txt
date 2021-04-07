@@ -1,0 +1,1 @@
+@Test public void testSplitByCharacterType() { System.out.println("splitByCharacterType"); String str = ""; String[] expResult = new String[] {}; String[] result = StringUtils.splitByCharacterType(str); assertEquals(expResult.length, result.length); System.out.println(result); }

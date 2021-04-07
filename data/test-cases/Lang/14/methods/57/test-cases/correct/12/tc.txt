@@ -1,0 +1,1 @@
+@Test public void substringBetween() { System.out.println("substringBetween"); String str = ""; String tag = ""; String expResult = ""; String result = StringUtils.substringBetween(str, tag); System.out.println(result); assertEquals(expResult, result); }

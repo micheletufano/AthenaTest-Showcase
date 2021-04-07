@@ -1,0 +1,1 @@
+@Test public void testToString() throws Exception { StopWatch stopWatch = new StopWatch(); stopWatch.start(); stopWatch.stop(); assertTrue(stopWatch.toString().length() > 0); }

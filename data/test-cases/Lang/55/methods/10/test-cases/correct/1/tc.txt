@@ -1,0 +1,1 @@
+@Test public void testToSplitString() { StopWatch stopWatch = new StopWatch(); stopWatch.start(); stopWatch.split(); stopWatch.suspend(); stopWatch.resume(); assertTrue(stopWatch.toSplitString().length() > 0); }

@@ -1,0 +1,1 @@
+@Test public void testAppendDouble() throws Exception { assertEquals(new HashCodeBuilder().append(1.0).toHashCode(), new HashCodeBuilder().append(1.0).toHashCode()); assertEquals(new HashCodeBuilder().append(1.0).toHashCode(), new HashCodeBuilder().append(1.0).toHashCode()); }

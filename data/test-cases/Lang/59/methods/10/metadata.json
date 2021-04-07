@@ -1,0 +1,1 @@
+{"identifier": "isEmpty", "parameters": "()", "modifiers": "public", "return": "boolean", "body": "public boolean isEmpty() {\n        return size == 0;\n    }", "class": "StrBuilder", "signature": "boolean isEmpty()", "full_signature": "public boolean isEmpty()", "class_method_signature": "StrBuilder.isEmpty()", "testcase": false, "constructor": false, "invocations": []}

@@ -1,0 +1,1 @@
+@Test public void testIsJavaAwtHeadless() { System.setProperty(SystemUtils.JAVA_AWT_HEADLESS, "true"); assertTrue(SystemUtils.isJavaAwtHeadless()); }

@@ -1,0 +1,1 @@
+@Test public void testIsDigitsNull() { assertFalse(NumberUtils.isDigits(null)); }

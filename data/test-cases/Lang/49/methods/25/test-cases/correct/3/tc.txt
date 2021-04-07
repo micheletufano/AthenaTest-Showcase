@@ -1,0 +1,1 @@
+@Test public void testToString() { assertEquals("1/2", Fraction.getFraction("1/2").toString()); assertEquals("1/3", Fraction.getFraction("1/3").toString()); }

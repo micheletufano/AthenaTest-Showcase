@@ -1,0 +1,1 @@
+@Test public void testInvert() { Fraction f1 = Fraction.getFraction(1, 2); Fraction f2 = f1.invert(); assertEquals(2, f2.getNumerator()); assertEquals(1, f2.getDenominator()); }

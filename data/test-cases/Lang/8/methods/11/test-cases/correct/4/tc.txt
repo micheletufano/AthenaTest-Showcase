@@ -1,0 +1,1 @@
+@Test public void testEquals() throws Exception { FastDatePrinter datePrinter = new FastDatePrinter("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", TimeZone.getTimeZone("GMT"), Locale.US); FastDatePrinter datePrinter2 = new FastDatePrinter("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", TimeZone.getTimeZone("GMT"), Locale.US); assertEquals(datePrinter, datePrinter2); }

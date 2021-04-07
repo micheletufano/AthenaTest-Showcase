@@ -1,0 +1,1 @@
+@Test public void testStop() { StopWatch stopWatch = new StopWatch(); stopWatch.start(); assertEquals(0, stopWatch.getTime()); stopWatch.stop(); assertEquals(0, stopWatch.getTime()); }

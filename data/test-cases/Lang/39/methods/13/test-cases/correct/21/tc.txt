@@ -1,0 +1,1 @@
+@Test public void testStripAll() { System.out.println("stripAll"); String[] strs = {"a", "b", "c", "d"}; String[] expResult = {"a", "b", "c", "d"}; String[] result = StringUtils.stripAll(strs); assertArrayEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testAppendStringBufferNegativeLength() { StringBuffer buffer = new StringBuffer("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"); StrBuilder builder = new StrBuilder(); builder.append(buffer, 0, -1); }

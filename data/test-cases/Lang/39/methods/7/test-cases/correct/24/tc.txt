@@ -1,0 +1,1 @@
+@Test public void testStrip() { assertEquals(null, StringUtils.stripToNull(null)); assertEquals("", StringUtils.strip("")); assertEquals("foo", StringUtils.strip("foo")); assertEquals("bar", StringUtils.strip("bar")); }

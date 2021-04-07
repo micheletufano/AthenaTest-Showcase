@@ -1,0 +1,1 @@
+@Test public void endsWith_A$String_StringIsNull() throws Exception { String str = null; boolean result = new StrBuilder().endsWith(str); assertEquals(false, result); }

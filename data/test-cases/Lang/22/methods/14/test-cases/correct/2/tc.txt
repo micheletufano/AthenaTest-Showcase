@@ -1,0 +1,1 @@
+@Test(expected=ArithmeticException.class) public void testInvertZero() { Fraction.ZERO.invert(); }

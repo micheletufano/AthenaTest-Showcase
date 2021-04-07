@@ -1,0 +1,1 @@
+{"identifier": "getNumerator", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int getNumerator() {\n        return numerator;\n    }", "class": "Fraction", "signature": "int getNumerator()", "full_signature": "public int getNumerator()", "class_method_signature": "Fraction.getNumerator()", "testcase": false, "constructor": false, "invocations": []}

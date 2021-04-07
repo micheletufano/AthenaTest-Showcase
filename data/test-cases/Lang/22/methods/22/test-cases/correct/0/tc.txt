@@ -1,0 +1,1 @@
+@Test public void testEquals() { Fraction f1 = Fraction.getFraction(1, 2); Fraction f2 = Fraction.getFraction(1, 2); assertEquals(f1, f2); assertEquals(f1.hashCode(), f2.hashCode()); }

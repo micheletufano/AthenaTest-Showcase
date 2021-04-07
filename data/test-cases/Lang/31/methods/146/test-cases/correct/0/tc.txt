@@ -1,0 +1,1 @@
+@Test public void testEndsWith() { System.out.println("endsWith"); String str = "abc"; String suffix = ""; boolean expResult = true; boolean result = StringUtils.endsWith(str, suffix); assertEquals(expResult, result); }

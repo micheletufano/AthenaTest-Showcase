@@ -1,0 +1,1 @@
+@Test public void testAppendSuper() throws Exception { EqualsBuilder builder = new EqualsBuilder(); builder.appendSuper(true); assertTrue(builder.isEquals()); builder.appendSuper(false); assertFalse(builder.isEquals()); }

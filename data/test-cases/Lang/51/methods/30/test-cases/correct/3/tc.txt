@@ -1,0 +1,1 @@
+@Test public void testToStringTrueFalse() { System.out.println("toStringTrueFalse"); Boolean bool = true; String expResult = "true"; String result = BooleanUtils.toStringTrueFalse(bool); assertEquals(expResult, result); }

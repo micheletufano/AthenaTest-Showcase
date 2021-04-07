@@ -1,0 +1,1 @@
+@Test public void testChomp() { assertEquals(null, StringUtils.chomp(null, null)); assertEquals("", StringUtils.chomp("", null)); assertEquals("foo", StringUtils.chomp("foo", ".")); assertEquals("foo", StringUtils.chomp("foo", ".")); assertEquals("foo", StringUtils.chomp("foo", ".")); assertEquals("foo", StringUtils.chomp("foo", ".")); }

@@ -1,0 +1,1 @@
+{"identifier": "getValue", "parameters": "()", "modifiers": "public final", "return": "int", "body": "public final int getValue() {\n        return iValue;\n    }", "class": "ValuedEnum", "signature": "int getValue()", "full_signature": "public final int getValue()", "class_method_signature": "ValuedEnum.getValue()", "testcase": false, "constructor": false, "invocations": []}

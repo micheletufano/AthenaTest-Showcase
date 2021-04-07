@@ -1,0 +1,1 @@
+@Test public void testMin() { assertEquals(0.0f, NumberUtils.min(0.0f, 0.0f, 0.0f), 0.0f); assertEquals(0.0f, NumberUtils.min(0.0f, 0.0f, 0.0f), 0.0f); assertEquals(0.0f, NumberUtils.min(0.0f, 0.0f, 0.0f), 0.0f); assertEquals(0.0f, NumberUtils.min(0.0f, 0.0f, 0.0f), 0.0f); assertEquals(0.0f, NumberUtils.min(0.0f, 0.0f, 0.0f), 0.0f); }

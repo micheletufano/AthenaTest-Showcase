@@ -1,0 +1,1 @@
+@Test(expected = IllegalStateException.class) public void testResumeWhileSuspended() { StopWatch stopwatch = new StopWatch(); stopwatch.resume(); }

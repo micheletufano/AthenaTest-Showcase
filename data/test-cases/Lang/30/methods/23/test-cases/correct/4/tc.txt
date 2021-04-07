@@ -1,0 +1,1 @@
+@Test public void testIndexOfIgnoreCase() { System.out.println("indexOfIgnoreCase"); String str = "abc"; String searchStr = "abc"; int expResult = 0; int result = StringUtils.indexOfIgnoreCase(str, searchStr); System.out.println(result); assertEquals(expResult, result); }

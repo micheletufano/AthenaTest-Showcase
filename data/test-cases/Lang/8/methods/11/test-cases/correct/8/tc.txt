@@ -1,0 +1,1 @@
+@Test public void testEquals() { FastDatePrinter datePrinter1 = new FastDatePrinter("yyyy-MM-dd", TimeZone.getTimeZone("PST"), Locale.US); FastDatePrinter datePrinter2 = new FastDatePrinter("yyyy-MM-dd", TimeZone.getTimeZone("PST"), Locale.US); assertEquals(datePrinter1, datePrinter2); }

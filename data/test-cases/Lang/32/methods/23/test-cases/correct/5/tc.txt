@@ -1,0 +1,1 @@
+@Test public void testAppendNullArray() throws Exception { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append((Object[])null); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

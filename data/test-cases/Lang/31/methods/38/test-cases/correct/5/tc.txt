@@ -1,0 +1,1 @@
+@Test public void testContainsAny() { System.out.println(StringUtils.containsAny("abc", "a")); System.out.println(StringUtils.containsAny("abc", "b")); System.out.println(StringUtils.containsAny("abc", "c")); System.out.println(StringUtils.containsAny("abc", "d")); System.out.println(StringUtils.containsAny("abc", "e")); }

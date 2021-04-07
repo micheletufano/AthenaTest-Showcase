@@ -1,0 +1,1 @@
+@Test public void testMaximum() { assertEquals(0L, NumberUtils.maximum(0L, 0L, 0L)); assertEquals(1L, NumberUtils.maximum(1L, 1L, 1L)); assertEquals(2L, NumberUtils.maximum(2L, 2L, 2L)); assertEquals(3L, NumberUtils.maximum(3L, 3L, 3L)); assertEquals(4L, NumberUtils.maximum(4L, 4L, 4L)); assertEquals(5L, NumberUtils.maximum(5L, 5L, 5L)); }

@@ -1,0 +1,1 @@
+@Test public void testDoubleValue() { assertEquals(0.0, Fraction.getFraction(0.0).doubleValue(), 0); assertEquals(1.0, Fraction.getFraction(1.0).doubleValue(), 0); assertEquals(2.0, Fraction.getFraction(2.0).doubleValue(), 0); assertEquals(3.0, Fraction.getFraction(3.0).doubleValue(), 0); }

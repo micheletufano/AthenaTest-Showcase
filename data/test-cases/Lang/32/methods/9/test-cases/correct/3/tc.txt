@@ -1,0 +1,1 @@
+@Test public void testAppendBooleanArray() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append(new boolean[] {true, false}); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

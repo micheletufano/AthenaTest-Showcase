@@ -1,0 +1,1 @@
+@Test public void testAvailableLocaleSet() throws Exception { assertNotNull(LocaleUtils.availableLocaleSet()); }

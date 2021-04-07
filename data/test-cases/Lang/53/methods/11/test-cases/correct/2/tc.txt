@@ -1,0 +1,1 @@
+@Test public void testAddMinutes() throws ParseException { Calendar cal1 = Calendar.getInstance(); cal1.setTime(DateUtils.addMinutes(new Date(0), 10)); assertEquals(cal1.getTime(), DateUtils.addMinutes(new Date(0), 10)); }

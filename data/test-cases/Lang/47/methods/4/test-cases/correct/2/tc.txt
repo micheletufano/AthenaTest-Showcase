@@ -1,0 +1,1 @@
+@Test public void testLength() { StrBuilder strBuilder = new StrBuilder(); strBuilder.setLength(10); assertEquals(10, strBuilder.length()); }

@@ -1,0 +1,1 @@
+@Test public void testToString_1() throws Exception { StopWatch fixture = new StopWatch(); fixture.toString(); }

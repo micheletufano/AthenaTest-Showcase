@@ -1,0 +1,1 @@
+@Test public void getJavaHome() { assertNotNull(SystemUtils.getJavaHome()); }

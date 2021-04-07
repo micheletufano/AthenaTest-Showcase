@@ -1,0 +1,1 @@
+@Test public void getArrayComponentTypeWithArray() { assertEquals(Integer.class, TypeUtils.getArrayComponentType(Integer[].class)); }

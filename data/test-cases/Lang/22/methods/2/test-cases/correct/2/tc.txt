@@ -1,0 +1,1 @@
+@Test public void testGetReducedFraction() { Fraction f1 = Fraction.getFraction(1, 2); Fraction f2 = Fraction.getReducedFraction(1, 2); assertEquals(f1.getNumerator(), f2.getNumerator()); assertEquals(f1.getProperNumerator(), f2.getProperNumerator()); assertEquals(f1.getProperWhole(), f2.getProperWhole()); }

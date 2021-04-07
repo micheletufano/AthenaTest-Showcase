@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testRound_Object_IllegalArgumentException() { DateUtils.round((Object) null, Calendar.SECOND); }

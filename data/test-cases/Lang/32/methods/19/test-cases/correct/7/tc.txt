@@ -1,0 +1,1 @@
+@Test public void testAppendNullArray() { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append((int[]) null); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

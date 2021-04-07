@@ -1,0 +1,1 @@
+@Test public void testHashCode() { Fraction f1 = Fraction.getFraction(1, 2); Fraction f2 = Fraction.getFraction(1, 2); assertTrue(f1.hashCode() == f2.hashCode()); }

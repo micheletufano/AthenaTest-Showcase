@@ -1,0 +1,1 @@
+@Test public void testSqlEscape() { assertNull(StringEscapeUtils.escapeSql(null)); assertEquals("", StringEscapeUtils.escapeSql("")); assertEquals("abc", StringEscapeUtils.escapeSql("abc")); }

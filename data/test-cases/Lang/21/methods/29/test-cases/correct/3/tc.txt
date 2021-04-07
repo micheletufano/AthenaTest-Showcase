@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testCeilingCalendarNull() { DateUtils.ceiling((Calendar) null, Calendar.MILLISECOND); }

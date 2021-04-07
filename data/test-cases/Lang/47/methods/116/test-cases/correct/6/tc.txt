@@ -1,0 +1,1 @@
+@Test public void testAsReader() { assertNotNull(new StrBuilder().asReader()); assertNotNull(new StrBuilder().asReader()); }

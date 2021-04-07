@@ -1,0 +1,1 @@
+@Test public void testAppendDoubleArray() throws Exception { assertTrue(new EqualsBuilder().append(double[].class, double[].class) .isEquals()); }

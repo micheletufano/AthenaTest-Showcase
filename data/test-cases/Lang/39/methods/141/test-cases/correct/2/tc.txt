@@ -1,0 +1,1 @@
+@Test public void testEndsWithIgnoreCase() { System.out.println("endsWithIgnoreCase"); String str = "abc"; String suffix = ""; boolean expResult = true; boolean result = StringUtils.endsWithIgnoreCase(str, suffix); assertEquals(expResult, result); }

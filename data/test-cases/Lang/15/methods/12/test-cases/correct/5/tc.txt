@@ -1,0 +1,1 @@
+@Test public void getArrayComponentTypeWithClass() { assertNull(TypeUtils.getArrayComponentType(String.class)); }

@@ -1,0 +1,1 @@
+@Test public void testMin() { assertEquals((byte)0, NumberUtils.min((byte)0, (byte)0, (byte)0)); assertEquals((byte)1, NumberUtils.min((byte)1, (byte)1, (byte)1)); assertEquals((byte)2, NumberUtils.min((byte)2, (byte)2, (byte)2)); assertEquals((byte)3, NumberUtils.min((byte)3, (byte)3, (byte)3)); assertEquals((byte)4, NumberUtils.min((byte)4, (byte)4, (byte)4)); }

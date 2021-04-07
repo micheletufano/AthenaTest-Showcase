@@ -1,0 +1,1 @@
+@Test public void testToInteger() { System.out.println("toInteger"); boolean bool = true; int expResult = 1; int result = BooleanUtils.toInteger(bool); assertEquals(expResult, result); bool = false; expResult = 0; result = BooleanUtils.toInteger(bool); assertEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testAddNull() { DateUtils.add(null, Calendar.DAY_OF_MONTH, 1); }

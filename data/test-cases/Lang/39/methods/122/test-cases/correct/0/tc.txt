@@ -1,0 +1,1 @@
+@Test public void testIsWhitespace() { assertTrue(StringUtils.isWhitespace("")); assertTrue(StringUtils.isWhitespace(" ")); assertFalse(StringUtils.isWhitespace(null)); }

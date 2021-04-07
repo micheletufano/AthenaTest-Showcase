@@ -1,0 +1,1 @@
+@Test public void testRandomAscii() { System.out.println(RandomStringUtils.randomAscii(10)); }

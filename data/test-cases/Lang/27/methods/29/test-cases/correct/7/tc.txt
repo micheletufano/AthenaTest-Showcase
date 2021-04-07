@@ -1,0 +1,1 @@
+@Test (expected=IllegalArgumentException.class) public void testMaxDoubleArray() { NumberUtils.max(new double[] {}); }

@@ -1,0 +1,1 @@
+@Test public void testAsWriter() { StrBuilder strBuilder = new StrBuilder(); Writer writer = strBuilder.asWriter(); assertNotNull(writer); }

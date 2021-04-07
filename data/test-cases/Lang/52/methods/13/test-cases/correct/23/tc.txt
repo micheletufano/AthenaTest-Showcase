@@ -1,0 +1,1 @@
+@Test public void testEscapeXml() throws Exception { assertNull(StringEscapeUtils.escapeXml(null)); }

@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testCeilingObjectIllegalArgument() { DateUtils.ceiling((Object) null, Calendar.MONTH); }

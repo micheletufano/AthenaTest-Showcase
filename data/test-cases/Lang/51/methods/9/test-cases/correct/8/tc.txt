@@ -1,0 +1,1 @@
+@Test public void testToBooleanObjectInt() { assertEquals(BooleanUtils.toBooleanObject(0), Boolean.FALSE); assertEquals(BooleanUtils.toBooleanObject(1), Boolean.TRUE); }

@@ -1,0 +1,1 @@
+@Test public void testCreateInteger() { assertEquals(new Integer(1), NumberUtils.createInteger("1")); assertEquals(new Integer(2), NumberUtils.createInteger("2")); assertEquals(new Integer(3), NumberUtils.createInteger("3")); assertEquals(new Integer(4), NumberUtils.createInteger("4")); assertEquals(new Integer(5), NumberUtils.createInteger("5")); }

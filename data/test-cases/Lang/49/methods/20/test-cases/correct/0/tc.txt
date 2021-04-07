@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMultiplyByWithNull() { Fraction f1 = Fraction.ONE; Fraction f2 = null; f1.multiplyBy(f2); }

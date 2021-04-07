@@ -1,0 +1,1 @@
+@Test public void testAppendFloatArray() { assertTrue(new EqualsBuilder().append(float[].class, float[].class).isEquals()); assertFalse(new EqualsBuilder().append(float[].class, Float[].class).isEquals()); assertFalse(new EqualsBuilder().append(float[].class, Float[].class).isEquals()); }

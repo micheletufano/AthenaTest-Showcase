@@ -1,0 +1,1 @@
+@Test public void testAdd() { Calendar cal = Calendar.getInstance(); cal.setTime(DateUtils.add(new Date(), Calendar.MILLISECOND, 1)); assertEquals(cal.getTime(), DateUtils.add(new Date(), Calendar.MILLISECOND, 1)); }

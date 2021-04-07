@@ -1,0 +1,1 @@
+@Test public void testXor() { assertTrue(BooleanUtils.xor(new boolean[]{true, false})); assertFalse(BooleanUtils.xor(new boolean[]{true, true})); }

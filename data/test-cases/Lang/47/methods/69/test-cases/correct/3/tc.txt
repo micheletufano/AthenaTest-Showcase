@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testInsertNegativeOffset() { StrBuilder sb = new StrBuilder(); sb.insert(0, new char[0], -1, 0); }

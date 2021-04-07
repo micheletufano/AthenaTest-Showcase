@@ -1,0 +1,1 @@
+@Test public void testAbbreviate() { System.out.println("abbreviate"); String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; String expResult = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; String result = StringUtils.abbreviate(str, str.length()); System.out.println(result); assertEquals(expResult, result); }

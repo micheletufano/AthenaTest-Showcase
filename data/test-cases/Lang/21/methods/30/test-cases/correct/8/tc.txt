@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testCeiling_Object_IllegalArgumentException() { DateUtils.ceiling((Object) null, Calendar.HOUR_OF_DAY); }

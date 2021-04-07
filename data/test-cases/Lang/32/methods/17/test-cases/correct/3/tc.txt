@@ -1,0 +1,1 @@
+@Test public void testAppendFloatArray() { float[] array = new float[]{1.0f, 2.0f, 3.0f, 4.0f}; assertEquals(new HashCodeBuilder().append(array).toHashCode(), new HashCodeBuilder().append(array).toHashCode()); }

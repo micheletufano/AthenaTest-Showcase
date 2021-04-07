@@ -1,0 +1,1 @@
+@Test public void testEquals() throws Exception { assertEquals(FastDateFormat.getInstance(), FastDateFormat.getInstance()); assertNotEquals(FastDateFormat.getInstance().hashCode(), FastDateFormat.getInstance().hashCode()); }

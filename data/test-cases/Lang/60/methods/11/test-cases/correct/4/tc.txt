@@ -1,0 +1,1 @@
+@Test public void testClear() { StrBuilder sb = new StrBuilder("abc"); sb.clear(); assertEquals(0, sb.size()); }

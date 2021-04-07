@@ -1,0 +1,1 @@
+@Test public void indexOf() { assertEquals(0, StringUtils.indexOf("abc", "a")); assertEquals(1, StringUtils.indexOf("abc", "b")); assertEquals(2, StringUtils.indexOf("abc", "c")); }

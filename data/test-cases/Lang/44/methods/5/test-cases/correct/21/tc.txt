@@ -1,0 +1,1 @@
+@Test public void testCreateInteger() { assertEquals(0, NumberUtils.createInteger("0").intValue()); assertEquals(1, NumberUtils.createInteger("1").intValue()); assertEquals(-1, NumberUtils.createInteger("-1").intValue()); }

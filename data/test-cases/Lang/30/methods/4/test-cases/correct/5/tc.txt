@@ -1,0 +1,1 @@
+@Test public void testTrim() { System.out.println("trim"); String str = ""; String expResult = ""; String result = StringUtils.trim(str); System.out.println(result); assertEquals(expResult, result); }

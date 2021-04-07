@@ -1,0 +1,1 @@
+@Test public void testGetTimeZone() throws Exception { assertEquals(FastDateFormat.getInstance().getTimeZone(), TimeZone.getTimeZone("GMT")); }

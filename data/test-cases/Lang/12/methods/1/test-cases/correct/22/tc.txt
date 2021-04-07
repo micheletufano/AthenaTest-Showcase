@@ -1,0 +1,1 @@
+@Test public void testRandomAscii() throws Exception { assertNotNull(RandomStringUtils.randomAscii(100)); }

@@ -1,0 +1,1 @@
+@Test public void testAppendShortArray() throws Exception { HashCodeBuilder hcb = new HashCodeBuilder(); hcb.append(new short[] { 1, 2, 3 }); assertEquals(hcb.toHashCode(), hcb.toHashCode()); }

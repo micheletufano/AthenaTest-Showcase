@@ -1,0 +1,1 @@
+@Test public void testGetPattern() throws Exception { assertEquals("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", new FastDatePrinter("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", null, Locale.US).getPattern()); }

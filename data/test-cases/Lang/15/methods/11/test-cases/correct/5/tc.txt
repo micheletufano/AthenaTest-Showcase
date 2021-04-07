@@ -1,0 +1,1 @@
+@Test public void isArrayTypeWithClass() { assertTrue(TypeUtils.isArrayType(Integer[].class)); }

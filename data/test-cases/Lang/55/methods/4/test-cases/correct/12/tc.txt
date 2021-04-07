@@ -1,0 +1,1 @@
+@Test(expected = IllegalStateException.class) public void testUnsplit() { new StopWatch().unsplit(); }

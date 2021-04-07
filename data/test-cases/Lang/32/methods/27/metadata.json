@@ -1,0 +1,1 @@
+{"identifier": "toHashCode", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int toHashCode() {\n        return iTotal;\n    }", "class": "HashCodeBuilder", "signature": "int toHashCode()", "full_signature": "public int toHashCode()", "class_method_signature": "HashCodeBuilder.toHashCode()", "testcase": false, "constructor": false, "invocations": []}

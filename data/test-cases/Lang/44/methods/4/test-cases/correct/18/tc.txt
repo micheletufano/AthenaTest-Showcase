@@ -1,0 +1,1 @@
+@Test public void testCreateDouble() { assertEquals(Double.valueOf(1.0), NumberUtils.createDouble("1.0")); assertEquals(Double.valueOf(-1.0), NumberUtils.createDouble("-1.0")); }

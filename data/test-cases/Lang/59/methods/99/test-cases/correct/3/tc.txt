@@ -1,0 +1,1 @@
+@Test public void testHashCode() { assertEquals(new StrBuilder().hashCode(), new StrBuilder().hashCode()); assertNotEquals(new StrBuilder().hashCode(), new StringBuilder().hashCode()); }

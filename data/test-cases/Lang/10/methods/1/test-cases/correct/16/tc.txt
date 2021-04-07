@@ -1,0 +1,1 @@
+@Test public void testGetTimeZone() { FastDateParser parser = new FastDateParser("yyyy-MM-dd\'T\'HH:mm:ss.SSSZ", TimeZone.getTimeZone("GMT"), Locale.US); assertEquals(TimeZone.getTimeZone("GMT"), parser.getTimeZone()); }

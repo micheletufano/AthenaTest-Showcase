@@ -1,0 +1,1 @@
+@Test public void testMinShortArray() { short[] array = new short[] { Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE}; assertEquals(Short.MIN_VALUE, NumberUtils.min(array)); }

@@ -1,0 +1,1 @@
+@Test public void testDefaultIfEmpty() { System.out.println(StringUtils.defaultIfEmpty(null, null)); System.out.println(StringUtils.defaultIfEmpty("", null)); System.out.println(StringUtils.defaultIfEmpty("", "")); System.out.println(StringUtils.defaultIfEmpty("", "")); }

@@ -1,0 +1,1 @@
+@Test public void reverse() { assertEquals(null, StringUtils.reverse(null)); assertEquals("", StringUtils.reverse("")); assertEquals("a", StringUtils.reverse("a")); assertEquals("b", StringUtils.reverse("b")); }

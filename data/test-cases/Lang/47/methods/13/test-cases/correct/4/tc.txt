@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testSetCharAtWithNegativeIndex() { new StrBuilder().setCharAt(-1, 'a'); }

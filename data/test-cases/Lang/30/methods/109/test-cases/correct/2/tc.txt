@@ -1,0 +1,1 @@
+@Test public void center() { System.out.println("center"); String str = "abc"; int size = 3; String expResult = "abc"; String result = StringUtils.center(str, size); System.out.println(result); assertEquals(expResult, result); }

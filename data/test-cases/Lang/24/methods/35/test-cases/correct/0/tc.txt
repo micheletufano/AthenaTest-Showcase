@@ -1,0 +1,1 @@
+@Test public void testMinLongArray() { long[] longs = new long[]{1L, 2L, 3L}; assertEquals(1L, NumberUtils.min(longs)); long[] nulls = null; assertEquals(1L, NumberUtils.min(longs)); }

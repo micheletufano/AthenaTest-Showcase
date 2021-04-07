@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testIsSameLocalTime_2() throws Exception { DateUtils.isSameLocalTime(null, null); }

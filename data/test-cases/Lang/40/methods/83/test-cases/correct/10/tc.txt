@@ -1,0 +1,1 @@
+@Test public void replaceOnce() { assertEquals("foo", StringUtils.replaceOnce("foo", "bar", "baz")); assertEquals("foo", StringUtils.replaceOnce("foo", "bar", "baz")); assertEquals("foo", StringUtils.replaceOnce("foo", "bar", "baz")); }

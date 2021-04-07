@@ -1,0 +1,1 @@
+@Test public void cloneDoubleArray() { double[] array = new double[] {1, 2, 3}; double[] result = ArrayUtils.clone(array); assertEquals(3, result.length); assertEquals(1, result[0], 0); assertEquals(2, result[1], 0); assertEquals(3, result[2], 0); }

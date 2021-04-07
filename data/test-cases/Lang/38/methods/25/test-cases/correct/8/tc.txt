@@ -1,0 +1,1 @@
+@Test public void testGetPattern() { assertEquals(FastDateFormat.getInstance("yyyy-MM-dd").getPattern(), "yyyy-MM-dd"); }

@@ -1,0 +1,1 @@
+@Test public void testGetUserDir() { System.out.println("getUserDir"); assertNotNull(SystemUtils.getUserDir()); }

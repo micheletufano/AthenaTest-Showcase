@@ -1,0 +1,1 @@
+@Test public void testRandomAlphabetic() { assertNotNull(RandomStringUtils.randomAlphabetic(10)); }

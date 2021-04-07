@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testAppendStringWithNegativeLength() { StrBuilder sb = new StrBuilder(); sb.append("foo", 0, -1); }

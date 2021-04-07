@@ -1,0 +1,1 @@
+@Test public void testGetPattern() { assertEquals(FastDateFormat.getInstance().getPattern(), FastDateFormat.getInstance().getPattern()); }

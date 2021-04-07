@@ -1,0 +1,1 @@
+@Test public void isEmpty() { char[] array = null; assertTrue(ArrayUtils.isEmpty(array)); }

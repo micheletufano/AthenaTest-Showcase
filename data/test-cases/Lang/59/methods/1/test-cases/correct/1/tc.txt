@@ -1,0 +1,1 @@
+@Test public void testSetNewLineText() { String newLine = "new line"; StrBuilder strb = new StrBuilder(); strb.setNewLineText(newLine); assertEquals(newLine, strb.getNewLineText()); }

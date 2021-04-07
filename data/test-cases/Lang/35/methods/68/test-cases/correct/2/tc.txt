@@ -1,0 +1,1 @@
+@Test public void testIndexOfIntArray() { int[] array = new int[] {1, 2, 3}; assertEquals(0, ArrayUtils.indexOf(array, 1)); assertEquals(1, ArrayUtils.indexOf(array, 2)); assertEquals(2, ArrayUtils.indexOf(array, 3)); }

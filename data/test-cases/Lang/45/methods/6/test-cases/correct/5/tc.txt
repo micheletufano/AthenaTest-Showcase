@@ -1,0 +1,1 @@
+@Test public void testUncapitalize() { assertEquals("abc", WordUtils.uncapitalize("abc")); assertEquals("abc", WordUtils.uncapitalize("abc")); assertEquals("abc", WordUtils.uncapitalize("abc")); assertEquals("abc", WordUtils.uncapitalize("abc")); assertEquals("abc", WordUtils.uncapitalize("abc")); assertEquals("abc", WordUtils.uncapitalize("abc")); }

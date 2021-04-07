@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testTruncateObjectIllegalArgument() { DateUtils.truncate((Object) null, Calendar.DAY_OF_YEAR); }

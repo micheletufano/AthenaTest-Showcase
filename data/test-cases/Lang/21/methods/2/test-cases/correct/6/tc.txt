@@ -1,0 +1,1 @@
+@Test public void testIsSameInstant() { Date date1 = new Date(0L); Date date2 = new Date(0L); assertTrue(DateUtils.isSameInstant(date1, date2)); }

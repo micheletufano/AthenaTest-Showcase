@@ -1,0 +1,1 @@
+@Test public void add() { long[] array = new long[] {1, 2, 3}; long[] newArray = ArrayUtils.add(array, 4); assertArrayEquals(newArray, new long[] {1, 2, 3, 4}); }

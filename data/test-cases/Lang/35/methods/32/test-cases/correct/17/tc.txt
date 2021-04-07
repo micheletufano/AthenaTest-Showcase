@@ -1,0 +1,1 @@
+@Test public void getLength() { assertEquals(0, ArrayUtils.getLength(null)); assertEquals(0, ArrayUtils.getLength(new int[]{})); assertEquals(0, ArrayUtils.getLength(new long[]{})); assertEquals(0, ArrayUtils.getLength(new float[]{})); assertEquals(0, ArrayUtils.getLength(new boolean[]{})); assertEquals(0, ArrayUtils.getLength(new char[]{})); }

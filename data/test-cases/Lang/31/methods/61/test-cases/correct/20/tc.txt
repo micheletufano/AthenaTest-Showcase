@@ -1,0 +1,1 @@
+@Test public void testSplit() { System.out.println("split"); String str = "a,b,c"; String separator = ","; String[] expResult = {"a", "b", "c"}; String[] result = StringUtils.split(str, separator); assertEquals(expResult.length, result.length); assertEquals(expResult[0], result[0]); assertEquals(expResult[1], result[1]); assertEquals(expResult[2], result[2]); }

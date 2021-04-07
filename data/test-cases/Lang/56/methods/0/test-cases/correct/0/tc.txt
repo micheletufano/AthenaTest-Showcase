@@ -1,0 +1,1 @@
+@Test public void testGetInstance() { assertNotNull(FastDateFormat.getInstance()); assertEquals(FastDateFormat.getInstance(), FastDateFormat.getInstance()); assertNotSame(FastDateFormat.getInstance(), FastDateFormat.getInstance()); }

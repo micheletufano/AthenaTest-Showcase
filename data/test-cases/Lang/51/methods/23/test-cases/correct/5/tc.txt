@@ -1,0 +1,1 @@
+@Test public void testToBooleanObject1() { assertEquals(true, BooleanUtils.toBooleanObject("true")); assertEquals(false, BooleanUtils.toBooleanObject("false")); }

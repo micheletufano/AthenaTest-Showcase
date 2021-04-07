@@ -1,0 +1,1 @@
+@Test public void testStripToNull() { System.out.println("stripToNull"); String str = null; String expResult = null; String result = StringUtils.stripToNull(str); System.out.println(result); assertEquals(expResult, result); }

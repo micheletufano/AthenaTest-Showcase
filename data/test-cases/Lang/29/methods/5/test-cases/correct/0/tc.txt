@@ -1,0 +1,1 @@
+@Test public void testIsJavaVersionAtLeastFloat() { assertTrue(SystemUtils.isJavaVersionAtLeast(SystemUtils.JAVA_VERSION_FLOAT)); }

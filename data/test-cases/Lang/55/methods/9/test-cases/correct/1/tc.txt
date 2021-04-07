@@ -1,0 +1,1 @@
+@Test public void testToString() { StopWatch stopWatch = new StopWatch(); stopWatch.start(); System.out.println(stopWatch.toString()); }

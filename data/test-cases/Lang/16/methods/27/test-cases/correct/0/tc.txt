@@ -1,0 +1,1 @@
+@Test public void testMaxShortArray() { short[] array = new short[] { Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE}; assertEquals(Short.MIN_VALUE, NumberUtils.max(array)); }

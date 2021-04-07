@@ -1,0 +1,1 @@
+@Test public void testDefaultString() { System.out.println("defaultString"); String str = null; String expResult = ""; String result = StringUtils.defaultString(str); assertEquals(expResult, result); }

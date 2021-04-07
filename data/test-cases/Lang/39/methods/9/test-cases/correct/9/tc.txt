@@ -1,0 +1,1 @@
+@Test public void testStripToEmpty() throws Exception { System.out.println("stripToEmpty"); String str = ""; String expResult = ""; String result = StringUtils.stripToEmpty(str); assertEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test(expected = IndexOutOfBoundsException.class) public void replace_startIndexGreaterThanEndIndex_ThrowsIndexOutOfBoundsException() { StrBuilder sb = new StrBuilder(); sb.replace(1, 2, "abc"); }

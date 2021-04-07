@@ -1,0 +1,1 @@
+@Test public void testIsSameInstant() { GregorianCalendar cal1 = new GregorianCalendar(Locale.GERMANY); GregorianCalendar cal2 = new GregorianCalendar(Locale.GERMANY); assertTrue(DateUtils.isSameInstant(cal1, cal2)); assertTrue(DateUtils.isSameInstant(cal2, cal1)); }

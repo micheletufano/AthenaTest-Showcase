@@ -1,0 +1,1 @@
+@Test public void testToDouble() { assertEquals(0.0d, NumberUtils.toDouble("0.0"), 0.0d); assertEquals(0.0d, NumberUtils.toDouble("0.0"), 0.0d); assertEquals(0.0d, NumberUtils.toDouble("-0.0"), 0.0d); assertEquals(0.0d, NumberUtils.toDouble("-0.0"), 0.0d); assertEquals(0.0d, NumberUtils.toDouble("-0.0"), 0.0d); assertEquals(0.0d, NumberUtils.toDouble("0.0"), 0.0d); }

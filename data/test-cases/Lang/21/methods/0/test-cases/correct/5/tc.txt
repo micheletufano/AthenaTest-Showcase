@@ -1,0 +1,1 @@
+@Test public void testIsSameDay() throws ParseException { Calendar cal1 = Calendar.getInstance(); cal1.setTime(new Date()); cal1.setTimeZone(TimeZone.getTimeZone("GMT")); Calendar cal2 = Calendar.getInstance(); cal2.setTime(new Date()); cal2.setTimeZone(TimeZone.getTimeZone("GMT")); assertTrue(DateUtils.isSameDay(cal1, cal2)); }

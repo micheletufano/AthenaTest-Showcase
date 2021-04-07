@@ -1,0 +1,1 @@
+@Test public void splitByWholeSeparatorPreserveAllTokens() { System.out.println("splitByWholeSeparatorPreserveAllTokens"); String str = ""; String separator = ","; int max = 2; String[] tokens = StringUtils.splitByWholeSeparatorPreserveAllTokens(str, separator, max); System.out.println(tokens); }

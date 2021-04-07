@@ -1,0 +1,1 @@
+@Test public void testAdd() { String[] array = new String[]{"a", "b", "c"}; String[] newArray = ArrayUtils.add(array, "d"); assertArrayEquals(newArray, new String[]{"a", "b", "c", "d"}); }

@@ -1,0 +1,1 @@
+@Test public void addAll() { assertArrayEquals(new String[]{"a", "b", "c"}, ArrayUtils.addAll(null, "a", "b", "c")); assertArrayEquals(new String[]{"a", "b", "c"}, ArrayUtils.addAll(null, "a", "b", "c")); }

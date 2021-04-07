@@ -1,0 +1,1 @@
+@Test public void isInstanceWithClass() { assertTrue(TypeUtils.isInstance(1, Integer.class)); }

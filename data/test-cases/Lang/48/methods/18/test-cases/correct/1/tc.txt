@@ -1,0 +1,1 @@
+@Test public void testAppendIntArray() { assertTrue(new EqualsBuilder().append(new int[] {1, 2, 3}, new int[] {1, 2, 3}).isEquals()); }

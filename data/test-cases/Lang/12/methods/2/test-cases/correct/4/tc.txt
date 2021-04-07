@@ -1,0 +1,1 @@
+@Test public void testAlphabetic() { for (int i = 0; i < 100; i++) { String random = RandomStringUtils.randomAlphabetic(i); assertNotNull(random); } }

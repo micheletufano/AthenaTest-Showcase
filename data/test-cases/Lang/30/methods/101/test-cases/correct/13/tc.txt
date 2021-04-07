@@ -1,0 +1,1 @@
+@Test public void testRepeat() { System.out.println("repeat"); String str = ""; String separator = ","; int repeat = 1; String expResult = ""; String result = StringUtils.repeat(str, separator, repeat); System.out.println(result); assertEquals(expResult, result); }

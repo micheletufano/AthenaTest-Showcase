@@ -1,0 +1,1 @@
+@Test public void testNull() { assertNull(BooleanUtils.negate(null)); }

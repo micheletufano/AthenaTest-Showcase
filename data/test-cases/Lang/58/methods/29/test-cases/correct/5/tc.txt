@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMaxLongArray() { long[] array = null; NumberUtils.max(array); }

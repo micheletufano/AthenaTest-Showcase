@@ -1,0 +1,1 @@
+@Test public void normalizeUpperBounds() throws Exception { assertArrayEquals(new Type[] {Number.class }, TypeUtils.normalizeUpperBounds(new Type[] {Number.class })); }

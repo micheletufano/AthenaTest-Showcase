@@ -1,0 +1,1 @@
+@Test public void testUpperCase() throws Exception { assertEquals(null, StringUtils.upperCase(null)); assertEquals("", StringUtils.upperCase("")); assertEquals("ABC", StringUtils.upperCase("ABC")); }

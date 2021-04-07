@@ -1,0 +1,1 @@
+@Test public void getRawType() throws Exception { assertEquals(Integer.class, TypeUtils.getRawType(Integer.class, Integer.class)); }

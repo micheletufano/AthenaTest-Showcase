@@ -1,0 +1,1 @@
+@Test public void testToBooleanDefaultIfNull() { assertEquals(false, BooleanUtils.toBooleanDefaultIfNull(null, false)); assertEquals(true, BooleanUtils.toBooleanDefaultIfNull(true, false)); assertEquals(false, BooleanUtils.toBooleanDefaultIfNull(false, true)); }

@@ -1,0 +1,1 @@
+@Test public void testLeftString() { assertEquals("", new StrBuilder().leftString(0)); assertEquals("", new StrBuilder().leftString(1)); assertEquals("", new StrBuilder().leftString(2)); assertEquals("", new StrBuilder().leftString(3)); assertEquals("", new StrBuilder().leftString(4)); }

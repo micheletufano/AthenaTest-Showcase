@@ -1,0 +1,1 @@
+@Test public void testGetNumerator() { assertEquals(1, Fraction.ONE.getNumerator()); assertEquals(2, Fraction.TWO_THIRDS.getNumerator()); assertEquals(3, Fraction.THREE_FIFTHS.getNumerator()); assertEquals(4, Fraction.FOUR_FIFTHS.getNumerator()); }

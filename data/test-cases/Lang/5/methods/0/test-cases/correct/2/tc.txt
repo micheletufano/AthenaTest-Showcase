@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void toLocale_empty() { LocaleUtils.toLocale(""); }

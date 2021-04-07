@@ -1,0 +1,1 @@
+@Test public void testAppendLongArray() throws Exception { assertTrue(new EqualsBuilder().append(new long[] {1, 2}, new long[] {1, 2}).isEquals()); }

@@ -1,0 +1,1 @@
+@Test public void testStartsWithAny() { assertFalse(StringUtils.startsWithAny(null, new String[]{})); assertFalse(StringUtils.startsWithAny("", new String[]{})); assertTrue(StringUtils.startsWithAny("abc", new String[]{"abc"})); assertTrue(StringUtils.startsWithAny("abc", new String[]{"abc"})); }

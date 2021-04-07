@@ -1,0 +1,1 @@
+@Test public void testAppendDouble() { EqualsBuilder equalsBuilder = new EqualsBuilder(); equalsBuilder.append(1.0, 1.0); equalsBuilder.append(2.0, 2.0); equalsBuilder.append(3.0, 3.0); equalsBuilder.append(4.0, 4.0); assertTrue(equalsBuilder.isEquals()); }

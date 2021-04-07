@@ -1,0 +1,1 @@
+@Test public void length() { System.out.println("length"); String str = "abc"; int expResult = 3; int result = StringUtils.length(str); assertEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test public void testMin() { assertEquals(Short.MIN_VALUE, NumberUtils.min(Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE)); assertEquals(Short.MIN_VALUE, NumberUtils.min(Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE)); assertEquals(Short.MIN_VALUE, NumberUtils.min(Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE)); }

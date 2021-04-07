@@ -1,0 +1,1 @@
+@Test public void testRandomNumeric() throws Exception { System.out.println(RandomStringUtils.randomNumeric(10)); }

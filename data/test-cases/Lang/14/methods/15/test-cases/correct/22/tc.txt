@@ -1,0 +1,1 @@
+@Test public void testAccents() { assertNull(StringUtils.stripAccents(null)); }

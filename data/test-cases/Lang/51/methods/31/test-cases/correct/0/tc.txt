@@ -1,0 +1,1 @@
+@Test public void testToStringOnOff() { assertEquals("on", BooleanUtils.toStringOnOff(true)); assertEquals("off", BooleanUtils.toStringOnOff(false)); }

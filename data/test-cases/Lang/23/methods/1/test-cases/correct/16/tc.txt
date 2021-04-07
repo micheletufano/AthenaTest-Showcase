@@ -1,0 +1,1 @@
+@Test public void testApplyPattern2() { ExtendedMessageFormat f = new ExtendedMessageFormat("%1$tc"); f.applyPattern("%2$tc"); assertEquals("%2$tc", f.toPattern()); }

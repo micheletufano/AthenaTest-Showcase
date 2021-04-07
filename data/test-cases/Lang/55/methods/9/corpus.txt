@@ -1,0 +1,1 @@
+StopWatch { public String toString() { return DurationFormatUtils.formatDurationHMS(getTime()); } StopWatch(); void start(); void stop(); void reset(); void split(); void unsplit(); void suspend(); void resume(); long getTime(); long getSplitTime(); String toString(); String toSplitString(); }

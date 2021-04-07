@@ -1,0 +1,1 @@
+@Test public void splitByCharacterType() { System.out.println("splitByCharacterType"); String str = ""; String[] strs = StringUtils.splitByCharacterType(str); System.out.println(strs); }

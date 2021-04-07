@@ -1,0 +1,1 @@
+@Test public void cloneShortArray() { short[] array = new short[] {1, 2, 3}; short[] result = ArrayUtils.clone(array); assertArrayEquals(array, result); }

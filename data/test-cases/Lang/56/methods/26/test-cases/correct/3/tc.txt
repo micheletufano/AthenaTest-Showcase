@@ -1,0 +1,1 @@
+@Test public void getTimeZone() throws Exception { assertNotNull(FastDateFormat.getInstance().getTimeZone()); }

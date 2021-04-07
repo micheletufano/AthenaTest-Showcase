@@ -1,0 +1,1 @@
+@Test public void substringBeforeLast() { System.out.println("substringBeforeLast"); String str = "abc"; String separator = ","; String expResult = "abc"; String result = StringUtils.substringBeforeLast(str, separator); System.out.println(result); assertEquals(expResult, result); }

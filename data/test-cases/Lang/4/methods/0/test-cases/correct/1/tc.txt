@@ -1,0 +1,1 @@
+@Test public void testEmpty() throws Exception { final CharSequenceTranslator translator = new LookupTranslator(); assertEquals(0, translator.translate("", 0, new StringWriter())); }

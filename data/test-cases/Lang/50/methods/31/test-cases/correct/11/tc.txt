@@ -1,0 +1,1 @@
+@Test public void testHashCode() throws Exception { FastDateFormat df = FastDateFormat.getInstance("dd.MM.yyyy"); assertEquals(df.hashCode(), df.hashCode()); }

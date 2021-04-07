@@ -1,0 +1,1 @@
+@Test public void testEndsWith() { assertTrue(StringUtils.endsWith("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "")); assertFalse(StringUtils.endsWith("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "abc")); }

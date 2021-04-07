@@ -1,0 +1,1 @@
+@Test public void testSetFormatsByArgumentIndex() { try { ExtendedMessageFormat ef = new ExtendedMessageFormat("%s"); ef.setFormatsByArgumentIndex(null); fail("UnsupportedOperationException expected"); } catch (UnsupportedOperationException ex) { } }

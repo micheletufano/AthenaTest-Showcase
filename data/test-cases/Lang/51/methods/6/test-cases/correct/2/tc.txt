@@ -1,0 +1,1 @@
+@Test public void testToBooleanInt() { assertEquals(true, BooleanUtils.toBoolean(true)); assertEquals(false, BooleanUtils.toBoolean(false)); }

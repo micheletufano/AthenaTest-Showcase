@@ -1,0 +1,1 @@
+@Test public void testGetFractionIntInt() { Fraction f = Fraction.getFraction(1, 2); assertEquals(1, f.getNumerator()); assertEquals(2, f.getDenominator()); }

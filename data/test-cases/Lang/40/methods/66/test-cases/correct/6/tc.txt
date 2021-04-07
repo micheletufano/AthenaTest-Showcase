@@ -1,0 +1,1 @@
+@Test public void splitByCharacterTypeCamelCase() { System.out.println("splitByCharacterTypeCamelCase"); String str = ""; String[] expResult = new String[] {}; String[] result = StringUtils.splitByCharacterTypeCamelCase(str); assertArrayEquals(expResult, result); }

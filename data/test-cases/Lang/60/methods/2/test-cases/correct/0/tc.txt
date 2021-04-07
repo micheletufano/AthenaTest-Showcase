@@ -1,0 +1,1 @@
+@Test public void testGetNullText() { assertEquals(null, new StrBuilder().getNullText()); }

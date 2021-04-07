@@ -1,0 +1,1 @@
+@Test public void testReplace() { System.out.println("replace"); String text = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; String searchString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; String replacement = "xyz"; String expResult = "xyz"; String result = StringUtils.replace(text, searchString, replacement); assertEquals(expResult, result); }

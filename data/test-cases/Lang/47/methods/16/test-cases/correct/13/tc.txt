@@ -1,0 +1,1 @@
+@Test(expected = IndexOutOfBoundsException.class) public void testToCharArrayStartIndexGreaterThanEndIndex() { StrBuilder builder = new StrBuilder(); builder.toCharArray(1, 2); }

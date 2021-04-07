@@ -1,0 +1,1 @@
+@Test public void testConvertClassNamesToClassesNull() { assertNull(ClassUtils.convertClassNamesToClasses(null)); }

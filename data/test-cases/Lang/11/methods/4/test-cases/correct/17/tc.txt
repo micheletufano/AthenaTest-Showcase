@@ -1,0 +1,1 @@
+@Test public void testRandomNumeric() throws Exception { assertTrue(RandomStringUtils.randomNumeric(100).length() > 0); }

@@ -1,0 +1,1 @@
+@Test public void testGetAllInterfacesNull() { assertNull(ClassUtils.getAllInterfaces(null)); }

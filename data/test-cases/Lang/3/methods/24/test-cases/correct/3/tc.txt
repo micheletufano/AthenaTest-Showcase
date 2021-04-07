@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMinEmpty() { NumberUtils.min(new float[0]); }

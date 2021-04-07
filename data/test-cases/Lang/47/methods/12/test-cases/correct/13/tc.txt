@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testCharAtException() { StrBuilder strBuilder = new StrBuilder(); strBuilder.charAt(-1); }

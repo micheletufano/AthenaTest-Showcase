@@ -1,0 +1,1 @@
+@Test public void testToHashCode_1() throws Exception { HashCodeBuilder fixture = new HashCodeBuilder(); int result = fixture.toHashCode(); }

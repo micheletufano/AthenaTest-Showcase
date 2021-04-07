@@ -1,0 +1,1 @@
+@Test public void testToPattern() { ExtendedMessageFormat format = new ExtendedMessageFormat("%s"); assertEquals("%s", format.toPattern()); }

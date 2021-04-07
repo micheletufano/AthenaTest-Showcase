@@ -1,0 +1,1 @@
+@Test public void testXmlEscape() { assertNull(StringEscapeUtils.escapeXml(null)); assertEquals(Entities.XML.escape(""), StringEscapeUtils.escapeXml("")); }

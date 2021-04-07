@@ -1,0 +1,1 @@
+@Test public void cloneLongArray() { long[] array = null; long[] result = ArrayUtils.clone(array); assertNull(result); array = new long[] {}; result = ArrayUtils.clone(array); assertArrayEquals(array, result); }

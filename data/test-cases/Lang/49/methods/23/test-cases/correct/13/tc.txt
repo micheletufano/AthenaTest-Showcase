@@ -1,0 +1,1 @@
+@Test public void testHashCode() { Fraction f1 = Fraction.ONE; Fraction f2 = Fraction.ONE; assertEquals(f1.hashCode(), f2.hashCode()); }

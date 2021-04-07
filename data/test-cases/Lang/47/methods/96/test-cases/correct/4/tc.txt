@@ -1,0 +1,1 @@
+@Test(expected = IndexOutOfBoundsException.class) public void testSubstringOutOfBounds2() { StrBuilder strBuilder = new StrBuilder(); strBuilder.substring(0, strBuilder.length() - 1); }

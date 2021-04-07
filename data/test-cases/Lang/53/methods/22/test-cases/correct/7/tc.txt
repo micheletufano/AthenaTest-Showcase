@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testIteratorNull2() { DateUtils.iterator((Calendar) null, DateUtils.RANGE_MONTH_MONDAY); }

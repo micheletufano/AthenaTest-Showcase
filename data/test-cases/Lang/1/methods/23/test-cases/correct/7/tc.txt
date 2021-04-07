@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMinIllegalArgumentException1() { NumberUtils.min(new byte[]{}); }

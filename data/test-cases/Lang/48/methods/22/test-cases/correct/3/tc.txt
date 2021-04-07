@@ -1,0 +1,1 @@
+@Test public void testAppendDoubleArray() { assertTrue(new EqualsBuilder().append(new double[]{1.0, 2.0}, new double[]{1.0, 2.0}).isEquals()); }

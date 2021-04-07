@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testRoundObjectIllegalArgumentException() { DateUtils.round((Object)null, Calendar.HOUR_OF_DAY); }

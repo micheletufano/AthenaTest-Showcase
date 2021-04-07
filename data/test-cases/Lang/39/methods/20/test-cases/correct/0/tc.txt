@@ -1,0 +1,1 @@
+@Test public void testIndexOf() { System.out.println("indexOf"); String str = ""; String searchStr = ""; int expResult = 0; int result = StringUtils.indexOf(str, searchStr); assertEquals(expResult, result); }

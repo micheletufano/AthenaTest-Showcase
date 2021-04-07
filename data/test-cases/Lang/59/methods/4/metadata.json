@@ -1,0 +1,1 @@
+{"identifier": "length", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int length() {\n        return size;\n    }", "class": "StrBuilder", "signature": "int length()", "full_signature": "public int length()", "class_method_signature": "StrBuilder.length()", "testcase": false, "constructor": false, "invocations": []}

@@ -1,0 +1,1 @@
+@Test public void testIsSameDay() { assertTrue(DateUtils.isSameDay(Calendar.getInstance(), Calendar.getInstance())); }

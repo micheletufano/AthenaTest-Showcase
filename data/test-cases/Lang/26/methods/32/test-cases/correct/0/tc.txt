@@ -1,0 +1,1 @@
+@Test public void testToString() { System.out.println("toString"); FastDateFormat instance = FastDateFormat.getInstance(); String expResult = "FastDateFormat[" + instance.getPattern() + "]"; String result = instance.toString(); assertEquals(expResult, result); }

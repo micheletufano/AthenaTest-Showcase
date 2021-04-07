@@ -1,0 +1,1 @@
+@Test(expected = IndexOutOfBoundsException.class) public void testInsertException() { new StrBuilder().insert(-1, false); }

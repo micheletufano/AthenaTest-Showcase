@@ -1,0 +1,1 @@
+@Test public void testToString() { assertEquals("true", BooleanUtils.toString(true, "true", "false")); assertEquals("false", BooleanUtils.toString(false, "true", "false")); assertEquals("null", BooleanUtils.toString(null, "true", "false", "null")); }

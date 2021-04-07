@@ -1,0 +1,1 @@
+@Test public void startsWithIgnoreCase() { System.out.println("startsWithIgnoreCase"); String str = "abc"; String prefix = "a"; boolean expResult = true; boolean result = StringUtils.startsWithIgnoreCase(str, prefix); assertEquals(expResult, result); }

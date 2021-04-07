@@ -1,0 +1,1 @@
+@Test public void testIsAssignable() { assertTrue(ClassUtils.isAssignable(String.class, String.class)); assertFalse(ClassUtils.isAssignable(String.class, Integer.class)); }

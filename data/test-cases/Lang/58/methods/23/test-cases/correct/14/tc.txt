@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testMin_LongArray() { NumberUtils.min(new long[]{}); }

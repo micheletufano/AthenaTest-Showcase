@@ -1,0 +1,1 @@
+@Test public void splitByWholeSeparatorPreserveAllTokens() { System.out.println("splitByWholeSeparatorPreserveAllTokens"); String str = "a,b,c"; String separator = ","; String[] expResult = new String[] {"a", "b", "c"}; String[] result = StringUtils.splitByWholeSeparatorPreserveAllTokens(str, separator); assertArrayEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test public void testIsAlphanumeric() { assertTrue(StringUtils.isAlphanumeric("abc")); assertFalse(StringUtils.isAlphanumeric(null)); }

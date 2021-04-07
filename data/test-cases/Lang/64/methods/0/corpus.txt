@@ -1,0 +1,1 @@
+ValuedEnum extends Enum { public final int getValue() { return iValue; } protected ValuedEnum(String name, int value); final int getValue(); int compareTo(Object other); String toString(); }

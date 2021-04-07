@@ -1,0 +1,1 @@
+@Test public void testSetFormats() { try { ExtendedMessageFormat ef = new ExtendedMessageFormat("%s"); ef.setFormats(null); fail("UnsupportedOperationException expected"); } catch (UnsupportedOperationException expected) { } }

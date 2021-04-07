@@ -1,0 +1,1 @@
+@Test public void replaceOnce() { System.out.println("replaceOnce"); String str = null; String searchString = null; String replacement = null; String expResult = null; String result = StringUtils.replaceOnce(str, searchString, replacement); System.out.println(result); assertEquals(expResult, result); }

@@ -1,0 +1,1 @@
+@Test public void testGetTimeZone() { FastDatePrinter printer = new FastDatePrinter("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", TimeZone.getTimeZone("America/Los_Angeles"), Locale.US); assertEquals(TimeZone.getTimeZone("America/Los_Angeles"), printer.getTimeZone()); }

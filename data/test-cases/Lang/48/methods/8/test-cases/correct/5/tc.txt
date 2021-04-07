@@ -1,0 +1,1 @@
+@Test public void testAppendLong() throws Exception { assertTrue(new EqualsBuilder().append(1L, 1L).isEquals()); assertFalse(new EqualsBuilder().append(1L, 2L).isEquals()); assertFalse(new EqualsBuilder().append(2L, 1L).isEquals()); }

@@ -1,0 +1,1 @@
+@Test public void testTrimToEmpty() throws Exception { System.out.println("trimToEmpty"); String str = ""; String expResult = ""; String result = StringUtils.trimToEmpty(str); System.out.println(result); assertEquals(expResult, result); }

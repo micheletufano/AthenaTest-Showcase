@@ -1,0 +1,1 @@
+@Test public void testToString() throws Exception { FastDateFormat df = FastDateFormat.getInstance("MM/dd/yyyy"); assertEquals("FastDateFormat[MM/dd/yyyy]", df.toString()); }

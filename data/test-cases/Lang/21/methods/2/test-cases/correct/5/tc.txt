@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testIsSameInstant_2() throws Exception { DateUtils.isSameInstant(null, new Date()); }

@@ -1,0 +1,1 @@
+@Test public void testGetTime_1() throws Exception { StopWatch fixture = new StopWatch(); fixture.start(); fixture.stop(); long result = fixture.getTime(); }

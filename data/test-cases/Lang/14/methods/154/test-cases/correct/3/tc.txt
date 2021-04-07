@@ -1,0 +1,1 @@
+@Test public void testToString() throws UnsupportedEncodingException { assertEquals("abc", StringUtils.toString("abc".getBytes(), "UTF-8")); }

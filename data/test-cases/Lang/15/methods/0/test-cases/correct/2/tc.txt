@@ -1,0 +1,1 @@
+@Test public void isAssignableWithClassArray() { assertTrue(TypeUtils.isAssignable(Integer[].class, Integer[].class)); }

@@ -1,0 +1,1 @@
+@Test public void getArrayComponentTypeWithNull() { assertNull(TypeUtils.getArrayComponentType(null)); }

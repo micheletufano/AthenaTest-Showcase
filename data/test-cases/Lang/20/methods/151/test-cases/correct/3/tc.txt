@@ -1,0 +1,1 @@
+@Test public void testEndsWithIgnoreCase() throws Exception { assertTrue(StringUtils.endsWithIgnoreCase("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "")); assertFalse(StringUtils.endsWithIgnoreCase("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", " ")); }

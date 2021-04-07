@@ -1,0 +1,1 @@
+@Test(expected = ArithmeticException.class) public void testGetFractionZero() { Fraction.getFraction(0, 0, 0); }

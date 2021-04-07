@@ -1,0 +1,1 @@
+@Test public void testGetLocale() { System.out.println("getLocale"); FastDatePrinter instance = new FastDatePrinter("yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\'", null, Locale.US); Locale expResult = Locale.US; Locale result = instance.getLocale(); assertEquals(expResult, result); }

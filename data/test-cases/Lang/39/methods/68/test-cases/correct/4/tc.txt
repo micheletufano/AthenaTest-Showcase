@@ -1,0 +1,1 @@
+@Test public void testJoin() { System.out.println("join"); String[] arr = {"a", "b", "c"}; String result = StringUtils.join(arr); System.out.println(result); }

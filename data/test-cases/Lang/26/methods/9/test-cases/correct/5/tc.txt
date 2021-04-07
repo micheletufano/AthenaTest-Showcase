@@ -1,0 +1,1 @@
+@Test public void testGetTimeInstance() { assertEquals(FastDateFormat.getTimeInstance(FastDateFormat.MEDIUM), FastDateFormat.getTimeInstance(FastDateFormat.MEDIUM)); }

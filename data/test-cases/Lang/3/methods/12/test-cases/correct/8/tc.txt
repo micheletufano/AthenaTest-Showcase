@@ -1,0 +1,1 @@
+@Test public void testCreateNumber() throws Exception { assertEquals(0, NumberUtils.createNumber("0").intValue()); assertEquals(1, NumberUtils.createNumber("1").intValue()); assertEquals(2, NumberUtils.createNumber("2").intValue()); assertEquals(3, NumberUtils.createNumber("3").intValue()); assertEquals(4, NumberUtils.createNumber("4").intValue()); }

@@ -1,0 +1,1 @@
+@Test public void testSplitByWholeSeparator() throws Exception { assertArrayEquals(new String[]{"a", "b", "c"}, StringUtils.splitByWholeSeparator("a:b:c", ":", 10)); }

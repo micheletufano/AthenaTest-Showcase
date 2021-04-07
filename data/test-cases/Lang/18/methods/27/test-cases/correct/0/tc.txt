@@ -1,0 +1,1 @@
+@Test public void testGetLocale() throws Exception { assertEquals(FastDateFormat.getInstance().getLocale(), Locale.ENGLISH); }

@@ -1,0 +1,1 @@
+@Test public void testEquals() { ExtendedMessageFormat f1 = new ExtendedMessageFormat("Hello {0}", Locale.US); ExtendedMessageFormat f2 = new ExtendedMessageFormat("Hello {0}", Locale.US); assertEquals(f1, f2); f1 = new ExtendedMessageFormat("Hello {0}", Locale.FRENCH); assertFalse(f1.equals(f2)); f2 = new ExtendedMessageFormat("Hello {0}", Locale.FRENCH); assertEquals(f1, f2); }

@@ -1,0 +1,1 @@
+@Test public void testJoin() throws Exception { System.out.println(StringUtils.join(new String[]{"a", "b", "c", "d"})); }

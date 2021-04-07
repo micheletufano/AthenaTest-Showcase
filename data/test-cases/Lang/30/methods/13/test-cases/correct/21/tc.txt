@@ -1,0 +1,1 @@
+@Test public void testStripAll() { System.out.println(StringUtils.stripAll(new String[]{"a", "b", "c", "d"})); }

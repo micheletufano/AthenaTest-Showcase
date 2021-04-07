@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testAdd() { ArrayUtils.add(null, 0, null); }

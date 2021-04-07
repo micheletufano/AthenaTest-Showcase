@@ -1,0 +1,1 @@
+@Test public void toArray() throws Exception { assertArrayEquals(new Integer[]{1, 2, 3}, ArrayUtils.toArray(1, 2, 3)); }

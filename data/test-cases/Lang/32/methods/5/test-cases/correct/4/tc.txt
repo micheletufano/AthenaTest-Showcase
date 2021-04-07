@@ -1,0 +1,1 @@
+@Test public void testReflectionHashCode_1() throws Exception { Object o = new Object(); int result = HashCodeBuilder.reflectionHashCode(o, true); assertEquals(17, result); }

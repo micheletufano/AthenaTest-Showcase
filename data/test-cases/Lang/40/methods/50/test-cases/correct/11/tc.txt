@@ -1,0 +1,1 @@
+@Test public void testSubstringBetween() throws Exception { System.out.println("substringBetween"); String str = ""; String open = ""; String close = ""; String expResult = ""; String result = StringUtils.substringBetween(str, open, close); assertEquals(expResult, result); }

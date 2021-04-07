@@ -1,0 +1,1 @@
+@Test public void split() { assertArrayEquals(new String[]{"a", "b", "c"}, StringUtils.split("a:b:c", ":")); assertArrayEquals(new String[]{"a", "b", "c"}, StringUtils.split("a:b:c:", ":")); assertArrayEquals(new String[]{"a", "b", "c"}, StringUtils.split("a:b:c:", ":")); }

@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testSerializeWithNullOutputStream() { SerializationUtils.serialize(null, null); }

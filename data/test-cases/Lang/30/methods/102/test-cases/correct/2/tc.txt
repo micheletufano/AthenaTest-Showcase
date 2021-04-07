@@ -1,0 +1,1 @@
+@Test public void rightPad() { System.out.println("rightPad"); String str = "abc"; String expResult = "abc"; String result = StringUtils.rightPad(str, 2); assertEquals(expResult, result); }

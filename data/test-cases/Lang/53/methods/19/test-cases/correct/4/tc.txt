@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testTruncateObjectIllegalArgumentException1() { DateUtils.truncate((Object) null, Calendar.HOUR_OF_DAY); }

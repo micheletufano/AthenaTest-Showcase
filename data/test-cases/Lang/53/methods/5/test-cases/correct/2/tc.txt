@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testParseDateWithNullDate() throws ParseException { DateUtils.parseDate(null, new String[]{"yyyy-MM-dd"}); }

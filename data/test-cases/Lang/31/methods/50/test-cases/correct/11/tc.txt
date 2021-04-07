@@ -1,0 +1,1 @@
+@Test public void right() { assertEquals(null, StringUtils.right(null, 0)); assertEquals("", StringUtils.right("", 0)); assertEquals("a", StringUtils.right("a", 1)); assertEquals("a", StringUtils.right("a", 2)); assertEquals("a", StringUtils.right("a", 3)); assertEquals("a", StringUtils.right("a", 4)); }

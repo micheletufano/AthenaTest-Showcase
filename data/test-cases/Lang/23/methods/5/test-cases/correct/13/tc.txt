@@ -1,0 +1,1 @@
+@Test(expected = UnsupportedOperationException.class) public void testSetFormatsByArgumentIndex() { ExtendedMessageFormat ef = new ExtendedMessageFormat("%s{0}", Locale.US); ef.setFormatsByArgumentIndex(null); }

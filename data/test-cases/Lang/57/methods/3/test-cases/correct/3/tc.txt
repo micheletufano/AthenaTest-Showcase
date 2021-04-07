@@ -1,0 +1,1 @@
+@Test public void testAvailableLocaleList() { List availableLocaleList = LocaleUtils.availableLocaleList(); assertNotNull(availableLocaleList); assertTrue(availableLocaleList.size() > 0); }

@@ -1,0 +1,1 @@
+@Test public void testToCalendar() { Calendar c1 = Calendar.getInstance(); c1.setTime(new Date()); Calendar c2 = DateUtils.toCalendar(c1.getTime()); assertEquals(c1, c2); }

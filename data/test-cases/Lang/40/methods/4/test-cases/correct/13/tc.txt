@@ -1,0 +1,1 @@
+@Test public void testTrim() { assertEquals(null, StringUtils.trim(null)); assertEquals("", StringUtils.trim("")); assertEquals("foo", StringUtils.trim("foo")); assertEquals("foo", StringUtils.trimToEmpty("foo")); assertEquals("foo", StringUtils.trimToNull("foo")); assertEquals("foo", StringUtils.trimToEmpty("foo")); }

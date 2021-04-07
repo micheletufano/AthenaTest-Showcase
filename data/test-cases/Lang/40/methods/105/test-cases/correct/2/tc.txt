@@ -1,0 +1,1 @@
+@Test public void center() { assertEquals(null, StringUtils.center(null, 0, null)); assertEquals("", StringUtils.center("", 0, null)); assertEquals("abc", StringUtils.center("abc", 1, null)); assertEquals("abc", StringUtils.center("abc", 2, null)); assertEquals("abc", StringUtils.center("abc", 3, null)); }

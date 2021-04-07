@@ -1,0 +1,1 @@
+@Test public void testGetInstance() throws Exception { assertEquals(FastDateFormat.getInstance().getPattern(), FastDateFormat.getInstance().getPattern()); assertEquals(FastDateFormat.getInstance().getTimeZone(), FastDateFormat.getInstance().getTimeZone()); assertEquals(FastDateFormat.getInstance().getLocale(), FastDateFormat.getInstance().getLocale()); }

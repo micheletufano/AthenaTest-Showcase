@@ -1,0 +1,1 @@
+@Test(expected = UnsupportedOperationException.class) public void testSetFormats() { ExtendedMessageFormat ef = new ExtendedMessageFormat("%s"); ef.setFormats(new Format[0]); }

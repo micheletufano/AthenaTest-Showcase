@@ -1,0 +1,1 @@
+@Test public void isEmpty() { boolean[] array = new boolean[] {}; assertTrue(ArrayUtils.isEmpty(array)); }

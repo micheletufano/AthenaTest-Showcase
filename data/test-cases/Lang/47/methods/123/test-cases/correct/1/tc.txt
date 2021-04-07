@@ -1,0 +1,1 @@
+@Test public void testToStringBuffer() { assertEquals("", new StrBuilder().toStringBuffer().toString()); }

@@ -1,0 +1,1 @@
+@Test public void testEscapeHtml() { assertNull(StringEscapeUtils.escapeHtml(null)); assertEquals("", StringEscapeUtils.escapeHtml("")); }

@@ -1,0 +1,1 @@
+@Test public void testJoin() { System.out.println("join"); Object[] array = {"a", "b", "c"}; String result = StringUtils.join(array); System.out.println(result); }

@@ -1,0 +1,1 @@
+@Test(expected = IllegalStateException.class) public void testStartTwice() { StopWatch stopwatch = new StopWatch(); stopwatch.start(); stopwatch.start(); }

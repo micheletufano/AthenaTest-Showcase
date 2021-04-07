@@ -1,0 +1,1 @@
+@Test public void testAddMilliseconds() throws ParseException { Date date = new Date(); date = DateUtils.addMilliseconds(date, 1); assertEquals(date.getTime(), date.getTime()); }

@@ -1,0 +1,1 @@
+@Test public void testToByte() { assertEquals((byte) 0, NumberUtils.toByte("")); assertEquals((byte) 1, NumberUtils.toByte("1")); assertEquals((byte) 2, NumberUtils.toByte("2")); assertEquals((byte) -1, NumberUtils.toByte("-1")); }

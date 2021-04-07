@@ -1,0 +1,1 @@
+@Test public void testIsSameDay() { Calendar cal1 = new GregorianCalendar(Locale.GERMANY); Calendar cal2 = new GregorianCalendar(Locale.GERMANY); assertTrue(DateUtils.isSameDay(cal1, cal2)); }

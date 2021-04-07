@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testRoundObjectIllegalArgumentException() { Date date = new Date(); DateUtils.round(date, DateUtils.RANGE_WEEK_RELATIVE); }

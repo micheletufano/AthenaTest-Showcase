@@ -1,0 +1,1 @@
+@Test public void testIsSameInstant() throws ParseException { Calendar cal1 = new GregorianCalendar(TimeZone.getTimeZone("GMT")); Calendar cal2 = new GregorianCalendar(TimeZone.getTimeZone("GMT")); assertTrue(DateUtils.isSameInstant(cal1, cal2)); }

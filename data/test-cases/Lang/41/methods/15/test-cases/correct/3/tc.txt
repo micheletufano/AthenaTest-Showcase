@@ -1,0 +1,1 @@
+@Test public void testPrimitivesToWrappers() { assertNull(ClassUtils.primitivesToWrappers(null)); assertArrayEquals(new Class<?>[]{int[].class}, ClassUtils.primitivesToWrappers(new Class<?>[]{int[].class})); assertArrayEquals(new Class<?>[]{int[].class}, ClassUtils.primitivesToWrappers(new Class<?>[]{int[].class})); }

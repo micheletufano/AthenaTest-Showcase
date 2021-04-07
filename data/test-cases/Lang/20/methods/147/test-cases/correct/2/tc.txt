@@ -1,0 +1,1 @@
+@Test public void testStartsWith() { assertTrue(StringUtils.startsWith("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "")); assertTrue(StringUtils.startsWith("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "")); }

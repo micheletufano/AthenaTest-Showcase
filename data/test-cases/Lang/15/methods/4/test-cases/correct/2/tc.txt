@@ -1,0 +1,1 @@
+@Test public void isInstanceWithNullType() { assertFalse(TypeUtils.isInstance(null, null)); }

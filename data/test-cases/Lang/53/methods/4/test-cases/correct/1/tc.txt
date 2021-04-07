@@ -1,0 +1,1 @@
+@Test public void testIsSameLocalTime() { GregorianCalendar cal1 = new GregorianCalendar(TimeZone.getTimeZone("GMT")); GregorianCalendar cal2 = new GregorianCalendar(TimeZone.getTimeZone("GMT")); assertTrue(DateUtils.isSameLocalTime(cal1, cal2)); }

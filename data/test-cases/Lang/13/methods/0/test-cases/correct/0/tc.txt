@@ -1,0 +1,1 @@
+@Test public void testCloneNull() { assertNull(SerializationUtils.clone(null)); }

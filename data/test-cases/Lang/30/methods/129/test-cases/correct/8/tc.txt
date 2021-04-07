@@ -1,0 +1,1 @@
+@Test public void testIsAllUpperCase() { assertFalse(StringUtils.isAllUpperCase("")); assertFalse(StringUtils.isAllUpperCase(null)); }

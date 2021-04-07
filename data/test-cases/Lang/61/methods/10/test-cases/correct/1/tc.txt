@@ -1,0 +1,1 @@
+@Test public void testIsEmpty() { assertTrue(new StrBuilder().isEmpty()); }

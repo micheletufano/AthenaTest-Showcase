@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testGetFractionWithNull() { Fraction.getFraction((String) null); }

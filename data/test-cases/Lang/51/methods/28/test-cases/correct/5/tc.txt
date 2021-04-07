@@ -1,0 +1,1 @@
+@Test public void testToStringYesNo() { assertEquals(BooleanUtils.toStringYesNo(true), "yes"); assertEquals(BooleanUtils.toStringYesNo(false), "no"); }

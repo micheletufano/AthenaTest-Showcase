@@ -1,0 +1,1 @@
+@Test public void isNotBlank() { System.out.println("isNotBlank"); String str = null; boolean expResult = false; boolean result = StringUtils.isNotBlank(str); assertEquals(expResult, result); str = ""; expResult = false; result = StringUtils.isNotBlank(str); assertEquals(expResult, result); }

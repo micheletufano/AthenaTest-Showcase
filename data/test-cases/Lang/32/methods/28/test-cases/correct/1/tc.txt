@@ -1,0 +1,1 @@
+@Test public void testHashCode_2() throws Exception { HashCodeBuilder fixture = new HashCodeBuilder(1, 1); int result = fixture.hashCode(); assertEquals(1, result); }

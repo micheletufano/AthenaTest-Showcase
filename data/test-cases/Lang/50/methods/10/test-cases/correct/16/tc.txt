@@ -1,0 +1,1 @@
+@Test public void testGetTimeInstance() throws Exception { FastDateFormat fdf = FastDateFormat.getTimeInstance(FastDateFormat.FULL, Locale.US); assertNotNull(fdf); fdf = FastDateFormat.getTimeInstance(FastDateFormat.MEDIUM, Locale.US); assertNotNull(fdf); fdf = FastDateFormat.getTimeInstance(FastDateFormat.MEDIUM, null, Locale.US); assertNotNull(fdf); }

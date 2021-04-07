@@ -1,0 +1,1 @@
+@Test public void testIsSameInstant() { Calendar cal1 = Calendar.getInstance(); cal1.setTime(new Date()); Calendar cal2 = Calendar.getInstance(); cal2.setTime(new Date()); assertTrue(DateUtils.isSameInstant(cal1, cal2)); }

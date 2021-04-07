@@ -1,0 +1,1 @@
+@Test public void testHashCode() { assertEquals(Fraction.ZERO.hashCode(), Fraction.ZERO.hashCode()); assertEquals(Fraction.ONE.hashCode(), Fraction.ONE.hashCode()); assertEquals(Fraction.ONE_HALF.hashCode(), Fraction.ONE_HALF.hashCode()); assertEquals(Fraction.FOUR_FIFTHS.hashCode(), Fraction.FOUR_FIFTHS.hashCode()); }

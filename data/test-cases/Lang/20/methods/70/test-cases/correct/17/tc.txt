@@ -1,0 +1,1 @@
+@Test public void splitPreserveAllTokens() { assertArrayEquals(new String[]{"foo", "bar", "baz"}, StringUtils.splitPreserveAllTokens("foo,bar,baz", ",")); assertArrayEquals(new String[]{"foo", "bar", "baz"}, StringUtils.splitPreserveAllTokens("foo,bar,baz", ",")); }

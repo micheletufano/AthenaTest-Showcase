@@ -1,0 +1,1 @@
+@Test public void testHex() throws Exception { assertEquals(CharSequenceTranslator.hex(1), "1"); assertEquals(CharSequenceTranslator.hex(2), "2"); assertEquals(CharSequenceTranslator.hex(3), "3"); }

@@ -1,0 +1,1 @@
+{"identifier": "capacity", "parameters": "()", "modifiers": "public", "return": "int", "body": "public int capacity() {\n        return buffer.length;\n    }", "class": "StrBuilder", "signature": "int capacity()", "full_signature": "public int capacity()", "class_method_signature": "StrBuilder.capacity()", "testcase": false, "constructor": false, "invocations": []}

@@ -1,0 +1,1 @@
+@Test public void getLength() { assertEquals(0, ArrayUtils.getLength(null)); assertEquals(0, ArrayUtils.getLength(new int[]{})); }

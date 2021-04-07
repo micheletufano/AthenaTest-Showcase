@@ -1,0 +1,1 @@
+@Test public void isAlphaSpace() { assertTrue(StringUtils.isAlphaSpace("")); assertFalse(StringUtils.isAlphaSpace(null)); }

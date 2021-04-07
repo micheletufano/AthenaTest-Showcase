@@ -1,0 +1,1 @@
+@Test public void isAssignableWithWildcardType() { assertTrue(TypeUtils.isAssignable(Number.class, Number.class)); }

@@ -1,0 +1,1 @@
+@Test public void testFloatValue() { assertEquals(0.0f, Fraction.getFraction("0.0").floatValue(), 0.0f); assertEquals(1.0f, Fraction.getFraction("1.0").floatValue(), 0.0f); assertEquals(2.0f, Fraction.getFraction("2.0").floatValue(), 0.0f); assertEquals(3.0f, Fraction.getFraction("3.0").floatValue(), 0.0f); }

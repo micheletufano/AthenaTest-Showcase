@@ -1,0 +1,1 @@
+@Test public void testMaxFloat() { float[] array = new float[] {1.0f, 2.0f, 3.0f, 4.0f, 5.0f}; assertEquals(5.0f, NumberUtils.max(array), 0.0f); }

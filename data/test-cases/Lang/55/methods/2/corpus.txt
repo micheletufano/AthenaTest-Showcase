@@ -1,0 +1,1 @@
+StopWatch { public void reset() { this.runningState = STATE_UNSTARTED; this.splitState = STATE_UNSPLIT; startTime = -1; stopTime = -1; } StopWatch(); void start(); void stop(); void reset(); void split(); void unsplit(); void suspend(); void resume(); long getTime(); long getSplitTime(); String toString(); String toSplitString(); }

@@ -1,0 +1,1 @@
+@Test public void testGetPattern() { assertEquals("yyyy-MM-dd\'T\'HH:mm:ss.SSSZ", new FastDateParser("yyyy-MM-dd\'T\'HH:mm:ss.SSSZ", TimeZone.getTimeZone("GMT"), Locale.US).getPattern()); }

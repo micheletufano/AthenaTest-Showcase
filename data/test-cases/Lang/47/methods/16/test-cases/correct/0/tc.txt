@@ -1,0 +1,1 @@
+@Test(expected = IndexOutOfBoundsException.class) public void testToCharArrayWithNegativeStartIndex() { StrBuilder strBuilder = new StrBuilder(); strBuilder.toCharArray(-1, 0); }

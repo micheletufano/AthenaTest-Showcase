@@ -1,0 +1,1 @@
+@Test(expected = StringIndexOutOfBoundsException.class) public void testSetLengthException1() { new StrBuilder().setLength(-1); }

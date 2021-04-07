@@ -1,0 +1,1 @@
+@Test public void testCreateBigInteger() { assertEquals(0, NumberUtils.createBigInteger("0").intValue()); assertEquals(1, NumberUtils.createBigInteger("1").intValue()); assertEquals(2, NumberUtils.createBigInteger("2").intValue()); }

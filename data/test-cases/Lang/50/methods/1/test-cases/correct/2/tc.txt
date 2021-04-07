@@ -1,0 +1,1 @@
+@Test public void testGetInstance() { assertEquals(FastDateFormat.getInstance(), FastDateFormat.getInstance()); assertEquals(FastDateFormat.getInstance("yyyy-MM-dd"), FastDateFormat.getInstance("yyyy-MM-dd")); }

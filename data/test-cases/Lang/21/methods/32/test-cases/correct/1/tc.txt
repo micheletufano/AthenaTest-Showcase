@@ -1,0 +1,1 @@
+@Test(expected = IllegalArgumentException.class) public void testIteratorNull() { Date date = null; DateUtils.iterator(date, DateUtils.RANGE_WEEK_SUNDAY); }

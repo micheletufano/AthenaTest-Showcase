@@ -1,0 +1,1 @@
+@Test public void cloneCharArray() { assertNull(ArrayUtils.clone((char[]) null)); assertArrayEquals(new char[] {}, ArrayUtils.clone(new char[] {})); assertArrayEquals(new char[] {}, ArrayUtils.clone(new char[] {})); assertArrayEquals(new char[] {}, ArrayUtils.clone(new char[] {})); }

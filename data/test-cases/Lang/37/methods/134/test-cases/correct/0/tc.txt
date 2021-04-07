@@ -1,0 +1,1 @@
+@Test public void add() { int[] array = new int[] { 1, 2, 3 }; int[] newArray = ArrayUtils.add(array, 4); assertEquals(newArray.length, 4); assertEquals(newArray[0], 1); assertEquals(newArray[1], 2); assertEquals(newArray[2], 3); assertEquals(newArray[3], 4); }

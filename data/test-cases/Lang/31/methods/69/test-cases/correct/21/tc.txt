@@ -1,0 +1,1 @@
+@Test public void splitPreserveAllTokens() { String[] tokens = StringUtils.splitPreserveAllTokens("abc", ","); System.out.println(tokens.length); for (int i = 0; i < tokens.length; i++) { System.out.println(tokens[i]); } }

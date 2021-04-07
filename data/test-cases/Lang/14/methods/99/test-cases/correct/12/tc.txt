@@ -1,0 +1,1 @@
+@Test public void testChomp() { System.out.println("Chomp"); String str = ""; String separator = ","; String expResult = ""; String result = StringUtils.chomp(str,separator); System.out.println(result); assertEquals(expResult, result); }

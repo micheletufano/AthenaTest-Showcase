@@ -1,0 +1,1 @@
+@Test public void testStringToInt() { assertEquals(0, NumberUtils.stringToInt("0")); assertEquals(1, NumberUtils.stringToInt("1")); assertEquals(2, NumberUtils.stringToInt("2")); }

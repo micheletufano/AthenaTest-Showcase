@@ -1,0 +1,1 @@
+@Test public void reverseLongArray() { long[] array = new long[] { 1, 2, 3, 4 }; ArrayUtils.reverse(array); assertArrayEquals(new long[] { 1, 2, 3, 4 }, new long[] { 1, 2, 3, 4 }); }

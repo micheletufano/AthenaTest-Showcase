@@ -1,0 +1,1 @@
+@Test public void testEmpty() throws Exception { CharSequenceTranslator translator = new CharSequenceTranslator() { @Override public int translate(CharSequence input, int index, Writer out) { return 0; } }; assertEquals("", translator.translate("")); }

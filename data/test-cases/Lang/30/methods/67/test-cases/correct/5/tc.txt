@@ -1,0 +1,1 @@
+@Test public void testSplitPreserveAllTokens() { System.out.println("splitPreserveAllTokens"); String str1 = ""; String[] expResult = new String[] {}; String[] result = StringUtils.splitPreserveAllTokens(str1); assertEquals(expResult.length, result.length); for (int i = 0; i < result.length; i++) { System.out.println(result[i]); } }

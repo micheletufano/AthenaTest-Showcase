@@ -1,0 +1,1 @@
+@Test public void testSetNullText() { StrBuilder builder = new StrBuilder(); assertNull(builder.getNullText()); builder.setNullText(null); assertNull(builder.getNullText()); }

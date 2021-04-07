@@ -1,0 +1,1 @@
+@Test public void testMaxShort() { assertEquals(Short.MIN_VALUE, NumberUtils.max((short) Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE)); assertEquals(Short.MIN_VALUE, NumberUtils.max((short) Short.MIN_VALUE, Short.MIN_VALUE, Short.MIN_VALUE)); }

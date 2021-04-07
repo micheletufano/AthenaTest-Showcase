@@ -1,0 +1,1 @@
+@Test public void testToInteger1() { assertEquals(1, BooleanUtils.toInteger(true)); assertEquals(0, BooleanUtils.toInteger(false)); }

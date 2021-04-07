@@ -1,0 +1,1 @@
+@Test public void testIsSameDay() { GregorianCalendar cal1 = new GregorianCalendar(TimeZone.getTimeZone("GMT")); GregorianCalendar cal2 = new GregorianCalendar(TimeZone.getTimeZone("GMT")); assertTrue(DateUtils.isSameDay(cal1, cal2)); }

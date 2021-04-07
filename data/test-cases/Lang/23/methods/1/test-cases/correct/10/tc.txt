@@ -1,0 +1,1 @@
+@Test public void testApplyPattern() { ExtendedMessageFormat f = new ExtendedMessageFormat("%1$s %2$s %3$s %4$s %5$s %6$s %7$s %8$s %9$s %a"); assertEquals("%1$s %2$s %3$s %4$s %5$s %6$s %7$s %8$s %9$s %a", f.toPattern()); f.applyPattern("%1$s %2$s %3$s %4$s %5$s %6$s %7$s %8$s %9$s %a"); assertEquals("%1$s %2$s %3$s %4$s %5$s %6$s %7$s %8$s %9$s %a", f.toPattern()); }

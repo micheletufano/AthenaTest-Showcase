@@ -1,0 +1,1 @@
+@Test public void testGetSplitTime() { StopWatch stopwatch = new StopWatch(); stopwatch.start(); stopwatch.split(); assertEquals(0, stopwatch.getSplitTime()); }

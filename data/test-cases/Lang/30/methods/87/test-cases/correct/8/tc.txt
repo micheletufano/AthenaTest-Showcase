@@ -1,0 +1,1 @@
+@Test public void remove() { System.out.println("remove"); String str = ""; String remove = ""; String expResult = ""; String result = StringUtils.remove(str, remove); System.out.println(result); assertEquals(expResult, result); }
